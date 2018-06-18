@@ -1,0 +1,11 @@
+.videos{
+    background-color: #0e182d;
+    padding: 80px 0 90px;
+    &_items{
+        margin-top: 60px;
+    }
+    &_item {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}

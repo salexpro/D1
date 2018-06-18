@@ -1,0 +1,21 @@
+.menu{
+    &--head.simple{
+        font-size: 12px;
+        margin-left: -30px;
+        li{
+            &:nth-last-child(2){
+                margin-left: auto;
+            }
+        }
+    }
+    &.inside{
+        list-style-position: inside;
+        letter-spacing: 0.02px;
+        list-style-type: disc;
+        line-height: 1.79;
+        text-indent: 14px;
+        li + li {
+            margin-top: 25px;
+        }
+    }
+}

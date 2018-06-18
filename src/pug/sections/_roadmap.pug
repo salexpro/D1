@@ -1,0 +1,26 @@
+-
+    const roadmap = [
+        ['April, 2018', 'Closed Pre-Sale for Accredited Customers', ['To participate please contact <a href="#">D1 Agent managers</a>', 'Subscription by accredited large-scale customers (ex- USA, China and Singapore) with minimum subscription amount equivalent to USD 1 Million.']],
+        ['May, 2018', 'Diamond Reserve Procurement for Pre-Sale Customers Completed', ['Diamonds for the full amount of Pre-Sale subscription value to be certified, checked and deposited at Malca-Amit vault in Antwerp.']],
+        ['April, 2018', 'Open Pre-Sale', ['<a href="#">Subscribe</a> to our newsletter to get updated or <a href="#">participate</a> in Open Pre-Sale', 'Subscription by general customers (ex- USA, China and Singapore) with minimum subscription amount equivalent to USD 1,000.', '<b>The first 10,000,000 coins will be auctioned off in Pre-Sale to customers bidding the highest price per coin.</b>']],
+        ['April, 2018', 'Closed Pre-Sale for Accredited Customers', ['To participate please contact <a href="#">D1 Agent managers</a>', 'Subscription by accredited large-scale customers (ex- USA, China and Singapore) with minimum subscription amount equivalent to USD 1 Million.']],
+        ['May, 2018', 'Diamond Reserve Procurement for Pre-Sale Customers Completed', ['Diamonds for the full amount of Pre-Sale subscription value to be certified, checked and deposited at Malca-Amit vault in Antwerp.']],
+        ['April, 2018', 'Open Pre-Sale', ['<a href="#">Subscribe</a> to our newsletter to get updated or <a href="#">participate</a> in Open Pre-Sale', 'Subscription by general customers (ex- USA, China and Singapore) with minimum subscription amount equivalent to USD 1,000.', '<b>The first 10,000,000 coins will be auctioned off in Pre-Sale to customers bidding the highest price per coin.</b>']]
+    ]
+
+section.roadmap
+    h2.row.column.roadmap_header
+        | Roadmap
+    .row.owl-carousel.roadmap_items
+        each item in roadmap
+            .column
+                .roadmap_item
+                    .roadmap_item_date
+                        =item[0]
+                    h2.roadmap_item_title
+                        =item[1]
+                    each p in item[2]
+                        p.roadmap_item_content
+                            !=p
+                        
+                        

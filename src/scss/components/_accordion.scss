@@ -1,0 +1,31 @@
+.accordion{
+    margin-top: 80px;
+    &-item{
+        margin-bottom: 5px;
+    }
+    &-title{
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1.69;
+        text-transform: uppercase;
+        background-color: rgba($white, 0.07);
+        border-radius: $global-radius !important;
+        &::before{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -20px;
+            right: 20px;
+            font-size: 15px;
+            background-color: rgba($white, 0.2);
+            border-radius: 50%;
+            padding-top: 2px;
+            transition: 300ms;
+        }
+        &[aria-expanded="true"]::before{
+            background-color: $primary-color;
+        }
+    }
+}

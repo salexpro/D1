@@ -1,18 +1,22 @@
 block const
     -
-        const title = 'D1';
+        const title  = 'D1';
+        const descr  = 'Description';
+        const domain = 'd1.salex.pro'
 //- Components
 include components/_menu
+include components/_social
+include components/_subscribe
 
 doctype html
-html(lang="ru")
+html(lang="en")
     include sections/_head
     body
         include components/_icons
         main.off-canvas-content.wrap(data-off-canvas-content)
             include sections/_header
             block content
-                include sections/_footer
+            include sections/_footer
             include components/_popup
         include components/_offcanvas
         block js

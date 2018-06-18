@@ -1,0 +1,20 @@
+-
+    const team = [
+        ['hogi', 'Hogi Hyun', 'Director', '#'],
+        ['jeff', 'Jeff Wentworth', 'Technical Advisor', '#'],
+        ['bill', 'Bill Claxton', 'Operations Director', '#'],
+        ['william', 'William Metcalfe', 'Technical Advisor', '#']
+    ]
+
+section.people
+    .row.column
+        h2 Team
+        p.people_descr
+            | With our team members stemming from diverse fields like
+            br
+            | Digital Marketing, Software Development, Blockchain/Cryptography,
+            br
+            | we have achieved a competitive market position
+    .row
+        each item in team
+            +people(...item)

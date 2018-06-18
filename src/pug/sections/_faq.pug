@@ -1,0 +1,55 @@
+-
+    const faq_usa = [
+        ['WHAT IS D1 COIN?', 'The D1 Coin is a virtual currency built on the Ethereum blockchain. D1 Coins are backed by a fractional value of diamonds. With the value of the D1 Coin being a function of not just market forces but also the value of natural diamonds, owners of D1 Coins benefit from enhanced downside protection as they can exchange their D1 Coins for investment grade diamonds at any time. Besides, D1 Coins is a perfect counter-cyclical asset offering investors in the crypto universe protection against adverse market movements similar to gold or US Government bonds in conventional markets.'],
+        ['HOW TO PARTICIPATE?', 'Text'],
+        ['WHAT IS CLOSED PRE-SALE?', 'Text'],
+        ['WHAT IS OPEN PRE-SALE?', 'Text'],
+        ['WHAT CURRENCIES CAN BE USED TO SUBSCRIBE FOR D1 COINS?', 'Text'],
+        ['WHEN WILL PRE-SALE COINS BE DISTRIBUTED?', 'Text']
+    ]
+
+    const faq_china = [
+        ['WHAT IS D1 COIN?', 'The D1 Coin is a virtual currency built on the Ethereum blockchain. D1 Coins are backed by a fractional value of diamonds. With the value of the D1 Coin being a function of not just market forces but also the value of natural diamonds, owners of D1 Coins benefit from enhanced downside protection as they can exchange their D1 Coins for investment grade diamonds at any time. Besides, D1 Coins is a perfect counter-cyclical asset offering investors in the crypto universe protection against adverse market movements similar to gold or US Government bonds in conventional markets.'],
+        ['HOW TO PARTICIPATE?', 'Text'],
+        ['WHAT IS CLOSED PRE-SALE?', 'Text'],
+        ['WHAT IS OPEN PRE-SALE?', 'Text'],
+        ['WHAT CURRENCIES CAN BE USED TO SUBSCRIBE FOR D1 COINS?', 'Text'],
+        ['WHEN WILL PRE-SALE COINS BE DISTRIBUTED?', 'Text']
+    ]
+
+    const faq_korea = [
+        ['WHAT IS D1 COIN?', 'The D1 Coin is a virtual currency built on the Ethereum blockchain. D1 Coins are backed by a fractional value of diamonds. With the value of the D1 Coin being a function of not just market forces but also the value of natural diamonds, owners of D1 Coins benefit from enhanced downside protection as they can exchange their D1 Coins for investment grade diamonds at any time. Besides, D1 Coins is a perfect counter-cyclical asset offering investors in the crypto universe protection against adverse market movements similar to gold or US Government bonds in conventional markets.'],
+        ['HOW TO PARTICIPATE?', 'Text'],
+        ['WHAT IS CLOSED PRE-SALE?', 'Text'],
+        ['WHAT IS OPEN PRE-SALE?', 'Text'],
+        ['WHAT CURRENCIES CAN BE USED TO SUBSCRIBE FOR D1 COINS?', 'Text'],
+        ['WHEN WILL PRE-SALE COINS BE DISTRIBUTED?', 'Text']
+    ]
+
+section.faq
+    .row.align-center
+        .column.large-8
+            h2 Frequently asked questions
+            p.faq_descr
+                | We've been covered by some of the big
+                br
+                | cryptocurrency/blockchain news websites.
+            ul#faq.tabs(data-tabs)
+                li.tabs-title.is-active
+                    a(href='#faq_usa', aria-selected='true') USA
+                li.tabs-title
+                    a(data-tabs-target='faq_china', href='#faq_china') China
+                li.tabs-title
+                    a(data-tabs-target='faq_korea', href='#faq_korea') Korea
+            .faq_content
+            .tabs-content(data-tabs-content='faq')
+                - const faq = ['usa', 'china', 'korea']
+                each quest, idx in faq
+                    .tabs-panel(id='faq_' + quest class=!idx ? 'is-active' : '')
+                        ul.accordion(data-accordion)
+                            each q, i in eval('faq_' + quest)
+                                li.accordion-item(data-accordion-item class=(i == 0) ? 'is-active' : '')
+                                    a.accordion-title(href='#')
+                                        =q[0]
+                                    .accordion-content(data-tab-content)
+                                        =q[1]

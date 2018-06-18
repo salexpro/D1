@@ -1,0 +1,121 @@
+.countdown{
+    width: 400px;
+    margin-left: -30px;
+    background-color: rgba(#061326, 0.92);
+    padding: 30px;
+    align-self: flex-end;
+    &_top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_header{
+            font-size: 18px;
+            letter-spacing: 3.38px;
+            text-align: left;
+            line-height: 1.28;
+            margin-bottom: 10px;
+        }
+        &_rate{
+            font-size: 12px;
+            letter-spacing: 2px;
+            display: block;
+        }
+        &_bonus{
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2.63px;
+            font-weight: 700;
+            text-align: right;
+            color: $cyan;
+            b{
+                font-size: 30px;
+                letter-spacing: 0.53px;
+                display: block;
+                line-height: 1.15;
+            }
+        }
+    }
+    &_container{
+        display: flex;
+        background-color: rgba(#09295d, 0.5);
+        border-radius: $global-radius;
+        margin: 30px 0;
+        padding: 17px 0;
+    }
+    &_digit{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        &_container{
+            font-size: 36px;
+            font-weight: 500;
+            letter-spacing: 0.64px;
+            line-height: 1.23;
+        }
+        &_label{
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.49px;
+        }
+        & + & {
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: -1px;
+                transform: translateY(-50%);
+                width: 2px;
+                height: calc(100% - 16px);
+                background-color: rgba($white, 0.2);
+            }
+        }
+    }
+    &_progress{
+        &_container{
+            width: 100%;
+            height: 30px;
+            background-color: rgba($white, 0.1);
+            border-radius: 2px;
+            padding: 5px;
+            margin-bottom: 13px;
+        }
+        &_reach{
+            border-radius: 2px;
+            background-color: $cyan;
+            height: 100%;
+            font-size: 10px;
+            font-weight: 700;
+            color: $black;
+            letter-spacing: 1px;
+            text-align: right;
+            padding: 4px;
+        }
+        &_label{
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 1.67;
+            letter-spacing: 1.2px;
+            margin-bottom: 32px;
+            &_right{
+                text-align: right;
+            }
+        }
+    }
+    &_raised{
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 28px;
+        b{
+            display: block;
+            font-size: 24px;
+            letter-spacing: 1.5px;
+            margin-top: 4px;
+            line-height: 1.25;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+section.news
+    .row.column
+        h2 NEWS
+        .owl-carousel.news_items
+            - const news = ['financial_times', 'currency_buzzer', 'baidu', 'kommersant', 'tass', 'financial_times', 'currency_buzzer', 'baidu', 'kommersant', 'tass']
+            each item in news
+                .news_item
+                    img(src="assets/img/newspapers/" + item + ".png", alt=item)

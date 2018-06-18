@@ -67,29 +67,39 @@
 
 $global-font-size: 14px;
 $global-width: rem-calc(1200);
-$global-lineheight: 1.3;
+$global-lineheight: 1.34;
 $foundation-palette: (
   primary: #1056c8,
-  secondary: #767676,
+  secondary: #092d67,
+  tertiary:  #182543,
+  quaternary: #131e37,
+  quinary: #0b1936,
+  senary: #0a111f,
+  gray: #1f2a3b,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
+$cyan: #30c2ff;
+$tertiary-color: get-color(tertiary);
+$quaternary-color: get-color(quaternary);
+$quinary-color: get-color(quinary);
+$senary-color: get-color(senary);
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #000;
 $white: #fff;
 $body-background: #0c1425;
-$body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-color: $white;
+$body-font-family: Roboto, Arial, sans-serif;
 $body-antialiased: true;
-$global-margin: 1rem;
+$global-margin: 0;
 $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 5px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -130,28 +140,28 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-$header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+$header-lineheight: 2;
+$header-margin-bottom: 0;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
     'h2': ('font-size': 20),
     'h3': ('font-size': 19),
     'h4': ('font-size': 18),
-    'h5': ('font-size': 17),
-    'h6': ('font-size': 16),
+    'h5': ('font-size': 12),
+    'h6': ('font-size': 12),
   ),
   medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
-    'h6': ('font-size': 16),
+    'h1': ('font-size': 36),
+    'h2': ('font-size': 14),
+    'h3': ('font-size': 14),
+    'h4': ('font-size': 14),
+    'h5': ('font-size': 13),
+    'h6': ('font-size': 12),
   ),
 );
 $header-text-rendering: optimizeLegibility;
@@ -166,7 +176,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: $white;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -182,9 +192,9 @@ $list-nested-side-margin: 1.25rem;
 $defnlist-margin-bottom: 1rem;
 $defnlist-term-weight: $global-weight-bold;
 $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $dark-gray;
-$blockquote-padding: rem-calc(9 20 0 19);
-$blockquote-border: 1px solid $medium-gray;
+$blockquote-color: $white;
+$blockquote-padding: rem-calc(0);
+$blockquote-border: none;
 $cite-font-size: rem-calc(13);
 $cite-color: $dark-gray;
 $cite-pseudo-content: '\2014 \0020';
@@ -221,16 +231,16 @@ $input-error-font-weight: $global-weight-bold;
 // 7. Accordion
 // ------------
 
-$accordion-background: $white;
+$accordion-background: none;
 $accordion-plusminus: true;
-$accordion-title-font-size: rem-calc(12);
-$accordion-item-color: $primary-color;
-$accordion-item-background-hover: $light-gray;
-$accordion-item-padding: 1.25rem 1rem;
-$accordion-content-background: $white;
-$accordion-content-border: 1px solid $light-gray;
+$accordion-title-font-size: rem-calc(13);
+$accordion-item-color: $white;
+$accordion-item-background-hover: rgba($white, 0.1);
+$accordion-item-padding: 30px;
+$accordion-content-background: none;
+$accordion-content-border: none;
 $accordion-content-color: $body-font-color;
-$accordion-content-padding: 1rem;
+$accordion-content-padding: 20px 30px 35px;
 
 // 8. Accordion Menu
 // -----------------
@@ -278,7 +288,7 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // ----------
 
 $button-font-family: inherit;
-$button-padding: 0.85em 1em;
+$button-padding: 1.75em 1.6em 1.55em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -290,8 +300,8 @@ $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
-  default: 0.9rem,
-  large: 1.25rem,
+  default: 10px,
+  large: 1rem,
 );
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
@@ -409,9 +419,9 @@ $flexbox-responsive-breakpoints: true;
 
 $fieldset-border: 1px solid $medium-gray;
 $fieldset-padding: rem-calc(20);
-$fieldset-margin: rem-calc(18 0);
+$fieldset-margin: rem-calc(0);
 $legend-padding: rem-calc(0 3);
-$form-spacing: rem-calc(16);
+$form-spacing: rem-calc(15);
 $helptext-color: $black;
 $helptext-font-size: rem-calc(13);
 $helptext-font-style: italic;
@@ -426,22 +436,22 @@ $form-label-line-height: 1.8;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
-$input-color: $black;
-$input-placeholder-color: $medium-gray;
+$input-color: $white;
+$input-placeholder-color: $white;
 $input-font-family: inherit;
-$input-font-size: rem-calc(16);
-$input-font-weight: $global-weight-normal;
-$input-line-height: $global-lineheight;
-$input-background: $white;
-$input-background-focus: $white;
-$input-background-disabled: $light-gray;
-$input-border: 1px solid $medium-gray;
-$input-border-focus: 1px solid $dark-gray;
-$input-padding: $form-spacing / 2;
-$input-shadow: inset 0 1px 2px rgba($black, 0.1);
-$input-shadow-focus: 0 0 5px $medium-gray;
+$input-font-size: rem-calc(13);
+$input-font-weight: 700;
+$input-line-height: 1.69;
+$input-background: rgba($white, 0.07);
+$input-background-focus: rgba($white, 0.1);
+$input-background-disabled: rgba($white, 0.02);
+$input-border: none;
+$input-border-focus: none;
+$input-padding: rem-calc(20 30);
+$input-shadow: none;
+$input-shadow-focus: none;
 $input-cursor-disabled: not-allowed;
-$input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+$input-transition: 0.25s ease-in-out;
 $input-number-spinners: true;
 $input-radius: $global-radius;
 $form-button-radius: $global-radius;
@@ -469,8 +479,8 @@ $mediaobject-image-width-stacked: 100%;
 
 $menu-margin: 0;
 $menu-nested-margin: $global-menu-nested-margin;
-$menu-items-padding: $global-menu-padding;
-$menu-simple-margin: 1rem;
+$menu-items-padding: 0;
+$menu-simple-margin: 20px;
 $menu-item-color-active: $white;
 $menu-item-background-active: get-color(primary);
 $menu-icon-spacing: 0.25rem;
@@ -715,8 +725,8 @@ $prototype-text-overflow: ellipsis;
 
 $responsive-embed-margin-bottom: rem-calc(16);
 $responsive-embed-ratios: (
-  default: 4 by 3,
-  widescreen: 16 by 9,
+  default: 16 by 9
+  // widescreen: ,
 );
 
 // 47. Reveal
@@ -736,14 +746,14 @@ $reveal-overlay-background: rgba($black, 0.45);
 
 $slider-width-vertical: 0.5rem;
 $slider-transition: all 0.2s ease-in-out;
-$slider-height: 0.5rem;
-$slider-background: $light-gray;
+$slider-height: 3px;
+$slider-background: rgba($white, 0.25);
 $slider-fill-background: $medium-gray;
-$slider-handle-height: 1.4rem;
-$slider-handle-width: 1.4rem;
-$slider-handle-background: $primary-color;
+$slider-handle-height: 25px;
+$slider-handle-width: 25px;
+$slider-handle-background: $black;
 $slider-opacity-disabled: 0.25;
-$slider-radius: $global-radius;
+$slider-radius: 50%;
 
 // 49. Switch
 // ----------
@@ -787,16 +797,16 @@ $table-stack-breakpoint: medium;
 // --------
 
 $tab-margin: 0;
-$tab-background: $white;
-$tab-color: $primary-color;
-$tab-background-active: $light-gray;
-$tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
-$tab-item-background-hover: $white;
+$tab-background: rgba(255, 255, 255, 0.04);
+$tab-color: $white;
+$tab-background-active: $primary-color;
+$tab-active-color: $white;
+$tab-item-font-size: rem-calc(13);
+$tab-item-background-hover: $tertiary-color;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
-$tab-content-background: $white;
-$tab-content-border: $light-gray;
+$tab-content-background: none;
+$tab-content-border: transparent;
 $tab-content-color: $body-font-color;
 $tab-content-padding: 1rem;
 

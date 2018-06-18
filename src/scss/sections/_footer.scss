@@ -1,3 +1,30 @@
 .footer{
-    
+    padding: 193px 0 45px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.69;
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    &_header, .social_header{
+        line-height: 1.69;
+        margin-bottom: 20px;
+    }
+    &_content{
+        margin-bottom: 118px;
+        .button + .button{
+            float: right;
+        }
+    }
+    &_bottom{
+        margin-top: auto;
+        .menu{
+            float: right;
+            a{
+                color: rgba($white, 0.5);
+                line-height: 1.69;
+            }
+        }
+    }
 }

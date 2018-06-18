@@ -1,0 +1,61 @@
+.why{
+    background-color: $quinary-color;
+    padding-top: 80px;
+    &_descr{
+        max-width: 610px;
+        margin: 40px auto 60px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        line-height: 1.71;
+    }
+    &_header{
+        color: $white;
+        text-align: left;
+    }
+    &_row{
+        margin-top: 40px;
+        &:first-child{
+
+        }
+    }
+    &_circle{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        border: 2px solid #7583a0;
+        background-color: rgba(255, 255, 255, 0.05);
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        &--crypto {
+            padding: 28px 0;
+            .curr{
+                margin: 0 7px;
+                margin-top: auto;
+                &--xrp {
+                    margin: 0 30px;
+                    margin-bottom: auto;
+                }
+            }
+        }
+    }
+    &_columns{
+        display: flex;
+    }
+    &_strengths{
+        flex: 1 1 47%;
+        padding: 30px;
+        border-radius: $global-radius 0 0 $global-radius;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-bottom: 50px;
+    }
+    &_limitations {
+        flex: 1 1 53%;
+        padding: 30px;
+        border-radius: 0 $global-radius $global-radius 0;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding-bottom: 105px;
+    }
+}

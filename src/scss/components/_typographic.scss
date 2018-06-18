@@ -1,0 +1,29 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2, h3{
+    letter-spacing: 4px;
+}
+
+h3{
+    color: $cyan;
+}
+
+h4{
+    letter-spacing: 1px;
+    line-height: 1.71;
+}
+
+h5{
+    letter-spacing: 1.71px;
+    text-align: left;
+}
+
+h1{
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.36;
+    text-align: left;
+}

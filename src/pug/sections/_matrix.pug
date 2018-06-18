@@ -1,0 +1,44 @@
+section.matrix
+    .row.column.matrix_header
+        h2 D1 Matrix
+    .matrix_content
+        form.row.column(action="")
+            h3.matrix_content_header
+                | Pick the type of diamond
+            .matrix_picker
+                - const types = ['round', 'princess', 'ovall', 'marquise', 'pear', 'emerald', 'cushion', 'asscher']
+                each val in types
+                    input(type="radio" name="diamonds" id=val checked=val=='round'?'checked':false)
+                    label.matrix_picker_item(for=val)
+                        .matrix_picker_item_img
+                            img(src="assets/img/diamonds/" + val + ".png", alt=val)
+                        .matrix_picker_item_label
+                            =val
+            .matrix_calc
+                .matrix_calc_carats
+                    h3 Carats
+                    .slider.matrix_slider(data-slider, data-initial-start='0.5', data-start='0.5',data-end='2.5' data-step="0.5")
+                        .slider_steps
+                            .slider_step.is_active(data-val="0.5") 0,5
+                            .slider_step(data-val="1") 1
+                            .slider_step(data-val="1.5") 1,5
+                            .slider_step(data-val="2") 2
+                            .slider_step(data-val="2.5") 3
+                        span.slider-handle(data-slider-handle='', role='slider', tabindex='1')
+                        span.slider-fill(data-slider-fill)
+                        input(type='hidden' name="carats")
+                .matrix_calc_cost
+                    h3
+                        | Cost
+                        .matrix_tooltip(data-tooltip)
+                            +icon('info', [18, 18], 'rgba(255, 255, 255, 0.8)')
+                    .matrix_calc_cost_curr
+                        | 1D 1 coin
+                        | 
+                        span (1 D1 coin = 12$)
+                        b 10999,1234
+            .matrix_content_footer
+                button.button.huge
+                    | Buy tokens
+    .row.column.matrix_footer
+        | *You can exchange D1 project tokens for diamonds once the token sale is completed.

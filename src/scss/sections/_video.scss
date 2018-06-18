@@ -1,0 +1,46 @@
+.video{
+    background-image: url(../assets/img/bg_video.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    &_inner{
+        height: 700px;
+        align-items: center;
+    }
+    &_header{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.33;
+        text-align: left;
+        letter-spacing: normal;
+        text-transform: none;
+        margin-bottom: 40px;
+    }
+    &_button{
+        position: absolute;
+        top: 50%;
+        right: calc(50% - 170px);
+        transform: translate(50%, -50%);
+        width: 100px;
+        height: 100px;
+        background-color: rgba($white, 0.07);
+        border-radius: 50%;
+        box-shadow: 0 0 0 25px rgba($white, 0.02);
+        &::after{
+            content: '';
+            position: absolute;
+            top: calc(50% - 15px);
+            left: calc(50% - 8px);
+            border-left: 20px solid $white;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+        }
+        &.small{
+            width: 92px;
+            height: 92px;
+            right: 50%;
+            background-color: rgba(#1c2537, 0.5);
+            box-shadow: 0 0 0 23px rgba(#1c2537, 0.3);
+        }
+    }
+}

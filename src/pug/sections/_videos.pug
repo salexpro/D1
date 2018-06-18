@@ -1,0 +1,10 @@
+section.videos
+    .row.column
+        h2 Video
+    .row.owl-carousel.videos_items
+        - let i = 0
+        while i < 6
+            .column
+                .videos_item
+                    img(src="//picsum.photos/370/200?" + i, alt="")
+            - i++

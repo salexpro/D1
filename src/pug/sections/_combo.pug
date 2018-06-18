@@ -1,0 +1,26 @@
+section.combo
+    .row.column
+        h2
+            | We are combining the best OF BOTH WORLDS
+            br
+            | – DIAMONDS AND CRYPTOCURRENCIES
+        p.combo_descr
+            | The value of D1 Coins are a function of both its fractional value of a diamond and crypto market forces, with the fractional value acting as a price floor.
+    .row.combo_vantage
+        -
+            const vantages = [
+                [['d1', [156, 100], '#fff'], 'ROBUST LIQUIDITY', 'Compared to physical diamonds which are indivisible, D1 Coins allow users to purchase fractional values of whole diamonds, bringing robust liquidity to a traditionally illiquid asset class.'],
+                [['bull', [116, 80], '#fff'], 'STRONG STORE OF WEALTH', 'Being pegged to natural diamonds which have been steadily appreciating in value, the value of D1 Coins will both be stable a strong store of wealth'],
+                [['transparent', [92, 92], '#fff'], 'FULL TRANSPARENCY', 'Being pegged to natural diamonds which have been steadily appreciating in value, the value of D1 Coins will both be stable a strong store of wealth'],
+                [['private', [112, 96], '#fff'], 'PRIVATE OWNERSHIP', 'Pseudonymity of blockchain technology protects the identity of users. Instead of owning physical diamonds which raises security concerns, users can easily and privately transact their diamond holdings.']
+            ]
+        each vant in vantages
+            .column.large-3
+                .combo_item
+                    .combo_item_img
+                        +icon(...vant[0])
+                    h4.combo_item_title
+                        =vant[1]
+                    .combo_item_descr
+                        =vant[2]
+                

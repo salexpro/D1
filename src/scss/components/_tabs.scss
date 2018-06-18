@@ -1,0 +1,18 @@
+.tabs{
+    display: flex;
+    border-radius: 25px;
+    &-title{
+        width: 100%;
+        > a{
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.01px;
+            outline: none;
+            border-radius: 25px;
+        }
+    }
+    &-panel{
+        padding: 0;
+    }
+}

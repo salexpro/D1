@@ -1,0 +1,25 @@
+.social{
+    &--head{
+        position: absolute;
+        bottom: 0;
+    }
+    &_header{
+        margin-bottom: 24px;
+    }
+    li + li {
+        margin-left: 10px;
+    }
+    a{
+        width: 40px;
+        height: 40px;
+        background-color: rgba($white, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 300ms;
+        &:hover, &:focus{
+            background-color: $primary-color;
+        }
+    }
+}

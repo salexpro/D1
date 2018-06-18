@@ -1,0 +1,27 @@
+.contacts{
+    padding: 80px 0 230px;
+    background-image: url(../assets/img/bg_contacts.jpg);
+    background-size: cover;
+    &_items{
+        margin-top: 60px;
+    }
+    &_item{
+        height: 90px;
+        border-radius: $global-radius;
+        background-color: rgba($white, 0.05);
+        display: flex;
+        align-items: center;
+        padding: 24px;
+        font-weight: 500;
+        line-height: 1.43;
+        letter-spacing: 0.02px;
+        &_icon{
+            width: 30px;
+            margin-right: 50px;
+            svg{
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+}

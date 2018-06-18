@@ -1,0 +1,77 @@
+%owl_button {
+    width: 50px;
+    height: 50px;
+    background-color: rgba($white, .09);
+    border-radius: 50%;
+    font-size: 40px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTEiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMiAxMyI+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUzMiAtMjY1NykiIGZpbGw9IiNmZmYiIGQ9Ik01NDEuNzEgMjY2NC4xNGwtNi4wMyA1LjZjLS4zOS4zNS0xIC4zNS0xLjQgMGEuODcuODcgMCAwIDEgMC0xLjNsNS4zNS00Ljk0LTUuMzQtNC45NWEuODYuODYgMCAwIDEgMC0xLjI4Yy4zOC0uMzYgMS0uMzYgMS4zOSAwbDYuMDMgNS41OWMuMi4xNy4yOS40LjI5LjY0IDAgLjIzLS4xLjQ3LS4yOS42NHoiLz48L3N2Zz4=);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 300ms;
+    &:not(.disabled){
+        &:hover,
+        &:focus {
+            background-color: $primary-color;
+        }
+    }
+    &.disabled{
+        opacity: 0.5;
+        cursor: default;
+    }
+}
+.owl{
+    &-carousel{
+        transition: 500ms;
+        .owl{
+            &-stage{
+                display: flex;
+                align-items: baseline;
+            }
+            &-item{
+                flex: 0 0 auto;
+                img{
+                    width: auto;
+                    max-width: 100%;
+                }
+            }
+            &-nav{
+                width: 370px;
+                display: flex;
+                justify-content: space-between;
+                margin: 60px auto 0;
+                button{
+                    &.owl{
+                        &-prev {
+                            @extend %owl_button;
+                            transform: scale(-1, 1);
+                        }
+                        &-next {
+                            @extend %owl_button;
+                        }
+                    }
+                }
+            }
+            &-dots {
+                position: absolute;
+                left: calc(50% - 135px);
+                bottom: 22px;
+                width: 270px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        button {
+            &.owl-dot {
+                width: 6px;
+                height: 6px;
+                margin: 0 16px;
+                border-radius: 50%;
+                background-color: rgba($white, 0.2);
+                transition: 300ms;
+                &.active{
+                    background: $white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+section.exchanges
+    .row.column
+        h2 We are listed on
+        ul.menu
+            - const exchanges = ['bitfinex','poloniex','exmo','bittrex','okcoin']
+            each val in exchanges
+                li
+                    img(src="./assets/img/exchanges/" + val +  ".png", alt=val)

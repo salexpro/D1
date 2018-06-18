@@ -1,0 +1,30 @@
+.advisors{
+    padding: 80px 0;
+    background-image: url(../assets/img/bg_advisors.jpg);
+    background-size: cover;
+    &_items{
+        margin-top: 60px;
+    }
+    &_item{
+        text-align: center;
+        &_img{
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 60px;
+        }
+        &_quote{
+            font-size: 24px;
+            line-height: 1.58;
+            letter-spacing: 0.57px;
+            margin-bottom: 60px;
+        }
+        &_author{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 2.22;
+            letter-spacing: 0.57px;
+        }
+    }
+}

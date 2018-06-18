@@ -1,0 +1,34 @@
+.top{
+    position: relative;
+    padding-top: 62px;
+    // height: 100vh;
+    height: 716px;
+    padding-bottom: 80px;
+    &_inner{
+        height: 100%;
+    }
+    &_col{
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    &_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        animation: bg 500ms ease-in-out 1s forwards;
+    }
+}
+
+@keyframes bg{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

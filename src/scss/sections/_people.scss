@@ -1,0 +1,104 @@
+.people{
+    padding: 80px 0;
+    background-color: $senary-color;
+    & + &{
+        padding-top: 0;
+    }
+    &_descr{
+        margin: 40px auto 60px;
+        max-width: 560px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.56;
+        letter-spacing: 0.02px;
+        color: rgba($white, 0.8);
+    }
+    &_item{
+        padding: 30px 20px 34px;
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -2;
+            width: 100%;
+            height: 100%;
+            border-radius: 13px;
+            background-size: cover;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: rgba(#161e2e, 0.4);
+        }
+        $people: sandeep, alexei, thomas, yobie, hogi, jeff, bill, william;
+        @each $kun in $people {
+            &--#{$kun}{
+                @if(index($people, $kun) > 4){
+                    padding: 65px 50px 52px;
+                    .people_item_info{
+                        margin: 10px 0 50px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        &::before{
+                            display: none;
+                        }
+                    }
+                }
+                &::after {
+                    @if($kun==yobie) {
+                        background-image: url(../assets/img/people/bg_sandeep.jpg);
+                    }
+                    @else {
+                        background-image: url(../assets/img/people/bg_#{$kun}.jpg);
+                    }
+                }
+            }
+        }
+        &_photo{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 28px;
+        }
+        &_name {
+            font-size: 18px;
+            line-height: 1.67;
+            letter-spacing: 1px;
+            text-transform: none;
+            color: $white;
+        }
+        &_info {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 1.92;
+            letter-spacing: 0.01px;
+            margin-bottom: 25px;
+            &::before {
+                content: '';
+                display: block;
+                width: 30px;
+                height: 2px;
+                background-color: $white;
+                margin: 20px auto 25px;
+            }
+        }
+        &_social{
+            margin-top: auto;
+        }
+    }
+}

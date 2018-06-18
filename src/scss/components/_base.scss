@@ -6,6 +6,7 @@ html, body{
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
+    background: $body-background;
 }
 ::-webkit-scrollbar-thumb {
     background: $primary-color;
@@ -50,4 +51,8 @@ button {
 
 button {
     cursor: pointer;
+}
+
+a{
+    transition: 300ms;
 }

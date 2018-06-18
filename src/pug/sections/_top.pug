@@ -1,0 +1,15 @@
+section.top
+    .row.align-justify.top_inner
+        .column.large-5.top_col
+            h1.top_header
+                | The first
+                br
+                | cryptocurrency backed by 
+                br
+                | investment grade diamonds
+            +social('Follow us:', 9, 'head')
+        .column.large-4.top_col
+            include ../components/_countdown
+    video.top_bg(autoplay loop muted playsinline)
+        source(src='assets/video/bg_head.mp4')
+        source(src='assets/video/bg_head.webm')

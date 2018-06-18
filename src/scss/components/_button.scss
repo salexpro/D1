@@ -1,3 +1,36 @@
 .button{
-    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 900;
+    min-width: 160px;
+    user-select: none;
+    &.icon{
+        svg{
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        &.gray{
+            min-width: auto;
+            svg{
+                margin: 0 0 0 10px;
+            }
+        }
+    }
+    &.large{
+        max-width: 100%;
+        width: 100%;
+    }
+    &.huge{
+        font-size: 12px;
+        max-width: 270px;
+        width: 100%;
+        min-height: 80px;
+    }
+    &.round{
+        border-radius: 23px;
+        min-width: 170px;
+    }
 }

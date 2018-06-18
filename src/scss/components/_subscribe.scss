@@ -1,0 +1,18 @@
+.subscribe{
+    background-color: $senary-color;
+    padding: 80px 0;
+    .form{
+        margin-top: 60px;
+    }
+    &--footer{
+        max-width: 1170px;
+        margin: -150px auto -118px;
+        border-radius: 6px;
+        background-image: url(../assets/img/bg_subs.jpg);
+        background-size: cover;
+        padding: 60px 0;
+        .form{
+            margin-top: 40px;
+        }
+    }
+}

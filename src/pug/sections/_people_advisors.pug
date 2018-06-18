@@ -1,0 +1,33 @@
+mixin people(photo, name, info, linkedin)
+    .column.large-3
+        .people_item(class='people_item--' + photo)
+            .people_item_photo
+                img(src="assets/img/people/" + photo + ".png", alt=name)
+            h3.people_item_name
+                =name
+            p.people_item_info
+                !=info
+            .people_item_social
+                a(href=linkedin target="_blank") 
+                    +icon('linkedin', [16, 16], '#fff', [13, 13])
+
+-
+    const advisors = [
+        ['sandeep', 'Sandeep Kothari', 'Founder of CarPrice (raised $80m from key industry investors), an online auction for used cars with 50+ offline offices. Attracted $10m+ into CarMoney. IT startup investor in the field of artificial intelligence and robotics.', '#'],
+        ['alexei', 'Alexei Chekunkov', 'Simone is one of the most respected tech specialists in ICO world. He is a Blockchain Lead and Head of Business Development at SingularityNET, the company created the first humanlike robot Sophia.', '#'],
+        ['thomas', 'Thomas Borer', 'Dr. Borer Consulting in representing the strategic interests of companies and private individuals in the public sector and the economy.​ In 1999-2002 Dr. Borer was the Swiss Ambassador in the Federal Republic Germany.', '#'],
+        ['yobie', 'Yobie Benjamin', 'Yobie is the CTO at DragonCoin, and served as the CTO of Citigroup Global Transaction Services/Institutional Clients Group, was Partner/CTO of the Ernst and Young LLP and a number of other world-renowned companies.', '#']
+    ]
+
+section.people
+    .row.column
+        h2 Advisors
+        p.people_descr
+            | We have an astonishing advisory board with the people
+            br
+            | who are expert in various fields such as Fintech, Blokchain and Legal
+            br
+            | who will be helping us in the development 
+    .row
+        each item in advisors
+            +people(...item)

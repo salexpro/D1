@@ -1,0 +1,78 @@
+.reserves{
+    background-color: #101a2d;
+    padding: 53px 0 105px;
+    &_descr{
+        max-width: 770px;
+        margin: 40px auto 60px;
+        text-align: center;
+    }
+    &_video{
+        position: relative;
+        height: 570px;
+        border-radius: 50%;
+        background-image: url(../assets/img/reserves/bg_video.png);
+        margin-bottom: -260px;
+    }
+    &_item{
+        position: relative;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        z-index: 1;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 426px;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            z-index: -1;
+        }
+        $blocks: diamonds, d1coins, carats, usd;
+        @each $item in $blocks {
+            &--#{$item}::after {
+                @if(index($blocks, $item) % 2 == 1) {
+                    left: 0;
+                } @else {
+                    right: 0;
+                }
+                background-image: url(../assets/img/reserves/#{$item}.png);
+            }
+        }
+        &_num{
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: 0.56px;
+            line-height: 1.19;
+            margin-bottom: 20px;
+            small{
+                font-size: 36px;
+            }
+            &::after{
+                content: '';
+                display: block;
+                margin: auto;
+                width: 30px;
+                height: 3px;
+                background-color: $white;
+                margin-top: 16px;
+            }
+        }
+        &_curr{
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.21px;
+            line-height: 1.17;
+            margin-bottom: 30px;
+        }
+        &_link{
+            color: $cyan;
+            letter-spacing: 0.3px;
+        }
+    }
+}

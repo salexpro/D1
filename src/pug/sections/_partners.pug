@@ -1,0 +1,9 @@
+section.partners
+    .row.align-center
+        h2.column.small-12 Partners
+        .column.large-10
+            .owl-carousel.partners_items
+                - const partners = ['malca-amit.png', 'kristall.png', 'kgk.svg', 'alrosa.png',  'malca-amit.png', 'kristall.png', 'kgk.svg', 'alrosa.png']
+                each item in partners
+                    .partners_item
+                        img(src="assets/img/partners/" + item alt=item.substring(0, item.length-4))

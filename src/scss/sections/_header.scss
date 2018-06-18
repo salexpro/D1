@@ -1,3 +1,15 @@
-.header{
-    
+.head{
+    padding-top: 17px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    &_buttons{
+        font-size: 0;
+        text-align: right;
+        .button{
+            margin-left: 10px;
+        }
+    }
 }

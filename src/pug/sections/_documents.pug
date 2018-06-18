@@ -1,0 +1,17 @@
+section.documents
+    h2.row.column
+        | Read our documents
+    .row.align-center.documents_content
+        -
+            const documents = [
+                ['Whitepaper', '#'],
+                ['One Pager', '#'],
+                ['Presentation', '#']
+            ]
+        each item in documents
+            .column.large-3
+                a.button.icon.documents_item(href=item[1])
+                    +icon('doc', [20, 25], '#fff')
+                    span
+                        =item[0]
+                
