@@ -24,7 +24,7 @@
             .form_input.form_input--country
                 .form_input_icon
                     +icon('earth', [24, 24], '#93979f')
-                input(type="text" name="country" placeholder="Choose your country" readonly data-open="country")
+                input(type="text" name="country" placeholder="Choose your country" required)
         .form_field
             label.form_label
                 | Phone
@@ -38,7 +38,7 @@
             .form_input.form_input--amount
                 .form_input_icon
                     +icon('amount', [24, 20], '#93979f')
-                input(type="text" name="amount" placeholder="Enter amount to invest" required)
+                input(type="number" name="amount" placeholder="Enter amount to invest" required)
                 select(name="amount_currency")
                     option(value="USD") US Dollars
                     option(value="EUR") Euro
@@ -140,9 +140,9 @@
         h2.reveal_header
             | Buy tokens
         form.form.form--centered(action="buy")
-            input(type="text" name="name" placeholder="Your Name")
-            input(type="tel" placeholder="Your Telephone")
-            input(type="email" placeholder="Your E-mail")
+            input(type="text" name="name" placeholder="Your Name" required)
+            input(type="tel" placeholder="Your Telephone" required)
+            input(type="email" placeholder="Your E-mail" required)
             button.button.huge Send
     button.reveal_close(aria-label='Close', type='button', data-close)
 

@@ -915,6 +915,13 @@
 		"oAP": "\/build\/assets\/video\/bg_head.webm",
 		"oF": 0
 		},
+	"\/src\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/CNAME",
+		"oF": 0
+		},
 	"\/src\/js\/app.js": {
 		"ft": 64,
 		"ma": 1,
@@ -1798,7 +1805,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 551472391
+	"lastBuiltDate": 551475909
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -115,6 +115,22 @@ new Foundation.Tooltip($('.matrix_tooltip'), {
 });
 
 // Forms
+$('form[action="whitelist"]').submit(e => {
+    e.preventDefault();
+    open_new('#whitelist', '#success');
+})
+
+$('form[action="whitelist"] [name="country"]').focus(() =>{
+    open_new('#whitelist', '#country');
+})
+
+$('form[action="country"]').submit(function(e) {
+    e.preventDefault();
+    const country = $('[name="country"]:checked', this).val();
+    $('form[action="whitelist"] [name="country"]').val(country);
+    $('#country').foundation('close');
+})
+
 $('form[action="pick"]').submit(e => {
     e.preventDefault();
     $('#buy').foundation('open');
@@ -125,6 +141,11 @@ $('form[action="buy"]').submit(e => {
     open_new('#buy', '#success');
 })
 
+$('form[action="subscribe"]').submit(e => {
+    e.preventDefault();
+    $('#success').foundation('open');
+})
+
 // Fix open modal in modal
 const open_new = (wold, wnew) => {
     $(wold).on('closed.zf.reveal', () => {
@@ -132,7 +153,7 @@ const open_new = (wold, wnew) => {
         $(wold).off('closed.zf.reveal');
     });
     $(wold).foundation('close');
-    if (wold == '#whitelist') {
+    if (wold == '#whitelist' && wnew != '#success') {
         $(wnew).on('closed.zf.reveal', () => {
             $(wold).foundation('open');
             $(wnew).off('closed.zf.reveal');

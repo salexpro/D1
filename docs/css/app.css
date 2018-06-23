@@ -3408,8 +3408,6 @@ html.is-reveal-open {
 
 html, body {
   -webkit-overflow-scrolling: touch; }
-  html.is-reveal-open, body.is-reveal-open {
-    overflow: hidden; }
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -4049,7 +4047,8 @@ h1 {
     .form--row input {
       margin: 0;
       height: auto;
-      border-radius: 5px 0 0 5px; }
+      border-radius: 5px 0 0 5px;
+      margin-right: -1px; }
     .form--row .button {
       border-radius: 0 5px 5px 0; }
   .form--centered {

@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="http://d1.salex.pro/android-chrome-256x256.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="./css/app.css?ckcachebust=4a05e07c32822cab5e51dc4b6800dfae">
+    <link rel="stylesheet" href="./css/app.css?ckcachebust=92cca23d89c62fb6f5f1683a286ce583">
   </head>
   <body>
     <svg style="display:none">
@@ -737,7 +737,7 @@
           <div class="column large-8">
             <form class="form form--row" action="subscribe">
               <input type="email" placeholder="Your E-mail" required="required"/>
-              <buttton class="button huge">Subscribe</buttton>
+              <button class="button huge">Subscribe</button>
             </form>
           </div>
         </div>
@@ -1831,7 +1831,7 @@
           <div class="column large-8">
             <form class="form form--row" action="subscribe">
               <input type="email" placeholder="Your E-mail" required="required"/>
-              <buttton class="button huge">Subscribe</buttton>
+              <button class="button huge">Subscribe</button>
             </form>
           </div>
         </div>
@@ -1931,7 +1931,7 @@
                       <use fill="#93979f" xlink:href="#earth"></use>
                     </svg>
               </div>
-              <input type="text" name="country" placeholder="Choose your country" readonly data-open="country">
+              <input type="text" name="country" placeholder="Choose your country" required>
             </div>
           </div>
           <div class="form_field">
@@ -1953,7 +1953,7 @@
                       <use fill="#93979f" xlink:href="#amount"></use>
                     </svg>
               </div>
-              <input type="text" name="amount" placeholder="Enter amount to invest" required>
+              <input type="number" name="amount" placeholder="Enter amount to invest" required>
               <select name="amount_currency">
                 <option value="USD">US Dollars</option>
                 <option value="EUR">Euro</option>
@@ -2064,9 +2064,9 @@
         <div class="reveal_inner">
           <h2 class="reveal_header">Buy tokens</h2>
           <form class="form form--centered" action="buy">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="tel" placeholder="Your Telephone">
-            <input type="email" placeholder="Your E-mail">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" placeholder="Your Telephone" required>
+            <input type="email" placeholder="Your E-mail" required>
             <button class="button huge">Send</button>
           </form>
         </div>
@@ -2166,6 +2166,6 @@
       </ul>
       <button class="close-button" aria-label="Закрыть" type="button" data-close><span aria-hidden="true">×</span></button>
     </div>
-    <script src="./js/app.min.js?ckcachebust=3e78661c3e2f472eaecb4ace614a7926"></script>
+    <script src="./js/app.min.js?ckcachebust=76f6bfe52a07c21de399719e322d609a"></script>
   </body>
 </html>
