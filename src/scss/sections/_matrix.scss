@@ -113,8 +113,17 @@
     &_tooltip{
         display: inline-block;
         vertical-align: middle;
+        outline: none;
+        &:hover, &:focus{
+            use{
+                fill: $cyan
+            }
+        }
         svg{
             display: block;
+        }
+        use{
+            transition: 300ms;
         }
     }
     &_footer{

@@ -43,7 +43,7 @@
 @include foundation-tabs;
 // @include foundation-thumbnail;
 // @include foundation-title-bar;
-// @include foundation-tooltip;
+@include foundation-tooltip;
 // @include foundation-top-bar;
 // @include foundation-visibility-classes;
 // @include foundation-float-classes;
@@ -71,6 +71,7 @@
 @import 'components/tabs';
 @import 'components/accordion';
 @import 'components/dropdown';
+@import 'components/tooltip';
 @import 'components/popup';
 // @import 'components/offcanvas';
 

@@ -1,3 +1,4 @@
+/* global Foundation */
 /* 
 @codekit-prepend quiet '../../node_modules/jquery/dist/jquery.min',
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.core.min';
@@ -9,6 +10,7 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.util.touch.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.slider.min';
+@codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.tooltip.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.tabs.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min';
@@ -61,6 +63,56 @@ $('.videos_items').owlCarousel({
     nav: true,
     items: 3,
     navText: ['', '']
+});
+
+// Tooltip
+const matix_tip_content = `
+<p class="h2 tooltip_header">Price estimation is based on the following criteria:</p>
+<table class="reveal_table">
+    <tr>
+        <th>Cut</th>
+        <td>1111</td>
+    </tr>
+    <tr>
+        <th>color </th>
+        <td>222</td>
+    </tr>
+    <tr>
+        <th>clarity </th>
+        <td>3333</td>
+    </tr>
+    <tr>
+        <th>depth </th>
+        <td>4444</td>
+    </tr>
+    <tr>
+        <th>table </th>
+        <td>555</td>
+    </tr>
+    <tr>
+        <th>Polish</th>
+        <td>6666</td>
+    </tr>
+    <tr>
+        <th>summetry</th>
+        <td>7777</td>
+    </tr>
+    <tr>
+        <th>culet</th>
+        <td>88</td>
+    </tr>
+    <tr>
+        <th>fluorescence</th>
+        <td>9999</td>
+    </tr>
+</table>
+`;
+new Foundation.Tooltip($('.matrix_tooltip'), {
+    tipText: matix_tip_content,
+    position: 'bottom',
+    allowHtml: true,
+    clickOpen: true
+});
 
 // Forms
 $('form[action="pick"]').submit(e => {

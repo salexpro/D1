@@ -836,12 +836,12 @@ $titlebar-icon-spacing: 0.25rem;
 
 $has-tip-cursor: help;
 $has-tip-font-weight: $global-weight-bold;
-$has-tip-border-bottom: dotted 1px $dark-gray;
-$tooltip-background-color: $black;
+$has-tip-border-bottom: none;
+$tooltip-background-color: #262f41;
 $tooltip-color: $white;
-$tooltip-padding: 0.75rem;
-$tooltip-max-width: 10rem;
-$tooltip-font-size: $small-font-size;
+$tooltip-padding: 40px 40px 35px;
+$tooltip-max-width: 380px;
+$tooltip-font-size: $global-font-size;
 $tooltip-pip-width: 0.75rem;
 $tooltip-pip-height: $tooltip-pip-width * 0.866;
 $tooltip-radius: $global-radius;

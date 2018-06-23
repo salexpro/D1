@@ -1,0 +1,10 @@
+.tooltip{
+    background-image: url(../assets/img/bg_tooltip.jpg);
+    background-size: cover;
+    background-position: center;
+    &_header{
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+        line-height: 1.43;
+    }
+}
