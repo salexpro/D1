@@ -135,3 +135,25 @@
         | Got it
     button.reveal_close(aria-label='Close', type='button', data-close)
 
+#buy.reveal.reveal--buy(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    .reveal_inner
+        h2.reveal_header
+            | Buy tokens
+        form.form.form--centered(action="buy")
+            input(type="text" name="name" placeholder="Your Name")
+            input(type="tel" placeholder="Your Telephone")
+            input(type="email" placeholder="Your E-mail")
+            button.button.huge Send
+    button.reveal_close(aria-label='Close', type='button', data-close)
+
+#success.reveal.reveal--success(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    .reveal_inner
+        .reveal_icon
+            +icon('check', [81, 68], '#1056c8')
+        p.h2.reveal_header
+            | Your quotation request was successfully sent!
+        button.button.huge(data-close)
+            | OK
+    button.reveal_close(aria-label='Close', type='button', data-close)
+            
+

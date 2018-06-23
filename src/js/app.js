@@ -62,6 +62,17 @@ $('.videos_items').owlCarousel({
     items: 3,
     navText: ['', '']
 
+// Forms
+$('form[action="pick"]').submit(e => {
+    e.preventDefault();
+    $('#buy').foundation('open');
+})
+
+$('form[action="buy"]').submit(e => {
+    e.preventDefault();
+    open_new('#buy', '#success');
+})
+
 // Fix open modal in modal
 const open_new = (wold, wnew) => {
     $(wold).on('closed.zf.reveal', () => {
