@@ -10,6 +10,7 @@ section.top
             +social('Follow us:', 9, 'head')
         .column.large-4.top_col
             include ../components/_countdown
-    video.top_bg(autoplay loop muted playsinline)
-        source(src='assets/video/bg_head.mp4')
-        source(src='assets/video/bg_head.webm')
+    .top_bg
+        video(autoplay loop muted playsinline)
+            source(src='assets/video/bg_head.mp4')
+            source(src='assets/video/bg_head.webm')

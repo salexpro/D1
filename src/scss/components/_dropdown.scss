@@ -1,0 +1,32 @@
+.dropdown{
+    &-pane{
+        overflow: hidden;
+        li{
+            &.active a{
+                background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTciIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNyAxMyI+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE1NyAtMjQpIiBmaWxsPSIjZmZmIiBkPSJNMTYyLjI1IDMzLjgyTDE1OC40MyAzMGwtMS4zIDEuMjkgNS4xMiA1LjEyIDExLTExLTEuMjktMS4yOXoiLz48L3N2Zz4K);
+                background-position: center right 16px;
+                background-repeat: no-repeat;
+            }
+            +li {
+                border-top: 1px solid #161e2a;
+            }
+        }
+        a{
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            font-weight: 900;
+            line-height: 2.4;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #afafaf;
+            &:hover, &:focus{
+                color: $white;
+            }
+        }
+        img{
+            margin-right: 15px;
+        }
+    }
+}

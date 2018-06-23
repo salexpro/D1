@@ -1,0 +1,26 @@
+section.reserve
+    .row.column
+        h2 Current Diamond Reserve
+    .row.align-justify.reserve_content
+        -
+            const reserve = [
+                [1.6,  'k', 'Diamonds'],
+                [2,    'm', 'D1 coins'],
+                [1.6,  'k', 'Carats'],
+                [20,   'm', 'USD']
+            ]
+        each item, idx in reserve
+            .column.large-3
+                - let id = item[2].toLowerCase().replace(' ', '');
+                .reserve_item(class='reserve_item--' + id data-open='reserve_' + id)
+                    .reserve_item_num
+                        =item[0]
+                        small= item[1]
+                    .reserve_item_curr
+                        =item[2]
+                    a.reserve_item_link
+                        | Learn more
+            if idx == 0
+                .column.large-6
+                    .reserve_video
+                        button.video_button.small(data-open='reserve_video')

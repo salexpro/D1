@@ -85,6 +85,7 @@ $tertiary-color: get-color(tertiary);
 $quaternary-color: get-color(quaternary);
 $quinary-color: get-color(quinary);
 $senary-color: get-color(senary);
+$gray: get-color(gray);
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
@@ -379,11 +380,11 @@ $drilldown-arrow-size: 6px;
 // 17. Dropdown
 // ------------
 
-$dropdown-padding: 1rem;
-$dropdown-background: $body-background;
-$dropdown-border: 1px solid $medium-gray;
-$dropdown-font-size: 1rem;
-$dropdown-width: 300px;
+$dropdown-padding: 0;
+$dropdown-background: $gray;
+$dropdown-border: none;
+$dropdown-font-size: 10px;
+$dropdown-width: 190px;
 $dropdown-radius: $global-radius;
 $dropdown-sizes: (
   tiny: 100px,
@@ -482,7 +483,7 @@ $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: 0;
 $menu-simple-margin: 20px;
 $menu-item-color-active: $white;
-$menu-item-background-active: get-color(primary);
+$menu-item-background-active: none;
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
 $menu-state-back-compat: true;
@@ -723,7 +724,7 @@ $prototype-text-overflow: ellipsis;
 // 46. Responsive Embed
 // --------------------
 
-$responsive-embed-margin-bottom: rem-calc(16);
+$responsive-embed-margin-bottom: 0;
 $responsive-embed-ratios: (
   default: 16 by 9
   // widescreen: ,

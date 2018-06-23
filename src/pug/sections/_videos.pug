@@ -2,9 +2,13 @@ section.videos
     .row.column
         h2 Video
     .row.owl-carousel.videos_items
-        - let i = 0
-        while i < 6
+        -
+            const videos = [
+                'u_hdJdH6Eac',
+                'KjUNAkEZtJ0'
+            ]
+        each video in videos
             .column
-                .videos_item
-                    img(src="//picsum.photos/370/200?" + i, alt="")
-            - i++
+                .videos_item.responsive-embed
+                    //- img(src="//picsum.photos/370/200?" + i, alt="")
+                    iframe(width='560', height='315', src='https://www.youtube.com/embed/' + video + '?rel=0&showinfo=0', frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')

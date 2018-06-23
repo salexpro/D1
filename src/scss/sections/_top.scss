@@ -15,12 +15,32 @@
     &_bg {
         position: absolute;
         top: 0;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
         z-index: -1;
-        width: 100%;
         height: 100%;
         opacity: 0;
         animation: bg 500ms ease-in-out 1s forwards;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -200px;
+            width: 400px;
+            height: 100%;
+            background-image: linear-gradient(to right, $body-background 50%, transparent 100%);
+            z-index: 2;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -200px;
+            width: 400px;
+            height: 100%;
+            background-image: linear-gradient(to left, $body-background 50%, transparent 100%);
+            z-index: 2;
+        }
     }
 }
 

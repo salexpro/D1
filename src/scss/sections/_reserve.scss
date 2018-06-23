@@ -1,17 +1,16 @@
-.reserves{
+.reserve{
     background-color: #101a2d;
     padding: 53px 0 105px;
-    &_descr{
-        max-width: 770px;
-        margin: 40px auto 60px;
-        text-align: center;
-    }
     &_video{
         position: relative;
         height: 570px;
         border-radius: 50%;
         background-image: url(../assets/img/reserves/bg_video.png);
         margin-bottom: -260px;
+        z-index: 2;
+    }
+    &_content{
+        margin-top: 60px;
     }
     &_item{
         position: relative;
@@ -22,6 +21,8 @@
         justify-content: center;
         text-align: center;
         z-index: 1;
+        cursor: pointer;
+        outline: none;
         &::after{
             content: '';
             position: absolute;
