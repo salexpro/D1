@@ -3458,6 +3458,10 @@ a {
   -webkit-transition: 300ms;
   transition: 300ms; }
 
+[type='checkbox'] + label,
+[type='radio'] + label {
+  margin: 0; }
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -4038,8 +4042,7 @@ h1 {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    background-position: center right 30px;
-    margin: 0; }
+    background-position: center right 30px; }
   .form--row {
     display: -webkit-box;
     display: -ms-flexbox;

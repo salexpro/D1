@@ -57,3 +57,8 @@ button {
 a{
     transition: 300ms;
 }
+
+[type='checkbox']+label,
+[type='radio']+label{
+    margin: 0;
+}

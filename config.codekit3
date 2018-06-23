@@ -113,6 +113,16 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.smoothScroll.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.smoothScroll.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tabs.min.js": {
 		"ft": 64,
 		"ma": 1,
@@ -1822,7 +1832,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 551482665
+	"lastBuiltDate": 551484397
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
