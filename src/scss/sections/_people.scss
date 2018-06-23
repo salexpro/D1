@@ -21,6 +21,10 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        &[data-open]{
+            outline: none;
+            cursor: pointer;
+        }
         &::after{
             content: '';
             position: absolute;
@@ -99,6 +103,12 @@
         }
         &_social{
             margin-top: auto;
+        }
+        &_bio{
+            margin: 0;
+            font-size: 12px;
+            line-height: 2.08;
+            letter-spacing: 0.67px;
         }
     }
 }

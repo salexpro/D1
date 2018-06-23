@@ -4276,6 +4276,10 @@ h1 {
     line-height: 1.44; }
   .reveal--success .button.huge[data-close] {
     margin-top: 15px; }
+  .reveal--member {
+    padding: 36px 70px 70px 36px;
+    max-width: 770px;
+    background-image: url(../assets/img/bg_team.jpg); }
   .reveal_inner {
     min-height: 520px;
     display: -webkit-box;
@@ -4321,6 +4325,18 @@ h1 {
       margin-top: 25px; }
     .reveal_content b {
       color: #30c2ff; }
+  .reveal_cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .reveal_member {
+    text-align: center; }
+    .reveal_member_info.reveal_member_info {
+      padding: 22px 0 0 44px; }
+      .reveal_member_info.reveal_member_info .people_item_info {
+        margin-bottom: 34px; }
+    .reveal_member_info .people_item_name {
+      text-align: left; }
   .reveal_table {
     font-weight: 700;
     line-height: 2.86;
@@ -5021,6 +5037,9 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+    .people_item[data-open] {
+      outline: none;
+      cursor: pointer; }
     .people_item::after {
       content: '';
       position: absolute;
@@ -5120,6 +5139,11 @@ h1 {
         margin: 20px auto 25px; }
     .people_item_social {
       margin-top: auto; }
+    .people_item_bio {
+      margin: 0;
+      font-size: 12px;
+      line-height: 2.08;
+      letter-spacing: 0.67px; }
 
 .roadmap {
   padding: 80px 0;

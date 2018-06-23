@@ -38,6 +38,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 1
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -309,6 +315,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/bg_subs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/bg_team.jpg": {
+		"ft": 16384,
+		"iS": 58867,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/bg_team.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1805,7 +1822,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 551475909
+	"lastBuiltDate": 551482665
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

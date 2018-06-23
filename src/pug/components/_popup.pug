@@ -231,3 +231,17 @@
         button.button.huge(data-close)
             | Close
     button.reveal_close(aria-label='Close', type='button', data-close)
+
+#member.reveal.reveal--member(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    .reveal_cols
+        .reveal_member
+            .people_item_photo
+                img(src="", alt="")
+            .reveal_member_social
+                a(href="" target="_blank")
+                    +icon('linkedin', [16, 16], '#fff', [13, 13])
+        .reveal_member_info.people_item--hogi
+            h3.people_item_name
+            p.people_item_info
+            p.people_item_bio
+    button.reveal_close(aria-label='Close', type='button', data-close)

@@ -146,7 +146,21 @@ $('form[action="subscribe"]').submit(e => {
     $('#success').foundation('open');
 })
 
-// Fix open modal in modal
+// Team modal
+$('.people_item[data-open]').click(function(){
+    const photo = $('.people_item_photo img', this).attr('src');
+    const name  = $('.people_item_name', this).text();
+    const position = $('.people_item_info', this).text();
+    const ln = $('.people_item_social a', this).attr('href');
+
+    $('#member .people_item_photo img').attr({src: photo, alt: name});
+    $('#member .reveal_member_social a').attr('href', ln);
+    $('#member .people_item_name').text(name);
+    $('#member .people_item_info').text(position);
+    $('#member .people_item_bio').html($(this).data('bio'));
+});
+
+// Fix opening modal in modal
 const open_new = (wold, wnew) => {
     $(wold).on('closed.zf.reveal', () => {
         $(wnew).foundation('open');

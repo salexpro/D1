@@ -51,6 +51,11 @@
             margin-top: 15px;
         }
     }
+    &--member{
+        padding: 36px 70px 70px 36px;
+        max-width: 770px;
+        background-image: url(../assets/img/bg_team.jpg);
+    }
 
     &_inner {
         min-height: 520px;
@@ -96,6 +101,28 @@
         }
         b{
             color: $cyan;
+        }
+    }
+    &_cols{
+        display: flex;
+    }
+    &_member{
+        text-align: center;
+        &_info{
+            &.reveal_member_info{
+                padding: 22px 0 0 44px;
+                .people_item_info{
+                    margin-bottom: 34px;
+                }
+            }
+            .people_item{
+                &_name {
+                    text-align: left;
+                }
+                &_info{
+                    
+                }
+            }
         }
     }
 

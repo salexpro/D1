@@ -1,6 +1,7 @@
-mixin people(photo, name, info, linkedin)
+mixin people(photo, name, info, linkedin, bio)
+    - const is_team = (photo=='hogi'||photo=='jeff'||photo=='bill'||photo=='william')
     .column.large-3
-        .people_item(class='people_item--' + photo)
+        .people_item(class='people_item--' + photo data-open=is_team?'member':false data-bio=bio?bio:false)
             .people_item_photo
                 img(src="assets/img/people/" + photo + ".png", alt=name)
             h3.people_item_name
