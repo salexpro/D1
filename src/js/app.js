@@ -11,6 +11,7 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.slider.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.tabs.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min';
+@codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min';
 @codekit-prepend quiet '../../node_modules/owl.carousel/dist/owl.carousel.min';
 */
 
@@ -60,4 +61,22 @@ $('.videos_items').owlCarousel({
     nav: true,
     items: 3,
     navText: ['', '']
+
+// Fix open modal in modal
+const open_new = (wold, wnew) => {
+    $(wold).on('closed.zf.reveal', () => {
+        $(wnew).foundation('open');
+        $(wold).off('closed.zf.reveal');
+    });
+    $(wold).foundation('close');
+    if (wold == '#whitelist') {
+        $(wnew).on('closed.zf.reveal', () => {
+            $(wold).foundation('open');
+            $(wnew).off('closed.zf.reveal');
+        });
+    }
+}
+$('.reveal [data-open]').click(function (e) {
+    e.stopPropagation();
+    open_new('#' + $(this).closest('.reveal').attr('id'), '#' + $(this).data('open'));
 });

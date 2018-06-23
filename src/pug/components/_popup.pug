@@ -1,0 +1,137 @@
+#whitelist.reveal.reveal--large.reveal--whitelist(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    h2.reveal_header
+        | Whitelist application
+    p.reveal_descr
+        | We are assembling an D1 token sale whitelist for our valued community. Please fill your details here for an opportunity to be invited to the whitelist. Please note that complete requests will be processed faster and are more likely to be selected.
+    form.form.form--cols(action="whitelist")
+        .form_field
+            label.form_label
+                | Full name
+            .form_input
+                .form_input_icon
+                    +icon('user', [20, 20], '#93979f')
+                input(type="text" name="name" placeholder="Your name" required)
+        .form_field
+            label.form_label
+                | Email
+            .form_input
+                .form_input_icon
+                    +icon('envelope', [24, 19], '#93979f')
+                input(type="email" name="email" placeholder="Enter your email" required)
+        .form_field
+            label.form_label
+                | Country
+            .form_input.form_input--country
+                .form_input_icon
+                    +icon('earth', [24, 24], '#93979f')
+                input(type="text" name="country" placeholder="Choose your country" readonly data-open="country")
+        .form_field
+            label.form_label
+                | Phone
+            .form_input
+                .form_input_icon
+                    +icon('phone', [22, 22], '#93979f')
+                input(type="tel" name="phone" placeholder="Enter your phone" required)
+        .form_field
+            label.form_label
+                | Amount
+            .form_input.form_input--amount
+                .form_input_icon
+                    +icon('amount', [24, 20], '#93979f')
+                input(type="text" name="amount" placeholder="Enter amount to invest" required)
+                select(name="amount_currency")
+                    option(value="USD") US Dollars
+                    option(value="EUR") Euro
+                    option(value="GPB") GB Pound
+        .form_field
+            label.form_label
+                | Social url
+            .form_input
+                .form_input_icon
+                    +icon('like', [24, 22], '#93979f')
+                input(type="url" name="profile" placeholder="Url to social profile")
+        .reveal_note
+            | By clicking on the "JOIN WHITELIST" button, you certify that
+            br
+            | you agree with
+            | 
+            a(data-open="disclaimer") this Disclaimer
+            | 
+            | and our Privacy Policy
+        button.button.huge
+            | JOIN WHITELIST
+    button.reveal_close(aria-label='Close', type='button', data-close)
+
+#country.reveal.reveal--large.reveal--whitelist(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    h2.reveal_header
+        | Choose your country
+    form(action="country")
+        .reveal_content
+            .form
+                .form_head
+                    .form_input
+                        .form_input_icon
+                            +icon('magnifier', [22, 22], '#93979f')
+                        input(type="search" placeholder="Search country")
+                .form--choose.form--cols
+                    .form_field
+                        input(type="radio" name="country" id="country_rus" value="Russia")
+                        label.form_input(for="country_rus")
+                            .form_input_icon
+                                img(src="./assets/img/country/russia.svg", alt="Russia")
+                            .form_input_label
+                                | Russia
+                    .form_field
+                        input(type="radio" name="country" id="country_bel" value="Belarus")
+                        label.form_input(for="country_bel")
+                            .form_input_icon
+                                img(src="./assets/img/country/belarus.svg", alt="Belarus")
+                            .form_input_label
+                                | Belarus
+                    .form_field
+                        input(type="radio" name="country" id="country_eng" value="England")
+                        label.form_input(for="country_eng")
+                            .form_input_icon
+                                img(src="./assets/img/country/england.svg", alt="England")
+                            .form_input_label
+                                | England
+                    .form_field
+                        input(type="radio" name="country" id="country_1" value="Test")
+                        label.form_input(for="country_1")
+                            .form_input_label
+                                | Test
+                    .form_field
+                        input(type="radio" name="country" id="country_2" value="Test")
+                        label.form_input(for="country_2")
+                            .form_input_label
+                                | Test
+                    .form_field
+                        input(type="radio" name="country" id="country_3" value="Test")
+                        label.form_input(for="country_3")
+                            .form_input_label
+                                | Test
+                    .form_field
+                        input(type="radio" name="country" id="country_4" value="Test")
+                        label.form_input(for="country_4")
+                            .form_input_label
+                                | Test
+                    .form_field
+                        input(type="radio" name="country" id="country_5" value="Test")
+                        label.form_input(for="country_5")
+                            .form_input_label
+                                | Test
+        button.button.huge
+            | Choose
+    button.reveal_close(aria-label='Close', type='button', data-close)
+
+#disclaimer.reveal.reveal--large.reveal--disclaimer(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    h2.reveal_header
+        | Disclamer
+    .reveal_content
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        br
+        | Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristique risus.
+    button.button.huge(data-close)
+        | Got it
+    button.reveal_close(aria-label='Close', type='button', data-close)
+

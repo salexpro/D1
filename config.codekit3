@@ -83,6 +83,26 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.dropdown.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.dropdown.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.reveal.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.reveal.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.slider.min.js": {
 		"ft": 64,
 		"ma": 1,
@@ -99,6 +119,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tabs.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tooltip.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tooltip.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -290,6 +320,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/bg_tooltip.jpg": {
+		"ft": 16384,
+		"iS": 7553,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/bg_tooltip.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/bg_video.jpg": {
 		"ft": 16384,
 		"iS": 183537,
@@ -300,6 +341,47 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/src\/assets\/img\/bg_whitelist.jpg": {
+		"ft": 16384,
+		"iS": 36131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/bg_whitelist.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/country\/belarus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/country\/belarus.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
+		},
+	"\/src\/assets\/img\/country\/england.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/country\/england.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
+		},
+	"\/src\/assets\/img\/country\/russia.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/country\/russia.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
 		},
 	"\/src\/assets\/img\/diamonds\/asscher.png": {
 		"ft": 32768,
@@ -457,7 +539,7 @@
 		},
 	"\/src\/assets\/img\/infographics.png": {
 		"ft": 32768,
-		"iS": 283418,
+		"iS": 257921,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/infographics.png",
 		"oF": 0,
@@ -465,6 +547,36 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/src\/assets\/img\/lang\/eng.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/lang\/eng.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
+		},
+	"\/src\/assets\/img\/lang\/ger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/lang\/ger.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
+		},
+	"\/src\/assets\/img\/lang\/rus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/lang\/rus.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
 		},
 	"\/src\/assets\/img\/logo.png": {
 		"ft": 32768,
@@ -838,6 +950,15 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/src\/pug\/components\/_dropdown.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_dropdown.html",
+		"oF": 0,
+		"oS": 1
+		},
 	"\/src\/pug\/components\/_icons.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -1072,12 +1193,12 @@
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_reserves.pug": {
+	"\/src\/pug\/sections\/_reserve.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_reserves.html",
+		"oAP": "\/build\/_reserve.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -1217,6 +1338,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/src\/scss\/components\/_dropdown.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_dropdown.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/src\/scss\/components\/_fonts.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1343,6 +1477,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/scss\/css\/_tabs.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/src\/scss\/components\/_tooltip.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_tooltip.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1568,7 +1715,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_reserves.scss": {
+	"\/src\/scss\/sections\/_reserve.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1576,7 +1723,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_reserves.css",
+		"oAP": "\/build\/scss\/css\/_reserve.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

@@ -422,7 +422,7 @@ $fieldset-border: 1px solid $medium-gray;
 $fieldset-padding: rem-calc(20);
 $fieldset-margin: rem-calc(0);
 $legend-padding: rem-calc(0 3);
-$form-spacing: rem-calc(15);
+$form-spacing: rem-calc(30);
 $helptext-color: $black;
 $helptext-font-size: rem-calc(13);
 $helptext-font-style: italic;
@@ -430,11 +430,11 @@ $input-prefix-color: $black;
 $input-prefix-background: $light-gray;
 $input-prefix-border: 1px solid $medium-gray;
 $input-prefix-padding: 1rem;
-$form-label-color: $black;
-$form-label-font-size: rem-calc(14);
-$form-label-font-weight: $global-weight-normal;
-$form-label-line-height: 1.8;
-$select-background: $white;
+$form-label-color: $white;
+$form-label-font-size: rem-calc(13);
+$form-label-font-weight: $global-weight-bold;
+$form-label-line-height: 1.92;
+$select-background: rgba($white, 0.07);
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
 $input-color: $white;
@@ -446,9 +446,8 @@ $input-line-height: 1.69;
 $input-background: rgba($white, 0.07);
 $input-background-focus: rgba($white, 0.1);
 $input-background-disabled: rgba($white, 0.02);
-$input-border: none;
-$input-border-focus: none;
-$input-padding: rem-calc(20 30);
+$input-border: 1px solid transparent;
+$input-padding: rem-calc(30);
 $input-shadow: none;
 $input-shadow-focus: none;
 $input-cursor-disabled: not-allowed;
@@ -733,12 +732,12 @@ $responsive-embed-ratios: (
 // 47. Reveal
 // ----------
 
-$reveal-background: $white;
-$reveal-width: 600px;
-$reveal-max-width: $global-width;
-$reveal-padding: $global-padding;
-$reveal-border: 1px solid $medium-gray;
-$reveal-radius: $global-radius;
+$reveal-background: $senary-color;
+$reveal-width: 100%;
+$reveal-max-width: 1170px;
+$reveal-padding: 60px;
+$reveal-border: none;
+$reveal-radius: 10px;
 $reveal-zindex: 1005;
 $reveal-overlay-background: rgba($black, 0.45);
 

@@ -23,7 +23,7 @@
 @include foundation-menu;
 // @include foundation-menu-icon;
 // @include foundation-drilldown-menu;
-// @include foundation-dropdown;
+@include foundation-dropdown;
 // @include foundation-dropdown-menu;
 @include foundation-responsive-embed;
 // @include foundation-label;
@@ -37,7 +37,7 @@
 // @include foundation-meter-element;
 @include foundation-slider;
 // @include foundation-sticky;
-// @include foundation-reveal;
+@include foundation-reveal;
 // @include foundation-switch;
 // @include foundation-table;
 @include foundation-tabs;
@@ -71,6 +71,7 @@
 @import 'components/tabs';
 @import 'components/accordion';
 @import 'components/dropdown';
+@import 'components/popup';
 // @import 'components/offcanvas';
 
 // Sections
