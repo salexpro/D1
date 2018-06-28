@@ -1,6 +1,6 @@
 mixin people(photo, name, info, linkedin, bio)
     - const is_team = (photo=='hogi'||photo=='jeff'||photo=='bill'||photo=='william')
-    .column.large-3
+    .column.large-3.medium-6.small-12
         .people_item(class='people_item--' + photo data-open=is_team?'member':false data-bio=bio?bio:false)
             .people_item_photo
                 img(src="assets/img/people/" + photo + ".png", alt=name)
@@ -25,9 +25,13 @@ section#advisors.people
         h2 Advisors
         p.people_descr
             | We have an astonishing advisory board with the people
+            | 
             br
+            | 
             | who are expert in various fields such as Fintech, Blokchain and Legal
+            | 
             br
+            | 
             | who will be helping us in the development 
     .row
         each item in advisors

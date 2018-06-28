@@ -1,5 +1,6 @@
 .dropdown{
     &-pane{
+        z-index: 14;
         overflow: hidden;
         li{
             &.active a{

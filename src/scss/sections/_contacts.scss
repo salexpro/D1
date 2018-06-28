@@ -2,8 +2,17 @@
     padding: 80px 0 230px;
     background-image: url(../assets/img/bg_contacts.jpg);
     background-size: cover;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 15px 40px;
+    }
     &_items{
         margin-top: 60px;
+        @include breakpoint(medium down) {
+            margin-top: 40px;
+        }
     }
     &_item{
         height: 90px;
@@ -15,9 +24,17 @@
         font-weight: 500;
         line-height: 1.43;
         letter-spacing: 0.02px;
+        @include breakpoint(small down) {
+            max-width: 320px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
         &_icon{
             width: 30px;
             margin-right: 50px;
+            @include breakpoint(large down){
+                margin-right: 30px;
+            }
             svg{
                 display: block;
                 margin: auto;

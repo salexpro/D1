@@ -4,5 +4,5 @@ section.news
         .owl-carousel.news_items
             - const news = ['financial_times', 'currency_buzzer', 'baidu', 'kommersant', 'tass', 'financial_times', 'currency_buzzer', 'baidu', 'kommersant', 'tass']
             each item in news
-                .news_item
+                .news_item(class="news_item--" + item)
                     img(src="assets/img/newspapers/" + item + ".png", alt=item)

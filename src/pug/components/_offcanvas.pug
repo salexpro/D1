@@ -1,4 +1,38 @@
-#menu.off-canvas.position-right.nav_mobile(data-off-canvas data-transition="overlap" data-auto-focus="false")
-    +menu('vertical')
-    button.close-button(aria-label='Закрыть', type='button', data-close)
-        span(aria-hidden='true') ×
+#menu.off-canvas.position-top.head_mobile(data-off-canvas data-transition="overlap" data-auto-focus="false" data-content-scroll="false")
+    .row.head_mobile_row
+        .column.small-12
+            p.h2.head_mobile_header
+                | MENU
+        .column.small-12.medium-6
+            +menu('mobile')
+        .column.small-12.medium-6
+            ul.menu.mobile
+                li
+                    a(href="#") White Paper
+                li
+                    a(href="#") Token Sale Terms
+            .head_mobile_buttons
+                button.button.gray.icon(data-toggle="language_mobile")
+                    | EN
+                    +icon('arrow', [8, 6], '#fff')
+                a.button.wide(href="#")
+                    | Sign In
+                a.button.wide.icon(href="#")
+                    +icon('telegram', [12, 10], '#fff', [17, 14])
+                    | Join Telegram
+    button.reveal_close.reveal_close--simple(aria-label='Close', type='button', data-close)
+
+
+#diamond_type.off-canvas.position-top.head_mobile.off-canvas--diamond(data-off-canvas data-transition="overlap" data-content-scroll="false")
+    .row.column.head_mobile_row
+        p.h2.head_mobile_header
+            | Type of diamond
+        .matrix_picker_mobile
+            each val in types
+                label.matrix_picker_mobile_item(for=val)
+                    .matrix_picker_mobile_item_img
+                        img(src="assets/img/diamonds/" + val + ".png", alt=val)
+                    =val
+            button.button(data-close)
+                | Choose
+    button.reveal_close.reveal_close--simple(aria-label='Close', type='button', data-close)

@@ -38,12 +38,6 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 1
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -89,6 +83,26 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.dropdown.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.interchange.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.interchange.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.offcanvas.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.offcanvas.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -297,12 +311,34 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/bg_head.jpg": {
+		"ft": 16384,
+		"iS": 348729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/bg_head.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/bg_matrix.jpg": {
 		"ft": 16384,
 		"iS": 80549,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/bg_matrix.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/bg_offcanvas.jpg": {
+		"ft": 16384,
+		"iS": 46982,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/bg_offcanvas.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -563,6 +599,17 @@
 		"iS": 257921,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/infographics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/infographics_mobile.png": {
+		"ft": 32768,
+		"iS": 222409,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/infographics_mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -873,6 +920,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/reserves\/bg_video.jpg": {
+		"ft": 16384,
+		"iS": 40866,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/reserves\/bg_video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/reserves\/bg_video.png": {
 		"ft": 32768,
 		"iS": 259812,
@@ -951,7 +1009,7 @@
 		},
 	"\/src\/js\/app.js": {
 		"ft": 64,
-		"ma": 1,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/build\/js\/app.min.js",
@@ -1457,6 +1515,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/src\/scss\/components\/_select.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_select.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/src\/scss\/components\/_slider.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1832,7 +1903,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 551484397
+	"lastBuiltDate": 551846892
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

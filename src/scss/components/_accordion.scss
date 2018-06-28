@@ -1,7 +1,15 @@
 .accordion{
+    margin-bottom: 0;
     margin-top: 80px;
+    @include breakpoint(medium down) {
+        margin-top: 40px;
+    }
     &-item{
         margin-bottom: 5px;
+        border-radius: $global-radius;
+        @include breakpoint(small down) {
+            background-color: rgba($white, 0.05);
+        }
     }
     &-title{
         font-size: 13px;
@@ -10,6 +18,7 @@
         text-transform: uppercase;
         background-color: rgba($white, 0.07);
         border-radius: $global-radius !important;
+        padding-right: 70px;
         &::before{
             width: 40px;
             height: 40px;
@@ -26,6 +35,14 @@
         }
         &[aria-expanded="true"]::before{
             background-color: $primary-color;
+        }
+    }
+    &-content{
+        @include breakpoint(small down) {
+            padding: 20px 12px;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 1.92;
         }
     }
 }

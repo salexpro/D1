@@ -52,10 +52,17 @@ section#media.publications
         h2 Publications
         p.publications_descr
             | We've been covered by some of the big
+            | 
             br
+            | 
             | cryptocurrency/blockchain news websites.
     .row.align-center
         .column.large-6
+            select(data-target="#publications")
+                option(value="publ_usa") USA
+                option(value="publ_china") China
+                option(value="publ_korea") Korea
+                option(value="publ_uae") UAE
             ul#publications.tabs(data-tabs)
                 li.tabs-title.is-active
                     a(href='#publ_usa', aria-selected='true') USA

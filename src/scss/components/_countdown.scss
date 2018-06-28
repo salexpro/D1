@@ -1,9 +1,14 @@
 .countdown{
-    width: 400px;
-    margin-left: -30px;
+    max-width: 400px;
+    width: 100%;
     background-color: rgba(#061326, 0.92);
     padding: 30px;
     align-self: flex-end;
+    border-radius: $global-radius;
+    @include breakpoint(medium down) {
+        align-self: center;
+        padding: 30px 16px;
+    }
     &_top{
         display: flex;
         align-items: center;
@@ -14,6 +19,10 @@
             text-align: left;
             line-height: 1.28;
             margin-bottom: 10px;
+            @include breakpoint(medium down) {
+                font-size: 14px;
+                letter-spacing: 2.63px;
+            }
         }
         &_rate{
             font-size: 12px;
@@ -110,6 +119,9 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-bottom: 28px;
+        @include breakpoint(medium down) {
+            text-align: center;
+        }
         b{
             display: block;
             font-size: 24px;

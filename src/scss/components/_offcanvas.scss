@@ -1,0 +1,13 @@
+.off-canvas{
+    padding: 25px 30px;
+    background-image: url(../assets/img/bg_offcanvas.jpg);
+    background-position: center;
+    background-size: cover;
+    @include breakpoint(small down) {
+        padding: 30px 15px;
+    }
+    &--diamond{
+        height: 100%;
+        transform: translateY(-100%);
+    }
+}

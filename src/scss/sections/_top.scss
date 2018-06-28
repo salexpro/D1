@@ -1,16 +1,56 @@
 .top{
     position: relative;
     padding-top: 62px;
-    // height: 100vh;
     height: 716px;
     padding-bottom: 80px;
+    @include breakpoint(medium down) {
+        background-image: url(../assets/img/bg_head.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    @include breakpoint(medium down) {
+        padding-top: 115px;
+        padding-bottom: 216px;
+        height: auto;
+    }
+    &_descr{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.9;
+        letter-spacing: 0.1px;
+        margin: 25px 0;
+        @include breakpoint(large) {
+            display: none;
+        }
+    }
     &_inner{
         height: 100%;
+        @include breakpoint(medium down) {
+            flex-direction: column;
+        }
     }
     &_col{
         display: flex;
         align-items: center;
         position: relative;
+        @include breakpoint(medium down) {
+            width: 100%;
+            position: static;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+        &:first-child{
+            .button {
+                @include breakpoint(large) {
+                    display: none;
+                }
+            }
+        }
+        &:last-child{
+            justify-content: flex-end;
+        }
     }
     &_bg {
         position: absolute;
@@ -21,6 +61,9 @@
         height: 100%;
         opacity: 0;
         animation: bg 500ms ease-in-out 1s forwards;
+        @include breakpoint(medium down) {
+            display: none;
+        }
         &::before{
             content: '';
             position: absolute;

@@ -3,15 +3,17 @@ header.head
         .column.large-1.head_logo
             a(href="/")
                 img(src="./assets/img/logo.png", alt="D1")
-        .column
-            nav.nav
-                +menu('simple menu--head')
+        nav.column.head_nav
+            +menu('simple menu--head')
         .column.shrink.head_buttons
             a.button.icon(href="#")
                 +icon('telegram', [12, 10], '#fff', [17, 14])
                 | Join Telegram
-            button.button.secondary
+            a.button.secondary(href="#")
                 | Sign In
             button.button.gray.icon(data-toggle="language")
                 | EN
                 +icon('arrow', [8, 6], '#fff')
+        .column.shrink.head_hamb
+            button.head_hamb_btn(data-open="menu")
+                .head_hamb_lines

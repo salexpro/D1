@@ -1,11 +1,40 @@
 .video{
-    background-image: url(../assets/img/bg_video.jpg);
-    background-position: center;
-    background-size: cover;
     position: relative;
     &_inner{
         height: 700px;
         align-items: center;
+        @include breakpoint(medium down) {
+            height: auto;
+            flex-direction: column;
+            background-color: $black;
+            padding-bottom: 60px;
+        }
+        @include breakpoint(small down) {
+            br{
+                display: none;
+            }
+        }
+        .column{
+            position: relative;
+            z-index: 2;
+        }
+    }
+    &_container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../assets/img/bg_video.jpg);
+        background-position: center;
+        background-size: cover;
+        @include breakpoint(medium down) {
+            position: relative;
+            height: 0;
+            padding-bottom: 56%;
+            order: -1;
+            margin-bottom: 40px;
+        }
     }
     &_header{
         font-size: 30px;
@@ -15,6 +44,10 @@
         letter-spacing: normal;
         text-transform: none;
         margin-bottom: 40px;
+        @include breakpoint(medium down) {
+            font-size: 24px;
+            margin-bottom: 25px;   
+        }
     }
     &_button{
         position: absolute;
@@ -26,14 +59,26 @@
         background-color: rgba($white, 0.07);
         border-radius: 50%;
         box-shadow: 0 0 0 25px rgba($white, 0.02);
+        @include breakpoint(medium down) {
+            right: 50%;  
+            width: 64px;
+            height: 64px;
+            box-shadow: none;
+        }
         &::after{
             content: '';
             position: absolute;
-            top: calc(50% - 15px);
-            left: calc(50% - 8px);
+            top: 50%;
+            left: 50%;
+            transform: translate(-45%, -50%);
             border-left: 20px solid $white;
             border-top: 15px solid transparent;
             border-bottom: 15px solid transparent;
+            @include breakpoint(medium down) {
+                border-left-width: 14px;
+                border-top-width: 10px;
+                border-bottom-width: 10px;
+            }
         }
         &.small{
             width: 92px;

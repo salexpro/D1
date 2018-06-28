@@ -1,8 +1,23 @@
 .ecosystem{
     padding: 80px 0 90px;
+    @include breakpoint(medium down) {
+        padding: 40px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 40px 15px 0;
+    }
     &_descr{
-        margin: 40px auto 90px;
+        margin: 40px auto;
         max-width: 520px;
         text-align: center;
+        @include breakpoint(small down) {
+            margin-bottom: 20px;
+        }
+    }
+    &_infographics{
+        @include breakpoint(small down) {
+            max-width: 240px;
+            margin: auto;
+        }
     }
 }

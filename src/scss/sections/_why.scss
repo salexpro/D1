@@ -1,61 +1,152 @@
 .why{
     background-color: $quinary-color;
     padding-top: 80px;
+    @include breakpoint(medium down) {
+        padding: 60px 30px 0;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 0 0;
+    }
     &_descr{
         max-width: 610px;
-        margin: 40px auto 60px;
+        margin: 40px auto 120px;
         text-align: center;
         letter-spacing: 0.1px;
         line-height: 1.71;
+        @include breakpoint(medium down) {
+            font-weight: 300;
+            margin-bottom: 40px;
+            max-width: 330px;
+        }
     }
     &_header{
         color: $white;
         text-align: left;
+        position: absolute;
+        left: 30px;
+        top: -68px;
+        @include breakpoint(medium down) {
+            position: static;
+            margin-bottom: 15px;
+            text-align: center;
+        }
     }
     &_row{
         margin-top: 40px;
-        &:first-child{
-
+        @include breakpoint(large) {
+            &:last-child{
+                .why_header{
+                    display: none;
+                }
+            }
+        }
+        @include breakpoint(medium down) {
+            max-width: 600px;
         }
     }
     &_circle{
-        width: 170px;
-        height: 170px;
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
         border-radius: 50%;
         border: 2px solid #7583a0;
         background-color: rgba(255, 255, 255, 0.05);
         margin-bottom: 25px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        &--crypto {
-            padding: 28px 0;
-            .curr{
-                margin: 0 7px;
-                margin-top: auto;
-                &--xrp {
-                    margin: 0 30px;
-                    margin-bottom: auto;
+        @include breakpoint(medium down) {
+            height: 62px;
+            padding: 0;
+            border-radius: $global-radius $global-radius 0 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &_container{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            @include breakpoint(medium down) {
+                position: static;
+                width: auto;
+                flex: 0 0 50px;
+                height: auto;
+                margin-right: 15px;
+                flex-wrap: nowrap;
+                img{
+                    width: 50px;
                 }
+            }
+            &--crypto {
+                .curr {
+                    margin: 0 7px;
+                    margin-bottom: 13%;
+                    @include breakpoint(medium down) {
+                        margin: 0 4px;
+                    }
+                    &--xrp {
+                        margin: 0 30px;
+                        margin-top: auto;
+                        @include breakpoint(medium down) {
+                            margin: 0 4px;
+                        }
+                    }
+                }
+            }
+        }
+        &_header{
+            position: absolute;
+            top: calc(100% + 30px);
+            left: 0;
+            width: 100%;
+            @include breakpoint(medium down) {
+                position: static;
+                width: auto;
             }
         }
     }
     &_columns{
         display: flex;
+        @include breakpoint(medium down) {
+            flex-direction: column;
+            border: 2px solid #7583a0;
+            border-top: 0;
+            border-radius: 0 0 $global-radius $global-radius;
+        }
     }
     &_strengths{
+        position: relative;
         flex: 1 1 47%;
         padding: 30px;
         border-radius: $global-radius 0 0 $global-radius;
         background-color: rgba(255, 255, 255, 0.1);
         padding-bottom: 50px;
+        @include breakpoint(medium down) {
+            border-radius: 0;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .why_header{
+            left: 0;
+        }
     }
     &_limitations {
+        position: relative;
         flex: 1 1 53%;
         padding: 30px;
         border-radius: 0 $global-radius $global-radius 0;
         background-color: rgba(255, 255, 255, 0.05);
         padding-bottom: 105px;
+        @include breakpoint(medium down) {
+            border-radius: 0;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
     }
 }

@@ -15,6 +15,8 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.tabs.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min';
+@codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.offcanvas.min';
+@codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.interchange.min';
 @codekit-prepend quiet '../../node_modules/owl.carousel/dist/owl.carousel.min';
 */
 
@@ -22,48 +24,117 @@ $(document).foundation();
 
 $('.news_items').owlCarousel({
     nav: true,
-    items: 5,
-    autoWidth: true,
-    margin: 118,
-    navText: ['', '']
+    navText: ['', ''],
+    responsive: {
+        0: {
+            items: 2
+        },
+        640: {
+            items: 3
+        },
+        1024:{
+            items: 4
+        },
+        1170: {
+            margin: 118,
+            autoWidth: true
+        }
+    }
 });
+
+$('.matrix_picker_item').click(function() {
+    if (!Foundation.MediaQuery.atLeast('large')) {
+        $('#diamond_type').foundation('open');
+    }
+})
 
 $('.matrix_slider').on('moved.zf.slider', function() {
     let val = $('[name="carats"]', this).val();
     $('.slider_step').removeClass('is_active');
     $('.slider_step[data-val="' + val + '"').addClass('is_active');
 });
+    
+$('#diamond_type').on('opened.zf.offcanvas', () => {
+    const selected = $('[name="diamonds"]:checked').attr('id');
+    $('.matrix_picker_mobile_item').removeClass('is_active');
+    $('.matrix_picker_mobile_item[for="' + selected + '"]').addClass('is_active');
+});
+
+$('.matrix_picker_mobile_item').click(function() {
+    $('.matrix_picker_mobile_item').removeClass('is_active');
+    $(this).addClass('is_active');
+});
 
 $('.advisors_items').owlCarousel({
     nav: true,
     items: 1,
+    margin: 20,
     navText: ['', '']
 });
 
 $('.roadmap_items').owlCarousel({
     nav: true,
-    items: 3,
-    navText: ['', '']
+    navText: ['', ''],
+    responsive: {
+        0: {
+            items: 1
+        },
+        640: {
+            items: 2
+        },
+        1024:{
+            items: 3
+        }
+    }
 });
 
 $('.publications_items').owlCarousel({
     nav: true,
-    items: 4,
-    navText: ['', '']
+    navText: ['', ''],
+    responsive: {
+        0: {
+            items: 1
+        },
+        640: {
+            items: 2
+        },
+        1024: {
+            items: 4
+        }
+    }
 });
 
 $('.partners_items').owlCarousel({
     nav: true,
-    items: 4,
     navText: ['', ''],
-    autoWidth: true,
-    margin: 183
+    responsive: {
+        0: {
+            items: 2
+        },
+        640: {
+            items: 4
+        },
+        1170: {
+            margin: 183,
+            autoWidth: true
+        }
+    }
 });
 
 $('.videos_items').owlCarousel({
     nav: true,
-    items: 3,
-    navText: ['', '']
+    navText: ['', ''],
+    responsive: {
+        0: {
+            items: 1
+        },
+        640: {
+            items: 2
+        },
+        1024: {
+            items: 3
+        }
+    }
 });
 
 // Tooltip
@@ -111,8 +182,24 @@ const matix_tip_content = `
 new Foundation.Tooltip($('.matrix_tooltip'), {
     tipText: matix_tip_content,
     position: 'bottom',
-    allowHtml: true,
-    clickOpen: true
+    allowHtml: true
+});
+
+// Native select for tabs
+$('select[data-target]').change(function(){
+    const parent = $(this).data('target');
+    const tab = $(this).val();
+    $(parent).foundation('selectTab', tab);
+});
+
+$(window).on('changed.zf.mediaquery', () => {
+    if (!Foundation.MediaQuery.atLeast('large')) {
+        $('.tabs').each(function() {
+            const id = $(this).attr('id');
+            const selected = $('.is-active a', this).attr('href').substr(1);
+            $('select[data-target="#' + id + '"] [value="' + selected + '"]').prop('selected', true);
+        })
+    }
 });
 
 // Forms

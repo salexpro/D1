@@ -3,9 +3,26 @@
     font-size: 13px;
     font-weight: 500;
     line-height: 1.69;
+    @include breakpoint(medium down) {
+        position: relative;
+        padding: 60px 30px 188px;
+    }
+    @include breakpoint(small down) {
+        padding: 40px 0 165px;
+    }
     .column{
         display: flex;
         flex-direction: column;
+        @include breakpoint(large only) {
+            &:last-child{
+                text-align: right;
+                .footer{
+                    &_header{
+                        text-align: right;
+                    }
+                }
+            }
+        }
     }
     &_header, .social_header{
         line-height: 1.69;
@@ -13,14 +30,70 @@
     }
     &_content{
         margin-bottom: 118px;
-        .button + .button{
-            float: right;
+        @include breakpoint(large down) {
+            margin-bottom: 62px;
+        }
+        @include breakpoint(medium down) {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .button{
+            @include breakpoint(large down) {
+                display: block;
+                float: right;
+                clear: both;
+            }
+            @include breakpoint(medium down) {
+                display: inline-flex;
+                float: none;
+                margin: 0 15px;
+            }
+            @include breakpoint(small down) {
+                min-width: 150px;
+                margin-left: 0;
+            }
+            @include breakpoint(350 down) {
+                min-width: 136px;
+            }
+            ~ .button {
+                float: right;
+                @include breakpoint(large down) {
+                    margin-top: 10px;
+                }
+                @include breakpoint(medium down) {
+                    float: none;
+                    margin: 0 15px;
+                }
+                @include breakpoint(small down) {
+                    margin: 0;
+                }
+            }
         }
     }
     &_bottom{
         margin-top: auto;
+        @include breakpoint(medium down) {
+            position: absolute;
+            bottom: 56px;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            font-size: 14px;
+        }
+        @include breakpoint(small down) {
+            bottom: 36px;
+            font-size: 13px;
+        }
         .menu{
             float: right;
+            @include breakpoint(medium down) {
+                float: none;
+                margin-bottom: 64px;
+                justify-content: center;
+            }
+            @include breakpoint(small down) {
+                margin-bottom: 60px;
+            }
             a{
                 color: rgba($white, 0.5);
                 line-height: 1.69;

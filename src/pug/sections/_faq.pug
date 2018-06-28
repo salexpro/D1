@@ -32,9 +32,15 @@ section#faq.faq
             h2 Frequently asked questions
             p.faq_descr
                 | We've been covered by some of the big
+                | 
                 br
+                | 
                 | cryptocurrency/blockchain news websites.
-            ul#faq.tabs(data-tabs)
+            select(data-target="#faq_tabs")
+                option(value="faq_usa") USA
+                option(value="faq_china") China
+                option(value="faq_korea") Korea
+            ul#faq_tabs.tabs(data-tabs)
                 li.tabs-title.is-active
                     a(href='#faq_usa', aria-selected='true') USA
                 li.tabs-title
@@ -42,11 +48,11 @@ section#faq.faq
                 li.tabs-title
                     a(data-tabs-target='faq_korea', href='#faq_korea') Korea
             .faq_content
-            .tabs-content(data-tabs-content='faq')
+            .tabs-content(data-tabs-content='faq_tabs')
                 - const faq = ['usa', 'china', 'korea']
                 each quest, idx in faq
                     .tabs-panel(id='faq_' + quest class=!idx ? 'is-active' : '')
-                        ul.accordion(data-accordion)
+                        ul.accordion(data-accordion data-allow-all-closed='true')
                             each q, i in eval('faq_' + quest)
                                 li.accordion-item(data-accordion-item class=(i == 0) ? 'is-active' : '')
                                     a.accordion-title(href='#')

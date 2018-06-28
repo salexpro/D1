@@ -1,8 +1,21 @@
 .ratings{
     background-color: $quaternary-color;
     padding: 80px 0;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 0;
+    }
     &_inner{
         margin-top: 60px;
+        @include breakpoint(medium down) {
+            margin-bottom: -40px;
+        }
+        @include breakpoint(small down) {
+            margin-top: 40px;
+            margin-bottom: -20px;
+        }
     }
     &_item{
         height: 130px;
@@ -16,6 +29,14 @@
         text-align: center;
         position: relative;
         padding: 20px;
+        @include breakpoint(medium down) {
+            margin-bottom: 40px;
+        }
+        @include breakpoint(small down) {
+            max-width: 170px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
         &_total{
             position: absolute;
             top: 7px;

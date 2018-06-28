@@ -1,8 +1,17 @@
 .documents{
     background-color: $tertiary-color;
     padding: 80px 0;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
     &_content{
         margin-top: 60px;
+        @include breakpoint(medium down) {
+            margin-bottom: -25px;
+        }
+        @include breakpoint(small down) {
+            margin-top: 40px;
+        }
     }
     &_item.button{
         background-color: rgba($white, 0.1);
@@ -10,6 +19,12 @@
         width: 100%;
         padding-right: 22px;
         padding-left: 22px;
+        @include breakpoint(medium down) {
+            max-width: 330px;
+            margin: auto;
+            margin-bottom: 25px;
+            display: flex;
+        }
         &:hover, &:focus{
             background-color: rgba($white, 0.08);
         }

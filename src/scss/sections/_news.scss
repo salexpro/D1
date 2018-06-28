@@ -1,7 +1,30 @@
 .news{
     padding: 80px 0;
     background-color: $quinary-color;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 0;
+    }
     &_items{
         margin-top: 60px;
+        @include breakpoint(small down) {
+            margin-top: 40px;
+        }
+    }
+    &_item{
+        &--currency_buzzer{
+            margin-bottom: -4px;
+        }
+        img{
+            margin: auto;
+            @include breakpoint(large down) {
+                max-width: 150px !important;
+            }
+            @include breakpoint(small down) {
+                max-width: 80% !important;
+            }
+        }
     }
 }

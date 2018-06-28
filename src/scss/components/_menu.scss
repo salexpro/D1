@@ -2,9 +2,44 @@
     &--head.simple{
         font-size: 12px;
         margin-left: -30px;
+        @include breakpoint(large down){
+            max-width: 405px;
+            float: right;
+        }
         li{
             &:nth-last-child(2){
                 margin-left: auto;
+            }
+        }
+        a{
+            line-height: 1.4;
+        }
+    }
+    &.mobile{
+        flex-direction: column;
+        &:not(:only-child){
+            border-top: 1px solid rgba($primary-color, 0.3);
+            border-bottom: 1px solid rgba($primary-color, 0.3);
+        }
+        li{
+            + li {
+                border-top: 1px solid rgba($primary-color, 0.3);
+            }
+        }
+        a{
+            height: 60px;
+            font-size: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            @include breakpoint(small down) {
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 1.4px;
             }
         }
     }

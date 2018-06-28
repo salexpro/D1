@@ -1,6 +1,9 @@
 .tabs{
     display: flex;
     border-radius: 25px;
+    @include breakpoint(medium down) {
+        display: none;
+    }
     &-title{
         width: 100%;
         > a{

@@ -40,7 +40,17 @@
                 display: flex;
                 justify-content: space-between;
                 margin: 60px auto 0;
+                @include breakpoint(medium down) {
+                    height: 6px;
+                    margin-top: 40px;
+                }
+                @include breakpoint(small down) {
+                    height: 22px;
+                }
                 button{
+                    @include breakpoint(medium down) {
+                        display: none;
+                    }
                     &.owl{
                         &-prev {
                             @extend %owl_button;
@@ -54,11 +64,29 @@
             }
             &-dots {
                 position: absolute;
-                left: calc(50% - 135px);
+                left: 50%;
+                transform: translateX(-50%);
                 bottom: 22px;
                 width: 270px;
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
+                @include breakpoint(medium down) {
+                    bottom: 0;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        bottom: 3px;
+                        width: 332px;
+                        height: 2px;
+                        background-image: linear-gradient(to right, $body-background 0%, #c3c3c3 17%, $white 71%, #848890 83%, $body-background 100%);
+                        opacity: 0.07;
+                        z-index: -1;
+                    }
+                }
+                @include breakpoint(small down) {
+                    width: 100%;
+                }
             }
         }
         button {
@@ -69,6 +97,11 @@
                 border-radius: 50%;
                 background-color: rgba($white, 0.2);
                 transition: 300ms;
+                margin-top: 10px;
+                @include breakpoint(medium down) {
+                    width: 8px;
+                    height: 8px;
+                }
                 &.active{
                     background: $white;
                 }

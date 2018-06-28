@@ -1,20 +1,48 @@
 .reserve{
     background-color: #101a2d;
     padding: 53px 0 105px;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 15px;
+    }
     &_video{
         position: relative;
-        height: 570px;
+        height: 0;
+        padding-bottom: 100%;
         border-radius: 50%;
-        background-image: url(../assets/img/reserves/bg_video.png);
-        margin-bottom: -260px;
+        background-image: url(../assets/img/reserves/bg_video.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: -45%;
         z-index: 2;
+        @include breakpoint(medium down) {
+            padding-bottom: 56%;
+            margin: 0;
+            border-radius: $global-radius;
+        }
     }
     &_content{
         margin-top: 60px;
+        @include breakpoint(small down) {
+            margin-top: 40px;
+        }
+        > .column{
+            &:nth-last-child(-n+2){
+                height: 0;
+                padding-bottom: 21.4%;
+                position: relative;
+                @include breakpoint(medium down) {
+                    padding-bottom: 0;
+                    height: auto;
+                }
+            }
+        }
     }
     &_item{
         position: relative;
-        height: 260px;
+        height: 83%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -23,25 +51,53 @@
         z-index: 1;
         cursor: pointer;
         outline: none;
+        @include breakpoint(medium down) {
+            max-width: 300px;
+            height: 300px;
+            margin: auto;
+            margin-top: 40px;
+        }
+        @include breakpoint(small down) {
+            margin-top: 20px;
+        }
         &::after{
             content: '';
             position: absolute;
             top: 0;
-            width: 426px;
+            width: 158%;
             height: 100%;
             background-repeat: no-repeat;
             background-size: 100% auto;
             z-index: -1;
+            @include breakpoint(medium down) {
+                width: 100%;
+                background-size: auto 100%;
+                border-radius: $global-radius;
+            }
         }
         $blocks: diamonds, d1coins, carats, usd;
         @each $item in $blocks {
-            &--#{$item}::after {
-                @if(index($blocks, $item) % 2 == 1) {
-                    left: 0;
-                } @else {
-                    right: 0;
+            &--#{$item}{
+                @if($item=='carats' or $item=='usd') {
+                    height: 102%;
+                    position: absolute;
+                    width: calc(100% - 2.142rem);
+                    @include breakpoint(medium down) {
+                        position: relative;
+                        height: 300px;
+                        width: auto;
+                    }
                 }
-                background-image: url(../assets/img/reserves/#{$item}.png);
+                &::after {
+                    @if(index($blocks, $item) % 2==1) {
+                        left: 0;
+                    }
+                    @else {
+                        right: 0;
+                        background-position: center right;
+                    }
+                    background-image: url(../assets/img/reserves/#{$item}.png);
+                }
             }
         }
         &_num{

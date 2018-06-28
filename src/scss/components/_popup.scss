@@ -39,7 +39,6 @@
         }
     }
     &--video{
-        min-height: 640px;
         padding: 30px;
     }
     &--success{
@@ -207,6 +206,15 @@
         background-position: center;
         border-radius: 50%;
         transition: 300ms;
+        &--simple{
+            background-color: transparent !important;
+            background-size: 18px;
+            top: 10px;
+            right: 25px;
+            @include breakpoint(small down) {
+                right: 10px;
+            }
+        }
         &:hover,&:focus{
             background-color: rgba($primary-color, 1);
         }

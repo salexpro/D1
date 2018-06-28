@@ -1,6 +1,12 @@
 .people{
     padding: 80px 0;
     background-color: $senary-color;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 15px 40px;   
+    }
     & + &{
         padding-top: 0;
     }
@@ -12,6 +18,19 @@
         line-height: 1.56;
         letter-spacing: 0.02px;
         color: rgba($white, 0.8);
+        @include breakpoint(medium down) {
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.88;
+        }
+        @include breakpoint(small down) {
+            margin-top: 25px;
+            font-size: 16px;
+            br{
+                display: none;
+            }
+        }
     }
     &_item{
         padding: 30px 20px 34px;
@@ -21,6 +40,12 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        @include breakpoint(medium down) {
+            margin: auto;
+            margin-top: 40px;   
+            height: calc(100% - 40px);
+            max-width: 320px;
+        }
         &[data-open]{
             outline: none;
             cursor: pointer;

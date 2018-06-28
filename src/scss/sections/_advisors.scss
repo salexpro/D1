@@ -2,6 +2,13 @@
     padding: 80px 0;
     background-image: url(../assets/img/bg_advisors.jpg);
     background-size: cover;
+    background-position: center;
+    @include breakpoint(medium down) {
+        padding: 60px 30px;
+    }
+    @include breakpoint(small down) {
+        padding: 60px 15px 40px;
+    }
     &_items{
         margin-top: 60px;
     }
@@ -13,18 +20,38 @@
             border-radius: 50%;
             overflow: hidden;
             margin: 0 auto 60px;
+            background-color: $black;
+            @include breakpoint(medium down) {
+                margin-bottom: 40px;
+            }
         }
         &_quote{
             font-size: 24px;
             line-height: 1.58;
             letter-spacing: 0.57px;
             margin-bottom: 60px;
+            @include breakpoint(medium down) {
+                font-size: 16px;
+                line-height: 1.71;
+                letter-spacing: 0.38px;
+                font-style: italic;
+                max-width: 330px;
+                margin: auto;
+                margin-bottom: 40px;
+            }
         }
         &_author{
             font-size: 18px;
             font-weight: 500;
             line-height: 2.22;
             letter-spacing: 0.57px;
+            @include breakpoint(medium down) {
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 2.45;
+                text-transform: uppercase;
+                letter-spacing: 3.43px;
+            }
         }
     }
 }

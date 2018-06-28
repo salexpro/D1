@@ -1,16 +1,17 @@
 mixin menu(mod)
-    ul.menu(class=mod data-smooth-scroll)
-        li
-            a(href="#documents") Our documents                                 
-        li
-            a(href="#advisors") Team and Advisors
-        li
-            a(href="#media") Blog & Media
-        li
-            a(href="#faq") FAQ
-        li
-            a(href="#contacts") Contacts
-        li
-            a(href="#") White Paper
-        li
-            a(href="#") Token Sale Terms
+    ul.menu(class=mod)
+        li(data-close='')
+            a(href="#documents" data-smooth-scroll) Our documents
+        li(data-close='')
+            a(href="#advisors" data-smooth-scroll) Team and Advisors
+        li(data-close='')
+            a(href="#media" data-smooth-scroll) Blog & Media
+        li(data-close='')
+            a(href="#faq" data-smooth-scroll) FAQ
+        li(data-close='')
+            a(href="#contacts" data-smooth-scroll) Contacts
+        if mod != 'mobile'
+            li
+                a(href="#") White Paper
+            li
+                a(href="#") Token Sale Terms

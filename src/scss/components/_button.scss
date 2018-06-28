@@ -19,15 +19,23 @@
             }
         }
     }
-    &.large{
+    &.large, &.wide{
         max-width: 100%;
         width: 100%;
+        @include breakpoint(medium down) {
+            font-size: 12px;
+            padding: 1.6em 1.6em 1.4em;
+        }
     }
     &.huge{
         font-size: 12px;
         max-width: 270px;
         width: 100%;
         min-height: 80px;
+        @include breakpoint(medium down) {
+            min-height: auto;
+            padding: 25px;
+        }
     }
     &.round{
         border-radius: 23px;

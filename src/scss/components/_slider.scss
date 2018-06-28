@@ -1,6 +1,15 @@
 .slider {
     margin-top: 44px;
     margin-bottom: 11px;
+    background: linear-gradient(to right, rgba($white, 0.25) 26.7%, 
+                transparent 26.7%, 
+                rgba($white, 0.25) 27%,
+                rgba($white, 0.25) 50%,
+                transparent 50%, 
+                rgba($white, 0.25) 50.5%, 
+                rgba($white, 0.25) 73.4%, 
+                transparent 73.4%,
+                rgba($white, 0.25) 73.7%);
     &_steps {
         display: flex;
         justify-content: space-between;
@@ -14,6 +23,7 @@
         width: 100%;
     }
     &_step {
+        position: relative;
         width: 29px;
         text-align: center;
         transition: 300ms;
@@ -22,6 +32,12 @@
         }
         &.is_active {
             color: $cyan;
+        }
+        ~ .slider_step{
+            &::after{
+                content: '';
+                position: absolute;
+            }
         }
     }
     &-handle {

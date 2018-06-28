@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="http://d1.salex.pro/android-chrome-256x256.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="./css/app.css?ckcachebust=e4178817d7659de1dc85ceda208df746">
+    <link rel="stylesheet" href="./css/app.css?ckcachebust=9969773bd06e346904359a97e1370d85">
   </head>
   <body>
     <svg style="display:none">
@@ -173,36 +173,45 @@
       <header class="head">
         <div class="row align-middle">
           <div class="column large-1 head_logo"><a href="/"><img src="./assets/img/logo.png" alt="D1"></a></div>
-          <div class="column">
-            <nav class="nav">
-              <ul class="menu simple menu--head" data-smooth-scroll="data-smooth-scroll">
-                <li><a href="#documents">Our documents                                 </a></li>
-                <li><a href="#advisors">Team and Advisors</a></li>
-                <li><a href="#media">Blog & Media</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-                <li><a href="#">White Paper</a></li>
-                <li><a href="#">Token Sale Terms</a></li>
-              </ul>
-            </nav>
-          </div>
+          <nav class="column head_nav">
+            <ul class="menu simple menu--head">
+              <li data-close=""><a href="#documents" data-smooth-scroll="data-smooth-scroll">Our documents</a></li>
+              <li data-close=""><a href="#advisors" data-smooth-scroll="data-smooth-scroll">Team and Advisors</a></li>
+              <li data-close=""><a href="#media" data-smooth-scroll="data-smooth-scroll">Blog & Media</a></li>
+              <li data-close=""><a href="#faq" data-smooth-scroll="data-smooth-scroll">FAQ</a></li>
+              <li data-close=""><a href="#contacts" data-smooth-scroll="data-smooth-scroll">Contacts</a></li>
+              <li><a href="#">White Paper</a></li>
+              <li><a href="#">Token Sale Terms</a></li>
+            </ul>
+          </nav>
           <div class="column shrink head_buttons"><a class="button icon" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewbox="0 0 17 14">
                     <use fill="#fff" xlink:href="#telegram"></use>
-                  </svg>Join Telegram</a>
-            <button class="button secondary">Sign In</button>
+                  </svg>Join Telegram</a><a class="button secondary" href="#">Sign In</a>
             <button class="button gray icon" data-toggle="language">EN
                   <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewbox="0 0 8 6">
                     <use fill="#fff" xlink:href="#arrow"></use>
                   </svg>
             </button>
           </div>
+          <div class="column shrink head_hamb">
+            <button class="head_hamb_btn" data-open="menu">
+              <div class="head_hamb_lines"></div>
+            </button>
+          </div>
         </div>
       </header>
       <section class="top">
         <div class="row align-justify top_inner">
-          <div class="column large-5 top_col">
-            <h1 class="top_header">The first<br>cryptocurrency backed by <br>investment grade diamonds</h1>
+          <div class="column small-12 large-6 top_col">
+            <h1 class="top_header">
+              The first
+               <br> 
+              cryptocurrency backed by
+               <br> 
+              investment grade diamonds
+            </h1>
+            <p class="top_descr">D1 coin tokensale is live now</p><a class="button large" href="#">Read White Paper</a>
             <div class="social social--head">
               <h5 class="social_header">Follow us:
               </h5>
@@ -246,7 +255,7 @@
               </ul>
             </div>
           </div>
-          <div class="column large-4 top_col">
+          <div class="column small-12 large-6 top_col">
             <div class="countdown">
               <div class="countdown_top">
                 <div class="countdown_top_left">
@@ -308,15 +317,15 @@
       <section class="documents" id="documents">
         <h2 class="row column">Read our documents</h2>
         <div class="row align-center documents_content">
-          <div class="column large-3"><a class="button icon documents_item" href="#">
+          <div class="column small-12 large-3"><a class="button icon documents_item" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewbox="0 0 20 25">
                     <use fill="#fff" xlink:href="#doc"></use>
                   </svg><span>Whitepaper</span></a></div>
-          <div class="column large-3"><a class="button icon documents_item" href="#">
+          <div class="column small-12 large-3"><a class="button icon documents_item" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewbox="0 0 20 25">
                     <use fill="#fff" xlink:href="#doc"></use>
                   </svg><span>One Pager</span></a></div>
-          <div class="column large-3"><a class="button icon documents_item" href="#">
+          <div class="column small-12 large-3"><a class="button icon documents_item" href="#">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewbox="0 0 20 25">
                     <use fill="#fff" xlink:href="#doc"></use>
                   </svg><span>Presentation</span></a></div>
@@ -325,7 +334,7 @@
       <section class="ratings">
         <h2 class="row column">Ratings</h2>
         <div class="row ratings_inner">
-          <div class="column large-2">
+          <div class="column large-2 medium-4 small-6">
             <div class="ratings_item">
               <div class="ratings_item_total">/5</div><b class="ratings_item_mark"> 4.6</b>
               <div class="ratings_item_stars">
@@ -361,7 +370,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-2">
+          <div class="column large-2 medium-4 small-6">
             <div class="ratings_item">
               <div class="ratings_item_total">/5</div><b class="ratings_item_mark"> 4.9</b>
               <div class="ratings_item_stars">
@@ -397,7 +406,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-2">
+          <div class="column large-2 medium-4 small-6">
             <div class="ratings_item">
               <div class="ratings_item_total">/5</div><b class="ratings_item_mark"> 4.8</b>
               <div class="ratings_item_stars">
@@ -433,7 +442,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-2">
+          <div class="column large-2 medium-4 small-6">
             <div class="ratings_item">
               <div class="ratings_item_total">/5</div><b class="ratings_item_mark"> 4.6</b>
               <div class="ratings_item_stars">
@@ -469,7 +478,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-2">
+          <div class="column large-2 medium-4 small-6">
             <div class="ratings_item">
               <div class="ratings_item_total">/5</div><b class="ratings_item_mark"> 4.8</b>
               <div class="ratings_item_stars">
@@ -505,7 +514,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-2">
+          <div class="column large-2 medium-4 small-6">
             <div class="ratings_item">
               <div class="ratings_item_total">/5</div><b class="ratings_item_mark"> 4.9</b>
               <div class="ratings_item_stars">
@@ -545,31 +554,51 @@
       </section>
       <section class="video">
         <div class="row video_inner">
-          <div class="column large-5 video_container">
-            <h2 class="video_header">D1 coin is the safest and<br>the most beautiful cryptoasset</h2>
+          <div class="column large-5">
+            <h2 class="video_header">
+              D1 coin is the safest and
+               <br> 
+              the most beautiful cryptoasset
+            </h2>
             <ul class="menu vertical inside">
-              <li>D1 Coin is a diamond-backed cryptocurrency,<br>with each D1 coin pegged to the value of a fraction of<br>an authentic, natural diamond</li>
-              <li>D1 coin combines the convenience of digital<br>currencies with the stability of traditional assets.</li>
-              <li>Simple enough to be very useful, complex<br>enough to be very secure</li>
+              <li>
+                D1 Coin is a diamond-backed cryptocurrency,
+                 <br> 
+                with each D1 coin pegged to the value of a fraction of
+                 <br> 
+                an authentic, natural diamond
+              </li>
+              <li>
+                D1 coin combines the convenience of digital
+                 <br> 
+                currencies with the stability of traditional assets.
+              </li>
+              <li>
+                Simple enough to be very useful, complex
+                 <br> 
+                enough to be very secure
+              </li>
             </ul>
           </div>
+          <div class="video_container">
+            <button class="video_button" data-open="reserve_video"></button>
+          </div>
         </div>
-        <button class="video_button"></button>
       </section>
       <section class="news">
         <div class="row column">
           <h2>NEWS</h2>
           <div class="owl-carousel news_items">
-            <div class="news_item"><img src="assets/img/newspapers/financial_times.png" alt="financial_times"></div>
-            <div class="news_item"><img src="assets/img/newspapers/currency_buzzer.png" alt="currency_buzzer"></div>
-            <div class="news_item"><img src="assets/img/newspapers/baidu.png" alt="baidu"></div>
-            <div class="news_item"><img src="assets/img/newspapers/kommersant.png" alt="kommersant"></div>
-            <div class="news_item"><img src="assets/img/newspapers/tass.png" alt="tass"></div>
-            <div class="news_item"><img src="assets/img/newspapers/financial_times.png" alt="financial_times"></div>
-            <div class="news_item"><img src="assets/img/newspapers/currency_buzzer.png" alt="currency_buzzer"></div>
-            <div class="news_item"><img src="assets/img/newspapers/baidu.png" alt="baidu"></div>
-            <div class="news_item"><img src="assets/img/newspapers/kommersant.png" alt="kommersant"></div>
-            <div class="news_item"><img src="assets/img/newspapers/tass.png" alt="tass"></div>
+            <div class="news_item news_item--financial_times"><img src="assets/img/newspapers/financial_times.png" alt="financial_times"></div>
+            <div class="news_item news_item--currency_buzzer"><img src="assets/img/newspapers/currency_buzzer.png" alt="currency_buzzer"></div>
+            <div class="news_item news_item--baidu"><img src="assets/img/newspapers/baidu.png" alt="baidu"></div>
+            <div class="news_item news_item--kommersant"><img src="assets/img/newspapers/kommersant.png" alt="kommersant"></div>
+            <div class="news_item news_item--tass"><img src="assets/img/newspapers/tass.png" alt="tass"></div>
+            <div class="news_item news_item--financial_times"><img src="assets/img/newspapers/financial_times.png" alt="financial_times"></div>
+            <div class="news_item news_item--currency_buzzer"><img src="assets/img/newspapers/currency_buzzer.png" alt="currency_buzzer"></div>
+            <div class="news_item news_item--baidu"><img src="assets/img/newspapers/baidu.png" alt="baidu"></div>
+            <div class="news_item news_item--kommersant"><img src="assets/img/newspapers/kommersant.png" alt="kommersant"></div>
+            <div class="news_item news_item--tass"><img src="assets/img/newspapers/tass.png" alt="tass"></div>
           </div>
         </div>
       </section>
@@ -670,7 +699,7 @@
           <h2>Current Diamond Reserve</h2>
         </div>
         <div class="row align-justify reserve_content">
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12 large-order-1 small-order-2">
             <div class="reserve_item reserve_item--diamonds" data-open="reserve_diamonds">
               <div class="reserve_item_num">1.6<small>k</small>
               </div>
@@ -678,12 +707,12 @@
               </div><a class="reserve_item_link">Learn more</a>
             </div>
           </div>
-          <div class="column large-6">
+          <div class="column large-6 small-12 small-order-1 large-order-2">
             <div class="reserve_video">
               <button class="video_button small" data-open="reserve_video"></button>
             </div>
           </div>
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12 large-order-2 small-order-3">
             <div class="reserve_item reserve_item--d1coins" data-open="reserve_d1coins">
               <div class="reserve_item_num">2<small>m</small>
               </div>
@@ -691,7 +720,7 @@
               </div><a class="reserve_item_link">Learn more</a>
             </div>
           </div>
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12 large-order-3 small-order-4">
             <div class="reserve_item reserve_item--carats" data-open="reserve_carats">
               <div class="reserve_item_num">1.6<small>k</small>
               </div>
@@ -699,7 +728,7 @@
               </div><a class="reserve_item_link">Learn more</a>
             </div>
           </div>
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12 large-order-4 small-order-5">
             <div class="reserve_item reserve_item--usd" data-open="reserve_usd">
               <div class="reserve_item_num">20<small>m</small>
               </div>
@@ -746,7 +775,7 @@
         <div class="row column">
           <h2>D1 coin ecosystem</h2>
           <p class="ecosystem_descr">The ecosystem of D1 Coin has a few main parties, namely Coin Buyers, D1 Mint, D1 Reserve, and Diamond Supplier. The D1 Mint and Diamond Supplier are overseen and appointed by D1 Reserve, which also acts as a custodian by holding the diamond inventory. D1 Mint issues D1 Coins to Coin Buyers, who can purchase and redeem diamonds from D1 Mint. D1 Mint functions as the central party in the D1 ecosystem coordinating the flow of D1 Coins, diamonds, and fiat currency.</p>
-          <div class="ecosystem_infographics"><img src="assets/img/infographics.png" alt="Infographics"></div>
+          <div class="ecosystem_infographics"><img data-interchange="[assets/img/infographics_mobile.png, small], [assets/img/infographics.png, medium]" alt="Infographics"></div>
         </div>
       </section>
       <section class="why">
@@ -754,28 +783,24 @@
           <h2>Why we digitalising diamonds?</h2>
           <p class="why_descr">Because, digitalizing diamonds in the form of D1 Coins brings together complementary strengths of both diamonds and cryptocurrencies, which overcomes the limitations of each asset class.</p>
         </div>
-        <div class="row">
-          <div class="column large-5 large-offset-2">
-            <h3 class="why_header">STRENGTHS</h3>
-          </div>
-          <div class="column large-5">
-            <h3 class="why_header">LIMITATIONS</h3>
-          </div>
-        </div>
         <div class="row why_row">
-          <div class="column large-2">
-            <div class="why_circle"><img src="assets/img/diamonds/diamond.png" alt="Diamond"></div>
-            <h3 class="h2">DIAMONDS</h3>
+          <div class="column large-2 small-12">
+            <div class="why_circle">
+              <div class="why_circle_container"><img src="assets/img/diamonds/diamond.png" alt="Diamond"></div>
+              <h3 class="h2 why_circle_header">DIAMONDS</h3>
+            </div>
           </div>
-          <div class="column large-10">
+          <div class="column large-10 small-12">
             <div class="why_columns">
               <div class="why_strengths">
+                <h3 class="why_header">STRENGTHS</h3>
                 <ul class="menu vertical inside">
                   <li>Strong Store of Wealth: Prices of diamond have been steadily appreciating over the last century</li>
                   <li>Highly desirable: Due to its rarity, diamonds are highly demanded and thus have strong intrinsic value</li>
                 </ul>
               </div>
               <div class="why_limitations">
+                <h3 class="why_header">LIMITATIONS</h3>
                 <ul class="menu vertical inside">
                   <li>Non-fungible: Each diamond is unique; the value of each diamond differs based on individual appraisals. Complexity of diamonds causes purchase and trading of diamonds to be challenging</li>
                   <li>Illiquid: Selling of diamonds by individuals is cumbersome, and often results in a markdown in value</li>
@@ -786,29 +811,32 @@
           </div>
         </div>
         <div class="row why_row">
-          <div class="column large-2">
-            <div class="why_circle why_circle--crypto">
-              <div class="curr curr--xrp">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewbox="0 0 20 22">
-                      <use fill="#fff" xlink:href="#xrp"></use>
-                    </svg>
+          <div class="column large-2 small-12">
+            <div class="why_circle">
+              <div class="why_circle_container why_circle_container--crypto">
+                <div class="curr curr--xrp">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewbox="0 0 20 22">
+                        <use fill="#fff" xlink:href="#xrp"></use>
+                      </svg>
+                </div>
+                <div class="curr curr--eth">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="25" viewbox="0 0 13 25">
+                        <use fill="#fff" xlink:href="#eth"></use>
+                      </svg>
+                </div>
+                <div class="curr curr--btc">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="17" viewbox="0 0 12 17">
+                        <use fill="#fff" xlink:href="#btc"></use>
+                      </svg>
+                </div>
               </div>
-              <div class="curr curr--eth">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="25" viewbox="0 0 13 25">
-                      <use fill="#fff" xlink:href="#eth"></use>
-                    </svg>
-              </div>
-              <div class="curr curr--btc">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="17" viewbox="0 0 12 17">
-                      <use fill="#fff" xlink:href="#btc"></use>
-                    </svg>
-              </div>
+              <h3 class="h2 why_circle_header">CRYPTOS</h3>
             </div>
-            <h3 class="h2">CRYPTOS</h3>
           </div>
-          <div class="column large-10">
+          <div class="column large-10 small-12">
             <div class="why_columns">
               <div class="why_strengths">
+                <h3 class="why_header">STRENGTHS</h3>
                 <ul class="menu vertical inside">
                   <li>Highly divisible: no limit on the number of units per coin</li>
                   <li>Good Medium of Exchange: Transfers are quick, with low transaction fees</li>
@@ -819,6 +847,7 @@
                 </ul>
               </div>
               <div class="why_limitations">
+                <h3 class="why_header">LIMITATIONS</h3>
                 <ul class="menu vertical inside">
                   <li>Non-fungible: Each diamond is unique; the value of each diamond differs based on individual appraisals. Complexity of diamonds causes purchase and trading of diamonds to be challenging</li>
                   <li>Illiquid: Selling of diamonds by individuals is cumbersome, and often results in a markdown in value</li>
@@ -831,11 +860,15 @@
       </section>
       <section class="combo">
         <div class="row column">
-          <h2>We are combining the best OF BOTH WORLDS<br>– DIAMONDS AND CRYPTOCURRENCIES</h2>
+          <h2>
+            We are combining the best OF BOTH WORLDS
+             <br> 
+            – DIAMONDS AND CRYPTOCURRENCIES
+          </h2>
           <p class="combo_descr">The value of D1 Coins are a function of both its fractional value of a diamond and crypto market forces, with the fractional value acting as a price floor.</p>
         </div>
         <div class="row combo_vantage">
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12">
             <div class="combo_item">
               <div class="combo_item_img">
                     <svg xmlns="http://www.w3.org/2000/svg" width="156" height="100" viewbox="0 0 156 100">
@@ -848,7 +881,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12">
             <div class="combo_item">
               <div class="combo_item_img">
                     <svg xmlns="http://www.w3.org/2000/svg" width="116" height="80" viewbox="0 0 116 80">
@@ -861,7 +894,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12">
             <div class="combo_item">
               <div class="combo_item_img">
                     <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewbox="0 0 92 92">
@@ -874,7 +907,7 @@
               </div>
             </div>
           </div>
-          <div class="column large-3">
+          <div class="column large-3 medium-6 small-12">
             <div class="combo_item">
               <div class="combo_item_img">
                     <svg xmlns="http://www.w3.org/2000/svg" width="112" height="96" viewbox="0 0 112 96">
@@ -895,7 +928,7 @@
             <h2>4 use cases of D1 coin</h2>
             <p class="cases_descr">The value of D1 Coins are a function of both its fractional value of a diamond and crypto market forces, with the fractional value acting as a price floor.</p>
           </div>
-          <div class="column large-6">
+          <div class="column large-6 small-12">
             <h3 class="cases_header">NEW CRYPTO USERS</h3>
                   <div class="cases_item">
                     <div class="cases_item_img">
@@ -924,7 +957,7 @@
                     </div>
                   </div>
           </div>
-          <div class="column large-6">
+          <div class="column large-6 small-12">
             <h3 class="cases_header">CURRENT CRYPTO USERS</h3>
                   <div class="cases_item">
                     <div class="cases_item_img">
@@ -958,10 +991,16 @@
       <section class="people" id="advisors">
         <div class="row column">
           <h2>Advisors</h2>
-          <p class="people_descr">We have an astonishing advisory board with the people<br>who are expert in various fields such as Fintech, Blokchain and Legal<br>who will be helping us in the development </p>
+          <p class="people_descr">
+            We have an astonishing advisory board with the people
+             <br> 
+            who are expert in various fields such as Fintech, Blokchain and Legal
+             <br> 
+            who will be helping us in the development 
+          </p>
         </div>
         <div class="row">
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--sandeep">
                     <div class="people_item_photo"><img src="assets/img/people/sandeep.png" alt="Sandeep Kothari"></div>
                     <h3 class="people_item_name">Sandeep Kothari
@@ -974,7 +1013,7 @@
                             </svg></a></div>
                   </div>
                 </div>
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--alexei">
                     <div class="people_item_photo"><img src="assets/img/people/alexei.png" alt="Alexei Chekunkov"></div>
                     <h3 class="people_item_name">Alexei Chekunkov
@@ -987,7 +1026,7 @@
                             </svg></a></div>
                   </div>
                 </div>
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--thomas">
                     <div class="people_item_photo"><img src="assets/img/people/thomas.png" alt="Thomas Borer"></div>
                     <h3 class="people_item_name">Thomas Borer
@@ -1000,7 +1039,7 @@
                             </svg></a></div>
                   </div>
                 </div>
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--yobie">
                     <div class="people_item_photo"><img src="assets/img/people/yobie.png" alt="Yobie Benjamin"></div>
                     <h3 class="people_item_name">Yobie Benjamin
@@ -1021,12 +1060,12 @@
           <p class="people_descr">With our team members stemming from diverse fields like<br>Digital Marketing, Software Development, Blockchain/Cryptography,<br>we have achieved a competitive market position</p>
         </div>
         <div class="row">
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--hogi" data-open="member" data-bio="Hogi founded Abacus Capital in 1995 and is currently the managing director overseeing all investment and advisory activities. Abacus Capital is an investment, asset management and advisory group headquartered in Singapore with operations in Indonesia and affiliates in Southeast Asia.&lt;br&gt;&lt;br&gt;Prior to Abacus Capital, Hogi was formerly the Managing Director at Bankers Trust Company in Singapore where he established and managed its corporate finance, risk management and investment management businesses for Southeast Asia. While in Singapore, Hogi conceived and ran the Bankers Trust Regional Currency Funds and Global Guaranteed Funds. Before moving to Singapore, Hogi was based in Bankers Trust Company's Hong Kong office where he established its Capital Markets Division for Southeast Asia. Hogi has been a member of the Investment Panel of The Enterprise Challenge, a venture fund backed by the Singapore Prime Minister's Office; a member of the Board of Directors of the Singapore Civil Service College; and a member of the Board of Directors of the Singapore National Library Board.&lt;br&gt;&lt;br&gt;Hogi graduated Magna cum laude from Yale University in 1985 with a Bachelor of Arts degree in East Asian Studies. He studied at the Beijing Foreign Languages Institute and Fudan University in Shanghai, and holds the Grand Diplôme from La Varenne Ecole de Cuisine in Paris. In addition, he holds the Diplôme Universitaire d'Aptitude à la Dégustation des vins from the University of Bordeaux.">
                     <div class="people_item_photo"><img src="assets/img/people/hogi.png" alt="Hogi Hyun"></div>
                     <h3 class="people_item_name">Hogi Hyun
                     </h3>
-                    <p class="people_item_info">Director
+                    <p class="people_item_info">D1 Fonder director
                     </p>
                     <div class="people_item_social"><a href="https://www.linkedin.com/in/hogi-hyun-883105/" target="_blank"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 13 13">
@@ -1034,12 +1073,12 @@
                             </svg></a></div>
                   </div>
                 </div>
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--jeff" data-open="member" data-bio="Jeff is a Co-Founder of Curvegrid. Previously, Jeff spent six years at Goldman Sachs as a Vice President and global product owner of block and object storage. Prior to that, Jeff was a technology consultant and customer engineer at EMC. He graduated from the University of Waterloo with a degree in Computer Engineering.&lt;br&gt;&lt;br&gt;Curvegrid is a blockchain tooling company based in Tokyo, Japan, providing technology services for the Diamundi project.">
                     <div class="people_item_photo"><img src="assets/img/people/jeff.png" alt="Jeff Wentworth"></div>
                     <h3 class="people_item_name">Jeff Wentworth
                     </h3>
-                    <p class="people_item_info">Technical Advisor
+                    <p class="people_item_info">D1 technical director
                     </p>
                     <div class="people_item_social"><a href="https://www.linkedin.com/in/wentworth/" target="_blank"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 13 13">
@@ -1047,12 +1086,12 @@
                             </svg></a></div>
                   </div>
                 </div>
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--bill" data-open="member" data-bio="Bill is a seasoned entrepreneur with more than 15 years of experience in the technology industry. He is currently the operations director at Ledgeris, a new partnership focused on blockchain technology. Ledgeris helps companies refine their blockchain business strategy and secure funding via ICO, and is a subsidiary of Iterate. Founded by Bill in 1999, Iterate is a specialist in Internet video webcasting solutions and services, based in Singapore.&lt;br&gt;&lt;br&gt;Bill holds a certificate in Blockchain for Technical Executives and Analysts from B9Lab Academy in the UK and has spoken at various blockchain events. Bill has been active in the IT scene in Singapore for more than 20 years, was an early Bitcoin investor and most recently served as operations director for fintech startup KYC Chain, including writing their ICO whitepaper. KYC Chain is a company based in Hong Kong, which uses distributed ledger technology to allow users to manage their digital identity securely.">
                     <div class="people_item_photo"><img src="assets/img/people/bill.png" alt="Bill Claxton"></div>
                     <h3 class="people_item_name">Bill Claxton
                     </h3>
-                    <p class="people_item_info">Operations Director
+                    <p class="people_item_info">D1 operations director
                     </p>
                     <div class="people_item_social"><a href="https://www.linkedin.com/in/wmclaxton/" target="_blank"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 13 13">
@@ -1060,12 +1099,12 @@
                             </svg></a></div>
                   </div>
                 </div>
-                <div class="column large-3">
+                <div class="column large-3 medium-6 small-12">
                   <div class="people_item people_item--william" data-open="member" data-bio="William is a Co-Founder of Curvegrid. Previously, William was the Chief Technology Officer of Gilt Japan, after joining in New York City as an early employee. William helped grow Gilt from its first order to become one of the leading ecommerce sites. He graduated from the University of Waterloo with a degree in Computer Science.&lt;br&gt;&lt;br&gt;Curvegrid is a blockchain tooling company based in Tokyo, Japan, providing technology services for the Diamundi project.">
                     <div class="people_item_photo"><img src="assets/img/people/william.png" alt="William Metcalfe"></div>
                     <h3 class="people_item_name">William Metcalfe
                     </h3>
-                    <p class="people_item_info">Technical Advisor
+                    <p class="people_item_info">D1 technical director
                     </p>
                     <div class="people_item_social"><a href="https://www.linkedin.com/in/wmetcalfe/" target="_blank"> 
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 13 13">
@@ -1155,10 +1194,20 @@
       <section class="publications" id="media">
         <div class="row column">
           <h2>Publications</h2>
-          <p class="publications_descr">We've been covered by some of the big<br>cryptocurrency/blockchain news websites.</p>
+          <p class="publications_descr">
+            We've been covered by some of the big
+             <br> 
+            cryptocurrency/blockchain news websites.
+          </p>
         </div>
         <div class="row align-center">
           <div class="column large-6">
+            <select data-target="#publications">
+              <option value="publ_usa">USA</option>
+              <option value="publ_china">China</option>
+              <option value="publ_korea">Korea</option>
+              <option value="publ_uae">UAE</option>
+            </select>
             <ul class="tabs" id="publications" data-tabs>
               <li class="tabs-title is-active"><a href="#publ_usa" aria-selected="true">USA</a></li>
               <li class="tabs-title"><a data-tabs-target="publ_china" href="#publ_china">China</a></li>
@@ -1669,7 +1718,7 @@
       <section class="partners">
         <div class="row align-center">
           <h2 class="column small-12">Partners</h2>
-          <div class="column large-10">
+          <div class="column small-12 xlarge-10">
             <div class="owl-carousel partners_items">
               <div class="partners_item"><img src="assets/img/partners/malca-amit.png" alt="malca-amit"></div>
               <div class="partners_item"><img src="assets/img/partners/kristall.png" alt="kristall"></div>
@@ -1687,16 +1736,25 @@
         <div class="row align-center">
           <div class="column large-8">
             <h2>Frequently asked questions</h2>
-            <p class="faq_descr">We've been covered by some of the big<br>cryptocurrency/blockchain news websites.</p>
-            <ul class="tabs" id="faq" data-tabs>
+            <p class="faq_descr">
+              We've been covered by some of the big
+               <br> 
+              cryptocurrency/blockchain news websites.
+            </p>
+            <select data-target="#faq_tabs">
+              <option value="faq_usa">USA</option>
+              <option value="faq_china">China</option>
+              <option value="faq_korea">Korea</option>
+            </select>
+            <ul class="tabs" id="faq_tabs" data-tabs>
               <li class="tabs-title is-active"><a href="#faq_usa" aria-selected="true">USA</a></li>
               <li class="tabs-title"><a data-tabs-target="faq_china" href="#faq_china">China</a></li>
               <li class="tabs-title"><a data-tabs-target="faq_korea" href="#faq_korea">Korea</a></li>
             </ul>
             <div class="faq_content"></div>
-            <div class="tabs-content" data-tabs-content="faq">
+            <div class="tabs-content" data-tabs-content="faq_tabs">
               <div class="tabs-panel is-active" id="faq_usa">
-                <ul class="accordion" data-accordion>
+                <ul class="accordion" data-accordion data-allow-all-closed="true">
                   <li class="accordion-item is-active" data-accordion-item><a class="accordion-title" href="#">WHAT IS D1 COIN?</a>
                     <div class="accordion-content" data-tab-content>The D1 Coin is a virtual currency built on the Ethereum blockchain. D1 Coins are backed by a fractional value of diamonds. With the value of the D1 Coin being a function of not just market forces but also the value of natural diamonds, owners of D1 Coins benefit from enhanced downside protection as they can exchange their D1 Coins for investment grade diamonds at any time. Besides, D1 Coins is a perfect counter-cyclical asset offering investors in the crypto universe protection against adverse market movements similar to gold or US Government bonds in conventional markets.
                     </div>
@@ -1724,7 +1782,7 @@
                 </ul>
               </div>
               <div class="tabs-panel" id="faq_china">
-                <ul class="accordion" data-accordion>
+                <ul class="accordion" data-accordion data-allow-all-closed="true">
                   <li class="accordion-item is-active" data-accordion-item><a class="accordion-title" href="#">WHAT IS D1 COIN?</a>
                     <div class="accordion-content" data-tab-content>The D1 Coin is a virtual currency built on the Ethereum blockchain. D1 Coins are backed by a fractional value of diamonds. With the value of the D1 Coin being a function of not just market forces but also the value of natural diamonds, owners of D1 Coins benefit from enhanced downside protection as they can exchange their D1 Coins for investment grade diamonds at any time. Besides, D1 Coins is a perfect counter-cyclical asset offering investors in the crypto universe protection against adverse market movements similar to gold or US Government bonds in conventional markets.
                     </div>
@@ -1752,7 +1810,7 @@
                 </ul>
               </div>
               <div class="tabs-panel" id="faq_korea">
-                <ul class="accordion" data-accordion>
+                <ul class="accordion" data-accordion data-allow-all-closed="true">
                   <li class="accordion-item is-active" data-accordion-item><a class="accordion-title" href="#">WHAT IS D1 COIN?</a>
                     <div class="accordion-content" data-tab-content>The D1 Coin is a virtual currency built on the Ethereum blockchain. D1 Coins are backed by a fractional value of diamonds. With the value of the D1 Coin being a function of not just market forces but also the value of natural diamonds, owners of D1 Coins benefit from enhanced downside protection as they can exchange their D1 Coins for investment grade diamonds at any time. Besides, D1 Coins is a perfect counter-cyclical asset offering investors in the crypto universe protection against adverse market movements similar to gold or US Government bonds in conventional markets.
                     </div>
@@ -1803,7 +1861,7 @@
       <section class="contacts" id="contacts">
         <h2 class="row column">Contacts</h2>
         <div class="row align-center contacts_items">
-          <div class="column large-4">
+          <div class="column large-4 medium-6 small-12">
             <div class="contacts_item">
               <div class="contacts_item_icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewbox="0 0 30 28">
@@ -1813,7 +1871,7 @@
               <div class="contacts_item_info">E-mail: <a href="mailto:info@d1coin.io" target="_blank">info@d1coin.io</a></div>
             </div>
           </div>
-          <div class="column large-4">
+          <div class="column large-4 medium-6 small-12">
             <div class="contacts_item">
               <div class="contacts_item_icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="37" viewbox="0 0 25 37">
@@ -1837,13 +1895,13 @@
         </div>
       </section>
       <footer class="row footer">
-        <div class="column large-4">
+        <div class="column large-4 small-12 small-order-1">
           <h5 class="footer_header">contact</h5>
           <div class="footer_content">11 Beach Road #06-01 Singapore (189675)<br>E-mail: <a href="mailto:info@d1coin.io" target="_blank">info@d1coin.io</a></div>
           <div class="footer_bottom">© All Rights Reserved. Diamundi Pte Ltd</div>
         </div>
-        <div class="column large-4">
-          <div class="social">
+        <div class="column large-4 small-12 small-order-3 large-order-2">
+          <div class="social social--footer">
             <h5 class="social_header">Social Media Links
             </h5>
             <ul class="menu social_links">
@@ -1878,7 +1936,7 @@
             </ul>
           </div>
         </div>
-        <div class="column large-4">
+        <div class="column large-4 small-12 small-order-2 large-order-3">
           <h5 class="footer_header">Legal Documents</h5>
           <div class="footer_content"><a class="button small round gray" href="#">Document -1</a><a class="button small round gray" href="#">Document -2</a></div>
           <div class="footer_bottom">
@@ -1891,6 +1949,13 @@
         </div>
       </footer>
       <div class="dropdown-pane" id="language" data-dropdown data-auto-focus="true" data-close-on-click="true" data-alignment="right" data-v-offset="10">
+        <ul class="menu vertical">
+          <li class="active"><a href="#"><img src="./assets/img/lang/eng.svg" alt="English">English</a></li>
+          <li><a href="#"><img src="./assets/img/lang/rus.svg" alt="Russian">Russian</a></li>
+          <li><a href="#"><img src="./assets/img/lang/ger.svg" alt="German">German</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-pane" id="language_mobile" data-dropdown data-auto-focus="true" data-close-on-click="true" data-alignment="left" data-position="top" data-v-offset="10">
         <ul class="menu vertical">
           <li class="active"><a href="#"><img src="./assets/img/lang/eng.svg" alt="English">English</a></li>
           <li><a href="#"><img src="./assets/img/lang/rus.svg" alt="Russian">Russian</a></li>
@@ -2171,18 +2236,72 @@
         <button class="reveal_close" aria-label="Close" type="button" data-close></button>
       </div>
     </main>
-    <div class="off-canvas position-right nav_mobile" id="menu" data-off-canvas data-transition="overlap" data-auto-focus="false">
-      <ul class="menu vertical" data-smooth-scroll="data-smooth-scroll">
-        <li><a href="#documents">Our documents                                 </a></li>
-        <li><a href="#advisors">Team and Advisors</a></li>
-        <li><a href="#media">Blog & Media</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-        <li><a href="#">White Paper</a></li>
-        <li><a href="#">Token Sale Terms</a></li>
-      </ul>
-      <button class="close-button" aria-label="Закрыть" type="button" data-close><span aria-hidden="true">×</span></button>
+    <div class="off-canvas position-top head_mobile" id="menu" data-off-canvas data-transition="overlap" data-auto-focus="false" data-content-scroll="false">
+      <div class="row head_mobile_row">
+        <div class="column small-12">
+          <p class="h2 head_mobile_header">MENU</p>
+        </div>
+        <div class="column small-12 medium-6">
+          <ul class="menu mobile">
+            <li data-close=""><a href="#documents" data-smooth-scroll="data-smooth-scroll">Our documents</a></li>
+            <li data-close=""><a href="#advisors" data-smooth-scroll="data-smooth-scroll">Team and Advisors</a></li>
+            <li data-close=""><a href="#media" data-smooth-scroll="data-smooth-scroll">Blog & Media</a></li>
+            <li data-close=""><a href="#faq" data-smooth-scroll="data-smooth-scroll">FAQ</a></li>
+            <li data-close=""><a href="#contacts" data-smooth-scroll="data-smooth-scroll">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="column small-12 medium-6">
+          <ul class="menu mobile">
+            <li><a href="#">White Paper</a></li>
+            <li><a href="#">Token Sale Terms</a></li>
+          </ul>
+          <div class="head_mobile_buttons">
+            <button class="button gray icon" data-toggle="language_mobile">EN
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6" viewbox="0 0 8 6">
+                    <use fill="#fff" xlink:href="#arrow"></use>
+                  </svg>
+            </button><a class="button wide" href="#">Sign In</a><a class="button wide icon" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewbox="0 0 17 14">
+                    <use fill="#fff" xlink:href="#telegram"></use>
+                  </svg>Join Telegram</a>
+          </div>
+        </div>
+      </div>
+      <button class="reveal_close reveal_close--simple" aria-label="Close" type="button" data-close></button>
     </div>
-    <script src="./js/app.min.js?ckcachebust=336400ce7bb180bd8bf36bed4ab2267d"></script>
+    <div class="off-canvas position-top head_mobile off-canvas--diamond" id="diamond_type" data-off-canvas data-transition="overlap" data-content-scroll="false">
+      <div class="row column head_mobile_row">
+        <p class="h2 head_mobile_header">Type of diamond</p>
+        <div class="matrix_picker_mobile">
+          <label class="matrix_picker_mobile_item" for="round">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/round.png" alt="round"></div>round
+          </label>
+          <label class="matrix_picker_mobile_item" for="princess">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/princess.png" alt="princess"></div>princess
+          </label>
+          <label class="matrix_picker_mobile_item" for="ovall">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/ovall.png" alt="ovall"></div>ovall
+          </label>
+          <label class="matrix_picker_mobile_item" for="marquise">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/marquise.png" alt="marquise"></div>marquise
+          </label>
+          <label class="matrix_picker_mobile_item" for="pear">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/pear.png" alt="pear"></div>pear
+          </label>
+          <label class="matrix_picker_mobile_item" for="emerald">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/emerald.png" alt="emerald"></div>emerald
+          </label>
+          <label class="matrix_picker_mobile_item" for="cushion">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/cushion.png" alt="cushion"></div>cushion
+          </label>
+          <label class="matrix_picker_mobile_item" for="asscher">
+            <div class="matrix_picker_mobile_item_img"><img src="assets/img/diamonds/asscher.png" alt="asscher"></div>asscher
+          </label>
+          <button class="button" data-close>Choose</button>
+        </div>
+      </div>
+      <button class="reveal_close reveal_close--simple" aria-label="Close" type="button" data-close></button>
+    </div>
+    <script src="./js/app.min.js?ckcachebust=78620207072754b47e205854c2bd62da"></script>
   </body>
 </html>
