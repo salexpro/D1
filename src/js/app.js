@@ -18,6 +18,7 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.offcanvas.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.interchange.min';
 @codekit-prepend quiet '../../node_modules/owl.carousel/dist/owl.carousel.min';
+@codekit-prepend quiet '../../node_modules/shufflejs/dist/shuffle.min';
 */
 
 $(document).foundation();
@@ -210,7 +211,12 @@ $('form[action="whitelist"]').submit(e => {
 
 $('form[action="whitelist"] [name="country"]').focus(() =>{
     open_new('#whitelist', '#country');
-})
+});
+$('#country').on('open.zf.reveal', () => {
+    setTimeout(() => {
+        shuffleInstance.update();
+    }, 0);
+});
 
 $('form[action="country"]').submit(function(e) {
     e.preventDefault();
@@ -266,3 +272,18 @@ $('.reveal [data-open]').click(function (e) {
     e.stopPropagation();
     open_new('#' + $(this).closest('.reveal').attr('id'), '#' + $(this).data('open'));
 });
+
+// Country search
+const Shuffle = window.Shuffle;
+const element = document.querySelector('.form--choose');
+const sizer = element.querySelector('.form_field--sizer');
+
+const shuffleInstance = new Shuffle(element, {
+    itemSelector: '.form_field',
+    sizer: sizer
+});
+
+$('#country [type="search"]').on('keyup', function() {
+    const sch_text = $(this).val();
+    shuffleInstance.filter(el => $(el).data('title').indexOf(sch_text)!==-1);
+})

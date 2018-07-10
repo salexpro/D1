@@ -76,52 +76,53 @@
                             +icon('magnifier', [22, 22], '#93979f')
                         input(type="search" placeholder="Search country")
                 .form--choose.form--cols
-                    .form_field
+                    .form_field(data-title="russia")
                         input(type="radio" name="country" id="country_rus" value="Russia")
                         label.form_input(for="country_rus")
                             .form_input_icon
                                 img(src="./assets/img/country/russia.svg", alt="Russia")
                             .form_input_label
                                 | Russia
-                    .form_field
+                    .form_field(data-title="belarus")
                         input(type="radio" name="country" id="country_bel" value="Belarus")
                         label.form_input(for="country_bel")
                             .form_input_icon
                                 img(src="./assets/img/country/belarus.svg", alt="Belarus")
                             .form_input_label
                                 | Belarus
-                    .form_field
+                    .form_field(data-title="england")
                         input(type="radio" name="country" id="country_eng" value="England")
                         label.form_input(for="country_eng")
                             .form_input_icon
                                 img(src="./assets/img/country/england.svg", alt="England")
                             .form_input_label
                                 | England
-                    .form_field
+                    .form_field(data-title="test")
                         input(type="radio" name="country" id="country_1" value="Test")
                         label.form_input(for="country_1")
                             .form_input_label
                                 | Test
-                    .form_field
+                    .form_field(data-title="test")
                         input(type="radio" name="country" id="country_2" value="Test")
                         label.form_input(for="country_2")
                             .form_input_label
                                 | Test
-                    .form_field
+                    .form_field(data-title="test")
                         input(type="radio" name="country" id="country_3" value="Test")
                         label.form_input(for="country_3")
                             .form_input_label
                                 | Test
-                    .form_field
+                    .form_field(data-title="test")
                         input(type="radio" name="country" id="country_4" value="Test")
                         label.form_input(for="country_4")
                             .form_input_label
                                 | Test
-                    .form_field
+                    .form_field(data-title="test")
                         input(type="radio" name="country" id="country_5" value="Test")
                         label.form_input(for="country_5")
                             .form_input_label
                                 | Test
+                    .form_field--sizer
         button.button.huge
             | Choose
     button.reveal_close(aria-label='Close', type='button', data-close)

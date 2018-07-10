@@ -23,10 +23,7 @@
                     width: 100%;
                 }
                 &:nth-child(even) {
-                    margin-left: 40px;
-                    @include breakpoint(small down) {
-                        margin-left: 0;
-                    }
+                    margin-left: 0;
                 }
                 [type="radio"]{
                     display: none;
@@ -38,6 +35,11 @@
                             background-repeat: no-repeat;
                         }
                     }
+                }
+                &--sizer{
+                    width: calc(50% - 20px);
+                    margin-left: 20px;
+                    position: absolute;
                 }
             }
             &_input{

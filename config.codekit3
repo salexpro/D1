@@ -38,6 +38,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 1
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -233,6 +239,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/build\/node_modules\/owl.carousel\/dist\/owl.carousel.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/node_modules\/shufflejs\/dist\/shuffle.min.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/node_modules\/shufflejs\/dist\/shuffle.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -760,6 +776,17 @@
 		"iS": 20130,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/people\/alexei.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/people\/bernard.png": {
+		"ft": 32768,
+		"iS": 20266,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/bernard.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1903,7 +1930,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 551888113
+	"lastBuiltDate": 552938661
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

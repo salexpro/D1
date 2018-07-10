@@ -4583,10 +4583,7 @@ h1 {
         .form--choose .form_field {
           width: 100%; } }
       .form--choose .form_field:nth-child(even) {
-        margin-left: 40px; }
-        @media screen and (max-width: 39.9375em) {
-          .form--choose .form_field:nth-child(even) {
-            margin-left: 0; } }
+        margin-left: 0; }
       .form--choose .form_field [type="radio"] {
         display: none; }
         .form--choose .form_field [type="radio"]:checked + .form_input {
@@ -4594,6 +4591,10 @@ h1 {
           background-color: rgba(255, 255, 255, 0.05);
           background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxOCAxNCI+PHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYzMyAtMzE0KSIgZmlsbD0iIzMwYzJmZiIgZD0iTTYzOSAzMjUuMTdsLTQuMTctNC4xNy0xLjQyIDEuNDFMNjM5IDMyOGwxMi0xMi0xLjQxLTEuNDF6Ii8+PC9zdmc+Cg==);
           background-repeat: no-repeat; }
+      .form--choose .form_field--sizer {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+        position: absolute; }
     .form--choose .form_input {
       width: 100%;
       display: -webkit-box;

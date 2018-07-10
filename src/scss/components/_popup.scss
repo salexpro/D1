@@ -37,6 +37,9 @@
     }
     &--whitelist{
         background-image: url(../assets/img/bg_whitelist.jpg);
+        .reveal_content{
+            height: 50vh;
+        }
     }
     &--disclaimer{
         .reveal_content{
