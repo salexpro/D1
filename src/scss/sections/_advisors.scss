@@ -48,9 +48,11 @@
             @include breakpoint(medium down) {
                 font-size: 12px;
                 font-weight: 700;
-                line-height: 2.45;
+                line-height: 2;
                 text-transform: uppercase;
                 letter-spacing: 3.43px;
+                max-width: 320px;
+                margin: auto;
             }
         }
     }

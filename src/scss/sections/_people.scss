@@ -72,7 +72,7 @@
             border-radius: 10px;
             background-color: rgba(#161e2e, 0.4);
         }
-        $people: sandeep, alexei, thomas, yobie, hogi, jeff, bill, william;
+        $people: sandeep, alexei, thomas, bernard, hogi, jeff, bill, william;
         @each $kun in $people {
             &--#{$kun}{
                 @if(index($people, $kun) > 4){
@@ -88,7 +88,7 @@
                     }
                 }
                 &::after {
-                    @if($kun==yobie) {
+                    @if($kun==bernard) {
                         background-image: url(../assets/img/people/bg_sandeep.jpg);
                     }
                     @else {

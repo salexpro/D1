@@ -7,20 +7,13 @@
         background-image: url(../assets/img/bg_head.jpg);
         background-position: center;
         background-size: cover;
-    }
-    @include breakpoint(medium down) {
         padding-top: 115px;
         padding-bottom: 216px;
         height: auto;
     }
-    &_descr{
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 1.9;
-        letter-spacing: 0.1px;
-        margin: 25px 0;
-        @include breakpoint(large) {
-            display: none;
+    &_header{
+        @include breakpoint(medium down) {
+            margin-bottom: 25px;
         }
     }
     &_inner{
