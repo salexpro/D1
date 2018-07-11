@@ -7,7 +7,7 @@
         ['reddit',   '#', [23, 18]],
         ['youtube',  '#', [17, 21]],
         ['medium',   '#', [22, 19]],
-        ['steemit',  '#', [24, 25]],
+        ['steemit',  '#', [40, 40]],
         ['btctalk',  '#', [15, 21]]
     ]
 
@@ -23,5 +23,5 @@ mixin social(header, num, mod)
             while i < num
                 li
                     a(href=social[i][1] target="_blank")
-                        +icon(social[i][0], social[i][2], '#fff', social[i][0] == 'btctalk' ? [18, 24] : social[i][0] == 'steemit' ? [256, 270] : social[i][2])
+                        +icon(social[i][0], social[i][2], '#fff', social[i][0] == 'btctalk' ? [18, 24] : social[i][2])
                 - i++
