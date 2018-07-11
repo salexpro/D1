@@ -70,6 +70,7 @@ $('.advisors_items').owlCarousel({
     nav: true,
     items: 1,
     margin: 20,
+    autoHeight: true,
     navText: ['', '']
 });
 

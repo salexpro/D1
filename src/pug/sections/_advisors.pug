@@ -1,32 +1,21 @@
+-
+    const quotes = [
+        ['sandeep', 'Sandeep Kothari<br>Member of International Advisory Committee', 'Diamonds have been a great store of value for centuries. Now with the advent of new digital technologies diamonds enter into a new era that will see the value of natural diamonds reach new heights.'],
+        ['thomas', 'Dr. Thomas Borer', 'By establishing a global hub for blockchain-technology and virtual currencies known as the “Crypto Valley” in Zug, supported by the development of forward-looking regulation by the Swiss Financial Market Supervisory Authority (FINMA), Switzerland is home of one of the world’s leading ecosystems for crypto, blockchain and distributed ledger technologies. With asset-back coins and tokens playing an increasingly important role in this area, I believe that the diamond-backed D1 Coins represent an interesting diversification opportunity in this eco-system.'],
+        ['alexei', 'Alexei Chekunkov', 'Diamonds historically were much more rarer than gold, more valuable and unique. By taking diamonds on blockchain and enabling fractional ownership D1 Coins will revolutionise the diamond market and create a whole new asset class.']
+    ]
 section.advisors
     .row.align-center
         h2.column.small-12
             | Advisors speak
         .owl-carousel.column.large-8.advisors_items
-            .advisors_item
-                .advisors_item_img
-                    img(src="assets/img/people/sandeep.png", alt="")
-                blockquote.advisors_item_quote
-                    | “People sometimes ask me - Why D1 token is the best investment forever? My answer is simple - only three things on the Earth are forever it is blockchain, volatility and diamonds”
-                .advisors_item_author
-                    | Sandeep Kothari
-                    br
-                    | Member of International Advisory Committee
-            .advisors_item
-                .advisors_item_img
-                    img(src="assets/img/people/sandeep.png", alt="")
-                blockquote.advisors_item_quote
-                    | “People sometimes ask me - Why D1 token is the best investment forever? My answer is simple - only three things on the Earth are forever it is blockchain, volatility and diamonds”
-                .advisors_item_author
-                    | Sandeep Kothari
-                    br
-                    | Member of International Advisory Committee
-            .advisors_item
-                .advisors_item_img
-                    img(src="assets/img/people/sandeep.png", alt="")
-                blockquote.advisors_item_quote
-                    | “People sometimes ask me - Why D1 token is the best investment forever? My answer is simple - only three things on the Earth are forever it is blockchain, volatility and diamonds”
-                .advisors_item_author
-                    | Sandeep Kothari
-                    br
-                    | Member of International Advisory Committee
+            each quote in quotes
+                .advisors_item
+                    .advisors_item_img
+                        img(src="assets/img/people/" + quote[0] + ".png", alt="")
+                    blockquote.advisors_item_quote
+                        | “
+                        =quote[2]
+                        | ”
+                    .advisors_item_author
+                        !=quote[1]
