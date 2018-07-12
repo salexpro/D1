@@ -5,7 +5,7 @@
         padding: 60px 30px;
     }
     @include breakpoint(small down) {
-        padding: 60px 15px;
+        padding: 60px 0;
     }
     &_video{
         position: relative;
@@ -52,13 +52,21 @@
         cursor: pointer;
         outline: none;
         @include breakpoint(medium down) {
-            max-width: 300px;
-            height: 300px;
+            // max-width: 300px;
+            height: calc(100% - 20px);
+            min-height: 200px;
             margin: auto;
             margin-top: 40px;
+            overflow: hidden;
+            border-radius: $global-radius;
         }
         @include breakpoint(small down) {
             margin-top: 20px;
+            min-height: 145px;
+            align-items: flex-start;
+            padding: 15px;
+            justify-content: space-between;
+            text-align: left;
         }
         &::after{
             content: '';
@@ -70,9 +78,13 @@
             background-size: 100% auto;
             z-index: -1;
             @include breakpoint(medium down) {
-                width: 100%;
-                background-size: auto 100%;
+                width: 165%;
+                background-size: 100%;
+                background-position: top;
                 border-radius: $global-radius;
+            }
+            @include breakpoint(small down) {
+                background-size: cover;
             }
         }
         $blocks: diamonds, d1coins, carats, usd;
@@ -84,8 +96,12 @@
                     width: calc(100% - 2.142rem);
                     @include breakpoint(medium down) {
                         position: relative;
-                        height: 300px;
+                        height: calc(100% - 20px);
+                        min-height: 200px;
                         width: auto;
+                    }
+                    @include breakpoint(small down) {
+                        min-height: 145px;
                     }
                 }
                 &::after {
@@ -106,6 +122,10 @@
             letter-spacing: 0.56px;
             line-height: 1.19;
             margin-bottom: 20px;
+            @include breakpoint(small down) {
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
             small{
                 font-size: 36px;
             }
@@ -117,6 +137,10 @@
                 height: 3px;
                 background-color: $white;
                 margin-top: 16px;
+                @include breakpoint(small down) {
+                    margin-left: 0;
+                    margin-top: 10px;
+                }
             }
         }
         &_curr{
@@ -126,6 +150,9 @@
             letter-spacing: 0.21px;
             line-height: 1.17;
             margin-bottom: 30px;
+            @include breakpoint(small down) {
+                margin-bottom: auto;
+            }
         }
         &_link{
             color: $cyan;
