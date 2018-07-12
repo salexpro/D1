@@ -242,10 +242,12 @@ $('form[action="subscribe"]').submit(e => {
 })
 
 // Team modal
-$('.people_item[data-open]').click(function(){
+$('.people_item[data-open]').click(function(e){
+    e.stopPropagation();
+    const type = $(this).data('open');
     const photo = $('.people_item_photo img', this).attr('src');
     const name  = $('.people_item_name', this).text();
-    const position = $('.people_item_info', this).text();
+    const position = $('.peopl  e_item_info', this).text();
     const ln = $('.people_item_social a', this).attr('href');
 
     $('#member .people_item_photo img').attr({src: photo, alt: name});
@@ -253,6 +255,10 @@ $('.people_item[data-open]').click(function(){
     $('#member .people_item_name').text(name);
     $('#member .people_item_info').text(position);
     $('#member .people_item_bio').html($(this).data('bio'));
+
+    if ((type == 'advisor' && !Foundation.MediaQuery.atLeast('medium')) || type == 'team') {
+        $('#member').foundation('open');
+    }
 });
 
 // Fix opening modal in modal

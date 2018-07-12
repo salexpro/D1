@@ -837,6 +837,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/people\/bg_mobile.jpg": {
+		"ft": 16384,
+		"iS": 16062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/bg_mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/people\/bg_sandeep.jpg": {
 		"ft": 16384,
 		"iS": 27720,
@@ -1379,7 +1390,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/build\/css\/app.css",
 		"oF": 1,

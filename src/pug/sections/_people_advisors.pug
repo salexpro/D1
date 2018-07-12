@@ -1,7 +1,9 @@
 mixin people(photo, name, info, linkedin, bio)
-    - const is_team = (photo=='hogi'||photo=='jeff'||photo=='bill'||photo=='william')
-    .column.large-3.medium-6.small-12
-        .people_item(class='people_item--' + photo data-open=is_team?'member':false data-bio=bio?bio:false)
+    -
+        const is_team = (photo=='hogi'||photo=='jeff'||photo=='bill'||photo=='william');
+        bio = is_team ? bio : info;
+    .column.large-3.small-6.people_column
+        .people_item(class='people_item--' + photo data-open=is_team?'team':'advisor' data-bio=bio)
             .people_item_photo
                 img(src="assets/img/people/" + photo + ".png", alt=name)
             h3.people_item_name

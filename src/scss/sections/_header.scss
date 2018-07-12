@@ -115,7 +115,7 @@
             text-align: left;
             margin-bottom: 45px;
             @include breakpoint(small down) {
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
         }
         &_buttons{

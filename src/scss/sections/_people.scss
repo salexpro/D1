@@ -5,7 +5,7 @@
         padding: 60px 30px;
     }
     @include breakpoint(small down) {
-        padding: 60px 15px 40px;   
+        padding: 60px 0 40px;   
     }
     & + &{
         padding-top: 0;
@@ -32,6 +32,17 @@
             }
         }
     }
+    &_column{
+        @include breakpoint(small down) {
+            padding: 0;
+            &:nth-child(odd) .people_item {
+                background-position: left center;
+            }
+            &:nth-child(even) .people_item {
+                background-position: right center;
+            }
+        }
+    }
     &_item{
         padding: 30px 20px 34px;
         position: relative;
@@ -40,15 +51,18 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        outline: none;
         @include breakpoint(medium down) {
             margin: auto;
             margin-top: 40px;   
             height: calc(100% - 40px);
             max-width: 320px;
         }
-        &[data-open]{
-            outline: none;
+        @include breakpoint(small down) {
             cursor: pointer;
+            background-image: url(../assets/img/people/bg_mobile.jpg);
+            background-size: 200% auto;
+            padding: 26px 15px 55px;
         }
         &::after{
             content: '';
@@ -60,6 +74,9 @@
             height: 100%;
             border-radius: 13px;
             background-size: cover;
+            @include breakpoint(small down) {
+                display: none;
+            }
         }
         &::before{
             content: '';
@@ -71,19 +88,33 @@
             height: 100%;
             border-radius: 10px;
             background-color: rgba(#161e2e, 0.4);
+            @include breakpoint(small down) {
+                display: none;
+            }
         }
         $people: sandeep, alexei, thomas, bernard, hogi, jeff, bill, william;
         @each $kun in $people {
             &--#{$kun}{
                 @if(index($people, $kun) > 4){
                     padding: 65px 50px 52px;
-                    .people_item_info{
-                        margin: 10px 0 50px;
-                        font-size: 14px;
-                        font-weight: 400;
-                        letter-spacing: 1px;
-                        &::before{
-                            display: none;
+                    cursor: pointer;
+                    @include breakpoint(small down) {
+                        padding: 26px 15px 55px;
+                    }
+                    .people_item{
+                        &_name{
+                            @include breakpoint(medium) {
+                                margin-bottom: 0;
+                            }
+                        }
+                        &_info {
+                            margin: 10px 0 50px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            letter-spacing: 1px;
+                            &::before {
+                                display: none;
+                            }
                         }
                     }
                 }
@@ -110,6 +141,7 @@
             letter-spacing: 1px;
             text-transform: none;
             color: $white;
+            margin-bottom: 20px;
         }
         &_info {
             font-size: 13px;
@@ -117,13 +149,16 @@
             line-height: 1.92;
             letter-spacing: 0.01px;
             margin-bottom: 25px;
+            @include breakpoint(small down) {
+                display: none;
+            }
             &::before {
                 content: '';
                 display: block;
                 width: 30px;
                 height: 2px;
                 background-color: $white;
-                margin: 20px auto 25px;
+                margin: 0 auto 25px;
             }
         }
         &_social{
