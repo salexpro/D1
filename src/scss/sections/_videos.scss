@@ -15,6 +15,51 @@
     }
     &_item {
         border-radius: 10px;
+        display: block;
+        position: relative;
         overflow: hidden;
+        outline: none;
+        &:hover, &:focus{
+            .videos_item_button{
+                transform: scale(1.2);
+            }
+        }
+        &_button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -50px;
+            margin-top: -50px;
+            width: 100px;
+            height: 100px;
+            background: rgba($white, 0.07);
+            border-radius: 50%;
+            box-shadow: 0 0 0 25px rgba($white, 0.02);
+            transition: 300ms;
+            @include breakpoint(medium down) {
+                left: 50%;
+                width: 64px;
+                height: 64px;
+                box-shadow: none;
+                margin-left: -32px;
+                margin-top: -32px;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-45%, -50%);
+                border-left: 20px solid $white;
+                border-top: 15px solid transparent;
+                border-bottom: 15px solid transparent;
+                @include breakpoint(medium down) {
+                    border-left-width: 14px;
+                    border-top-width: 10px;
+                    border-bottom-width: 10px;
+                }
+            }
+        }
     }
 }

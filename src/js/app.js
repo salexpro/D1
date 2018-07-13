@@ -262,6 +262,20 @@ $('.people_item[data-open]').click(function(e){
     }
 });
 
+// Video modal
+$('[data-video]').click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    const src = 'https://www.youtube.com/embed/' + $(this).data('video');
+    const container = $('#video .reveal_video');
+    if ($('#video iframe').attr('src') != src){
+        container.removeClass('visible');
+        $('#video iframe').attr('src', src);
+        container.addClass('visible');
+    }   
+    $('#video').foundation('open');
+})
+
 // Fix opening modal in modal
 const open_new = (wold, wnew) => {
     $(wold).on('closed.zf.reveal', () => {
