@@ -1,10 +1,59 @@
+@mixin viewport-unit($property, $value) {
+    #{$property}: $value;
+    $unit: unit($value);
+    @if (index((vw, vh, vmin, vmax), $unit) !=null) {
+        $devices: ( (768px, 1024px), // iPad (all versions)
+        (320px, 480px), // iPhone 4
+        (320px, 568px), // iPhone 5, 5C, 5S
+        (375px, 667px)
+        );
+        @each $device in $devices {
+            $device-width: nth($device, 1);
+            $device-height: nth($device, 2);
+            $device-query: "only screen and (-webkit-min-device-pixel-ratio: 1)";
+            $device-query: "#{$device-query} and (device-width: #{$device-width})";
+            $device-query: "#{$device-query} and (device-height: #{$device-height})";
+            $percent: $value / ($value * 0 + 1); // see https://github.com/sass/sass/issues/533
+            $percent-width: $device-width * $percent / 100;
+            $percent-height: $device-height * $percent / 100 - 114;
+            @if ($unit==vmin or $unit==vmax) {
+                @media #{$device-query} {
+                    #{$property}: if($unit==vmin, $percent-width, $percent-height);
+                }
+            }
+            @else {
+                @media #{$device-query} and (orientation: portrait) {
+                    #{$property}: if($unit==vw, $percent-width, $percent-height);
+                }
+                @media #{$device-query} and (orientation: landscape) {
+                    #{$property}: if($unit==vw, $percent-height, $percent-width);
+                }
+            }
+        }
+    }
+}
+
+// Fix iOS Safari popup height
+.ua-safari.ua-mobile .reveal:not(.reveal--video){
+    @include viewport-unit(height, 100vh);
+}
+
 .reveal{
     outline: none;
     background-image: url(../assets/img/bg_roadmap.jpg);
     background-size: cover;
     background-position: center;
     @include breakpoint(small down) {
+        min-height: auto;
         padding: 95px 20px 20px;
+        &:not(.reveal--video){
+            top: 0 !important;
+        }
+    }
+    &-overlay{
+        @include breakpoint(small down) {
+            overflow: hidden !important;
+        }
     }
     &--large{
         text-align: center;
@@ -81,7 +130,6 @@
             padding: 20px;
         }
     }
-
     &_inner {
         min-height: 520px;
         display: flex;

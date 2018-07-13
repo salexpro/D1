@@ -19,6 +19,7 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.interchange.min';
 @codekit-prepend quiet '../../node_modules/owl.carousel/dist/owl.carousel.min';
 @codekit-prepend quiet '../../node_modules/shufflejs/dist/shuffle.min';
+@codekit-prepend quiet 'components/cssua.min';
 */
 
 $(document).foundation();
