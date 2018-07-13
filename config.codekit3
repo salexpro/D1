@@ -784,7 +784,7 @@
 		},
 	"\/src\/assets\/img\/people\/bernard.png": {
 		"ft": 32768,
-		"iS": 28237,
+		"iS": 6677,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/people\/bernard.png",
 		"oF": 0,
@@ -1390,7 +1390,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/css\/app.css",
 		"oF": 1,
@@ -1941,7 +1941,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 552991730
+	"lastBuiltDate": 553185643
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

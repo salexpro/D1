@@ -33,21 +33,17 @@
     }
 }
 
-// Fix iOS Safari popup height
-.ua-safari.ua-mobile .reveal:not(.reveal--video){
-    @include viewport-unit(height, 100vh);
-}
-
 .reveal{
     outline: none;
     background-image: url(../assets/img/bg_roadmap.jpg);
     background-size: cover;
     background-position: center;
     @include breakpoint(small down) {
-        min-height: auto;
         padding: 95px 20px 20px;
         &:not(.reveal--video){
             top: 0 !important;
+            height: 100%;
+            min-height: 100%;
         }
     }
     &-overlay{
