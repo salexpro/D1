@@ -77,6 +77,7 @@ $('.advisors_items').owlCarousel({
 $('.roadmap_items').owlCarousel({
     nav: true,
     navText: ['', ''],
+    autoHeight: true,
     responsive: {
         0: {
             items: 1
@@ -87,6 +88,11 @@ $('.roadmap_items').owlCarousel({
         1024:{
             items: 3
         }
+    },
+    onInitialized: (e) => {
+        setTimeout(() => {
+            $(e.target).trigger('to.owl.carousel', [6, 1]);
+        }, 0);
     }
 });
 
@@ -262,18 +268,25 @@ $('.people_item[data-open]').click(function(e){
 });
 
 // Video modal
-$('[data-video]').click(function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    const src = 'https://www.youtube.com/embed/' + $(this).data('video');
-    const container = $('#video .reveal_video');
-    if ($('#video iframe').attr('src') != src){
-        container.removeClass('visible');
-        $('#video iframe').attr('src', src);
-        container.addClass('visible');
-    }   
+$('[data-video]').click(function () {
+    player.loadVideoById($(this).data('video'));
     $('#video').foundation('open');
 })
+
+$('#video').on('closed.zf.reveal', () => {
+   player.stopVideo();
+})
+
+/* eslint-disable */
+let player;
+const tag = document.createElement('script');
+tag.src = 'https://www.youtube.com/iframe_api';
+const firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+const onYouTubeIframeAPIReady = () => {
+    player = new YT.Player('player');
+}
+/* eslint-enable */
 
 // Fix opening modal in modal
 const open_new = (wold, wnew) => {

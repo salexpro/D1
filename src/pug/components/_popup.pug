@@ -160,12 +160,11 @@
     button.reveal_close(aria-label='Close', type='button', data-close)
             
 
-#video.reveal.reveal--video(data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-reset-on-close="true")
+#video.reveal.reveal--video(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .responsive-embed.reveal_video
-        iframe(width='560', height='315', src='', frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
-    button.reveal_close(aria-label='Close', type='button', data-close)
+        iframe#player(width='560', height='315', src='https://www.youtube.com/embed/KjUNAkEZtJ0?enablejsapi=1', frameborder='0', allow='autoplay; encrypted-media', allowfullscreen='')
 
-#reserve_diamonds.reveal(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+#reserve_diamonds.reveal.reveal--reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .reveal_inner
         h2.reveal_header
             | 1,6K Diamonds
@@ -190,9 +189,8 @@
                 td Very Good or Excellent
         button.button.huge(data-close)
             | Close
-    button.reveal_close(aria-label='Close', type='button', data-close)
 
-#reserve_d1coins.reveal(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+#reserve_d1coins.reveal.reveal--reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .reveal_inner
         h2.reveal_header
             | 2m D1 Coins
@@ -204,9 +202,8 @@
                 li Does not require a test sample and has the ability to parallelize
         button.button.huge(data-close)
             | Close
-    button.reveal_close(aria-label='Close', type='button', data-close)
 
-#reserve_carats.reveal(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+#reserve_carats.reveal.reveal--reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .reveal_inner
         h2.reveal_header
             | 1,6K Carats 
@@ -218,9 +215,8 @@
             | Diamond carat weight is the measurement of how much a diamond weighs, with a metric “carat” defined as 200 milligrams. All else being equal, the diamond price increases with diamond carat weight because larger diamonds are more rare and more desirable
         button.button.huge(data-close)
             | Close
-    button.reveal_close(aria-label='Close', type='button', data-close)
 
-#reserve_usd.reveal(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+#reserve_usd.reveal.reveal--reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .reveal_inner
         h2.reveal_header
             | USD 20m
@@ -233,7 +229,6 @@
             b USD 19,213k
         button.button.huge(data-close)
             | Close
-    button.reveal_close(aria-label='Close', type='button', data-close)
 
 #member.reveal.reveal--member(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .reveal_cols

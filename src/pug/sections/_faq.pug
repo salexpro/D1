@@ -58,7 +58,7 @@ section#faq.faq
                 li.tabs-title
                     a(data-tabs-target='faq_korea', href='#faq_korea') Korea
             .faq_content
-                ul.accordion(data-accordion data-allow-all-closed='true')
+                ul.accordion(data-accordion data-allow-all-closed='true' data-multi-expand='true')
                     each q, i in faq_usa
                         li.accordion-item(data-accordion-item class=(i == 0) ? 'is-active' : '')
                             a.accordion-title(href='#')

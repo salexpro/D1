@@ -93,7 +93,7 @@ $black: #000;
 $white: #fff;
 $body-background: #0c1425;
 $body-font-color: $white;
-$body-font-family: Roboto, Arial, sans-serif;
+$body-font-family: 'Proxima Nova', Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 0;
 $global-padding: 1rem;
@@ -140,7 +140,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: 700;
+$header-font-weight: 900;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;

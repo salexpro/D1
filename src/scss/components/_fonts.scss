@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../assets/fonts/ProximaNova/ProximaNova-Regular.woff2') format('woff2'),
+         url('../assets/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../assets/fonts/ProximaNova/ProximaNova-Light.woff2') format('woff2'),
+         url('../assets/fonts/ProximaNova/ProximaNova-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../assets/fonts/ProximaNova/ProximaNova-Extrabld.woff2') format('woff2'),
+         url('../assets/fonts/ProximaNova/ProximaNova-Extrabld.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('../assets/fonts/ProximaNova/ProximaNova-Black.woff2') format('woff2'),
+//          url('../assets/fonts/ProximaNova/ProximaNova-Black.woff') format('woff');
+//     font-weight: 900;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../assets/fonts/ProximaNova/ProximaNova-Semibold.woff2') format('woff2'), url('../assets/fonts/ProximaNova/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../assets/fonts/ProximaNova/ProximaNova-Bold.woff2') format('woff2'),
+         url('../assets/fonts/ProximaNova/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trueno';
+    src: url('../assets/fonts/Trueno/TruenoRg.woff2') format('woff2'), url('../assets/fonts/Trueno/TruenoRg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trueno';
+    src: url('../assets/fonts/Trueno/TruenoBd.woff2') format('woff2'), url('../assets/fonts/Trueno/TruenoBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

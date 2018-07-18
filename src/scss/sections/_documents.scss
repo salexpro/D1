@@ -17,8 +17,8 @@
         background-color: rgba($white, 0.1);
         max-width: 100%;
         width: 100%;
-        padding-right: 22px;
-        padding-left: 22px;
+        padding: 17px 22px;
+        font-size: 11px;
         @include breakpoint(medium down) {
             max-width: 330px;
             margin: auto;

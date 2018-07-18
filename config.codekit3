@@ -294,6 +294,90 @@
 		"oAP": "\/build\/assets\/fonts\/.gitkeep",
 		"oF": 0
 		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff2",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff2",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff2",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff2",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff2",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff",
+		"oF": 0
+		},
+	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff2",
+		"oF": 0
+		},
 	"\/src\/assets\/img\/bg_advisors.jpg": {
 		"ft": 16384,
 		"iS": 119844,
@@ -1941,7 +2025,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 553185643
+	"lastBuiltDate": 553263789
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

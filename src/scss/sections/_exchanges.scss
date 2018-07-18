@@ -2,25 +2,28 @@
     background-color: $quaternary-color;
     padding: 80px 0;
     @include breakpoint(medium down) {
-        padding: 60px 30px;
+        padding: 60px 30px 0;
     }
     @include breakpoint(small down) {
-        padding: 60px 15px;
+        padding: 60px 15px 0;
     }
     .menu{
         justify-content: space-between;
         align-items: center;
         margin-top: 60px;
         @include breakpoint(medium down) {
-            flex-direction: column;
-            li{
-                + li{
-                    margin-top: 50px;
-                }
-            }
+            margin-top: 0;
         }
         @include breakpoint(small down) {
-            margin-top: 40px;
+            flex-direction: column;
+        }
+        li{
+            @include breakpoint(medium down) {
+                width: 50%;
+                margin: auto;
+                text-align: center;
+                margin-top: 50px;
+            }
         }
     }
 }

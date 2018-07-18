@@ -27,6 +27,7 @@
         @include breakpoint(small down) {
             margin-top: 25px;
             font-size: 16px;
+            margin-bottom: 40px;
             br{
                 display: none;
             }
@@ -54,7 +55,7 @@
         outline: none;
         @include breakpoint(medium down) {
             margin: auto;
-            margin-top: 40px;   
+            margin-top: 40px;
             height: calc(100% - 40px);
             max-width: 320px;
         }
@@ -63,6 +64,8 @@
             background-image: url(../assets/img/people/bg_mobile.jpg);
             background-size: 200% auto;
             padding: 26px 15px 55px;
+            margin: 0;
+            height: 100%;
         }
         &::after{
             content: '';
@@ -142,6 +145,9 @@
             text-transform: none;
             color: $white;
             margin-bottom: 20px;
+            @include breakpoint(small down) {
+                font-size: 16px;
+            }
         }
         &_info {
             font-size: 13px;
