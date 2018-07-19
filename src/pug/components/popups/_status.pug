@@ -1,0 +1,19 @@
+#success.reveal.reveal--status(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    .reveal_inner
+        .reveal_icon
+            +icon('check', [81, 68], '#1056c8')
+        p.h2.reveal_header
+            | Your quotation request was successfully sent!
+        button.button.huge(data-close)
+            | OK
+    button.reveal_close(aria-label='Close', type='button', data-close)
+
+#error.reveal.reveal--status(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    .reveal_inner
+        .reveal_icon
+            +icon('warning', [80, 73], '#e24c4b')
+        p.h2.reveal_header
+            | Error
+        button.button.huge(data-close)
+            | OK
+    button.reveal_close(aria-label='Close', type='button', data-close)

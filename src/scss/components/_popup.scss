@@ -61,7 +61,7 @@
             border-radius: $global-radius;
         }
     }
-    &--success{
+    &--status{
         @include breakpoint(small down) {
             padding-top: 40px;
         }

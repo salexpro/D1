@@ -1,4 +1,4 @@
-/* global Foundation */
+/* global Foundation, allCountries */
 /* 
 @codekit-prepend quiet '../../node_modules/jquery/dist/jquery.min',
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.core.min';
@@ -19,6 +19,7 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.interchange.min';
 @codekit-prepend quiet '../../node_modules/owl.carousel/dist/owl.carousel.min';
 @codekit-prepend quiet '../../node_modules/shufflejs/dist/shuffle.min';
+@codekit-prepend quiet 'components/_countries';
 */
 
 $(document).foundation();
@@ -204,27 +205,103 @@ $(window).on('changed.zf.mediaquery', () => {
 });
 
 // Forms
+
+// Whitelist
+Array.prototype.unique = function() {
+    let obj = {};
+    this.forEach(el => {obj['+' + el] = true});
+    return Object.keys(obj);
+}
+
+const phone_codes = allCountries.map(code => code[2]).unique().sort();
+const phone_codes_formatted = phone_codes.reduce((all, curr) => `${all}<option value="${curr}">${curr}</option>`, '');
+$('#whitelist [name="phone_code"]').html(phone_codes_formatted);
+
 $('form[action="whitelist"]').submit(e => {
     e.preventDefault();
-    open_new('#whitelist', '#success');
+    $('button', this).prop('disabled', true);
+
+    let formdata = {
+        full_name: $('[name="name"]', this).val(),
+        email: $('[name="email"]', this).val(),
+        country_of_residence: $('[name="country"]', this).data('code'),
+        amount_to_invest: $('[name="amount"]', this).val(),
+        phone: $('[name="phone_code"]', this).val() + $('[name="phone"]', this).val()
+    };
+
+    $.ajax({
+        type: 'PUT',
+        url: 'http://master.whitelist-product.staging.c66.me/api/v1/forms/93924c22-2fb8-4c22-a3ac-b2229d0b3029/apply/',
+        contentType: 'application/json',
+        dataType: 'json',
+        data: formdata,
+        success: () => {
+            open_new('#whitelist', '#success');
+        },
+        error: xhr => {
+            xhr.responseJSON.errors.forEach(txt => {
+                $('#error .reveal_descr').append('<br>' + txt);
+            });
+
+            $('#error').foundation('open');
+        },
+        complete: () => {
+            $('button', this).prop('disabled', false);
+        }
+    })
 })
 
 $('form[action="whitelist"] [name="country"]').focus(() =>{
     open_new('#whitelist', '#country');
 });
+
+// Countries
+// $.get('http://master.whitelist-product.staging.c66.me/api/v1/forms/93924c22-2fb8-4c22-a3ac-b2229d0b3029/', data => {
+
+// })
+
+// const countries = allCountries.reduce((all, country) => {
+//     return `${all}<div class="form_field" data-title="${country[0]}">
+//             <input type="radio" name="country" id="country_${country[1]}" value="${country[0]}">
+//             <label class="form_input" for="country_${country[1]}">
+//                 <div class="form_input_icon flag-icon-${country[1]}"></div>
+//                 <div class="form_input_label">${country[0]}</div>
+//             </label>
+//             </div>`
+// }, '')
+
+// $('#country .form--choose').append(countries);
+
 $('#country').on('open.zf.reveal', () => {
     setTimeout(() => {
         shuffleInstance.update();
     }, 0);
 });
 
+// Country search
+const Shuffle = window.Shuffle;
+const element = document.querySelector('.form--choose');
+const sizer = element.querySelector('.form_field--sizer');
+
+const shuffleInstance = new Shuffle(element, {
+    itemSelector: '.form_field',
+    sizer: sizer
+});
+
+$('#country [type="search"]').on('keyup', function () {
+    const sch_text = $(this).val().toLowerCase();
+    shuffleInstance.filter(el => $(el).data('title').toLowerCase().indexOf(sch_text) !== -1);
+})
+
 $('form[action="country"]').submit(function(e) {
     e.preventDefault();
     const country = $('[name="country"]:checked', this).val();
-    $('form[action="whitelist"] [name="country"]').val(country);
+    const country_code = $('[name="country"]:checked', this).data('code');
+    $('form[action="whitelist"] [name="country"]').val(country).data('code', country_code);
     $('#country').foundation('close');
 })
 
+// Calc
 $('form[action="pick"]').submit(e => {
     e.preventDefault();
     $('#buy').foundation('open');
@@ -272,18 +349,3 @@ $('.reveal [data-open]').click(function (e) {
     e.stopPropagation();
     open_new('#' + $(this).closest('.reveal').attr('id'), '#' + $(this).data('open'));
 });
-
-// Country search
-const Shuffle = window.Shuffle;
-const element = document.querySelector('.form--choose');
-const sizer = element.querySelector('.form_field--sizer');
-
-const shuffleInstance = new Shuffle(element, {
-    itemSelector: '.form_field',
-    sizer: sizer
-});
-
-$('#country [type="search"]').on('keyup', function() {
-    const sch_text = $(this).val();
-    shuffleInstance.filter(el => $(el).data('title').indexOf(sch_text)!==-1);
-})
