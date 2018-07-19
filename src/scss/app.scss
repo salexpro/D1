@@ -76,6 +76,9 @@
 @import 'components/offcanvas';
 @import 'components/select';
 
+$flag-icon-css-path: '../assets/img/flags';
+@import '../../node_modules/flag-icon-css/sass/flag-icon';
+
 // Sections
 @import 'sections/header';
 @import 'sections/top';

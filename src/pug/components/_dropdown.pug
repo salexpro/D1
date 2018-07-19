@@ -1,29 +1,24 @@
-#language.dropdown-pane(data-dropdown data-auto-focus='true' data-close-on-click='true' data-alignment='right' data-v-offset='10')
+mixin countries
     ul.menu.vertical
         li.active
             a(href="#")
-                img(src="./assets/img/lang/eng.svg", alt="English")
+                span.dropdown_lang.flag-icon-us
                 | English
         li
             a(href="#")
-                img(src="./assets/img/lang/rus.svg", alt="Russian")
-                | Russian
+                span.dropdown_lang.flag-icon-de
+                | German
         li
             a(href="#")
-                img(src="./assets/img/lang/ger.svg", alt="German")
-                | German
+                span.dropdown_lang.flag-icon-cn
+                | 简体
+        li
+            a(href="#")
+                span.dropdown_lang.flag-icon-cn
+                | 繁体
+
+#language.dropdown-pane(data-dropdown data-auto-focus='true' data-close-on-click='true' data-alignment='right' data-v-offset='10')
+    +countries
 
 #language_mobile.dropdown-pane(data-dropdown data-auto-focus='true' data-close-on-click='true' data-alignment='left' data-position='top' data-v-offset='10')
-    ul.menu.vertical
-        li.active
-            a(href="#")
-                img(src="./assets/img/lang/eng.svg", alt="English")
-                | English
-        li
-            a(href="#")
-                img(src="./assets/img/lang/rus.svg", alt="Russian")
-                | Russian
-        li
-            a(href="#")
-                img(src="./assets/img/lang/ger.svg", alt="German")
-                | German
+    +countries
