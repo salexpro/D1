@@ -311,13 +311,13 @@ $('form[action="country"]').submit(function(e) {
 // Calc
 $('form[action="pick"]').submit(e => {
     e.preventDefault();
-    $('#buy').foundation('open');
+    $('#whitelist').foundation('open');
 })
 
-$('form[action="buy"]').submit(e => {
-    e.preventDefault();
-    open_new('#buy', '#success');
-})
+// $('form[action="buy"]').submit(e => {
+//     e.preventDefault();
+//     open_new('#buy', '#success');
+// })
 
 $('form[action="subscribe"]').submit(e => {
     e.preventDefault();
