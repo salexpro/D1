@@ -45,7 +45,7 @@
         ['cf', 'Central African Republic'],
         ['td', 'Chad'],
         ['cl', 'Chile'],
-        ['cn', 'China'],
+        //- ['cn', 'China'],
         ['cx', 'Christmas Island'],
         ['cc', 'Cocos (Keeling) Islands'],
         ['co', 'Colombia'],
@@ -235,8 +235,8 @@
         ['ua', 'Ukraine'],
         ['ae', 'United Arab Emirates'],
         ['gb', 'United Kingdom'],
-        ['us', 'United States'],
-        ['um', 'United States Minor Outlying Islands'],
+        //- ['us', 'United States'],
+        //- ['um', 'United States Minor Outlying Islands'],
         ['uy', 'Uruguay'],
         ['uz', 'Uzbekistan'],
         ['vu', 'Vanuatu'],
@@ -251,17 +251,17 @@
         ['zw', 'Zimbabwe']
     ]
 
-#country.reveal.reveal--large.reveal--whitelist(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+#country.reveal.reveal--large.reveal--whitelist.reveal--country(data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-multiple-opened='true')
     h2.reveal_header
         | Choose your country
     form(action="country")
+        .form_head
+            .form_input
+                .form_input_icon
+                    +icon('magnifier', [22, 22], '#93979f')
+                input(type="search" placeholder="Search country")
         .reveal_content
             .form
-                .form_head
-                    .form_input
-                        .form_input_icon
-                            +icon('magnifier', [22, 22], '#93979f')
-                        input(type="search" placeholder="Search country")
                 .form--choose.form--cols
                     each country in countries
                         .form_field(data-title=country[1].toLowerCase())
@@ -270,7 +270,3 @@
                                 .form_input_icon(class='flag-icon-' + country[0])
                                 .form_input_label
                                     =country[1]
-                    .form_field--sizer
-        button.button.huge
-            | Choose
-    button.reveal_close(aria-label='Close', type='button', data-close)

@@ -3,18 +3,17 @@
     background-image: url(../assets/img/bg_roadmap.jpg);
     background-size: cover;
     background-position: center;
+    overflow-y: initial;
     @include breakpoint(small down) {
         padding: 95px 20px 20px;
         &:not(.reveal--video){
-            top: 0 !important;
-            height: 100%;
+            position: static;
+            height: auto;
             min-height: 100%;
         }
     }
     &-overlay{
-        @include breakpoint(small down) {
-            overflow: hidden !important;
-        }
+        overflow: auto;
     }
     &--large{
         text-align: center;
@@ -48,7 +47,7 @@
     &--whitelist{
         background-image: url(../assets/img/bg_whitelist.jpg);
         .reveal_content{
-            height: 60vh;
+            height: 100%;
         }
     }
     &--disclaimer{
@@ -72,9 +71,6 @@
         }
     }
     &--status{
-        @include breakpoint(small down) {
-            padding-top: 40px;
-        }
         .reveal_header{
             max-width: 370px;
             line-height: 1.44;
@@ -91,9 +87,16 @@
             padding: 20px;
         }
     }
-    &--reserve{
+    &--reserve, &--country{
         @include breakpoint(small down) {
             padding-top: 40px;
+        }
+    }
+    &--country {
+        .reveal_content {
+            margin-bottom: 0;
+            height: calc(100vh - 220px);
+            min-height: 320px;
         }
     }
     &_inner {
@@ -250,10 +253,6 @@
     
     .huge[data-close]{
         margin-top: auto;
-    }
-
-    &-overlay {
-        overflow: auto;
     }
 
     &.fade-in.mui-enter {
