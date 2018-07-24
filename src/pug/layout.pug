@@ -3,6 +3,12 @@ block const
         const title  = 'D1';
         const descr  = 'Description';
         const domain = 'd1.salex.pro'
+
+mixin icon(name, size, color, viewbox)
+    - viewbox = viewbox || size
+    svg(xmlns='http://www.w3.org/2000/svg' width=size[0] height=size[1] viewbox=viewbox ? "0 0 " + viewbox[0] + " " + viewbox[1] : "")
+        use(fill=color, xlink:href='#' + name)
+
 //- Components
 include components/_menu
 include components/_social
@@ -12,13 +18,13 @@ doctype html
 html(lang="en")
     include sections/_head
     body
-        include components/_icons
         main.off-canvas-content.wrap(data-off-canvas-content)
             include sections/_header
             block content
             include sections/_footer
             include components/_dropdown
-            include components/_popup
         include components/_offcanvas
+        include components/_popup
+        include components/_icons
         block js
             script(src="./js/app.min.js")
