@@ -54,6 +54,7 @@
             }
             @include breakpoint(350 down) {
                 min-width: 136px;
+                margin-right: 1.6%;
             }
             ~ .button {
                 float: right;

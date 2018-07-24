@@ -4,13 +4,13 @@ section#documents.documents
     .row.align-center.documents_content
         -
             const documents = [
-                ['Whitepaper', '#'],
-                ['One Pager', '#'],
-                ['Presentation', '#']
+                ['Whitepaper', 'assets/docs/whitepaper.pdf'],
+                ['One Pager', 'assets/docs/onepager.pdf'],
+                ['Presentation', 'assets/docs/presentation.pdf']
             ]
         each item in documents
             .column.small-12.large-3
-                a.button.icon.documents_item(href=item[1])
+                a.button.icon.documents_item(href=item[1] target='_blank')
                     +icon('doc', [27, 30], '#fff', [512, 512])
                     span
                         =item[0]
