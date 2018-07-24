@@ -5,7 +5,7 @@ mixin people(photo, name, info, linkedin, bio)
     .column.large-3.small-6.people_column
         .people_item(class='people_item--' + photo data-open=is_team?'team':'advisor' data-bio=bio)
             .people_item_photo
-                img(src="assets/img/people/" + photo + ".png", alt=name)
+                img(src=`assets/img/people/${photo}.png` srcset=photo!=='bernard'?`assets/img/people/${photo}.png 1x, assets/img/people/${photo}@2x.png 2x`:'' alt=name)
             h3.people_item_name
                 =name
             p.people_item_info

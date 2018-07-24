@@ -7,12 +7,12 @@ section.matrix
             h3.matrix_content_header
                 | Pick the type of diamond
             .matrix_picker
-                - const types = ['round', 'princess', 'ovall', 'marquise', 'pear', 'emerald', 'cushion', 'asscher']
+                - const types = ['round', 'princess', 'oval', 'marquise', 'pear', 'emerald', 'cushion', 'asscher']
                 each val in types
                     input(type="radio" name="diamonds" id=val checked=val=='round'?'checked':false)
                     label.matrix_picker_item(for=val)
                         .matrix_picker_item_img
-                            img(src="assets/img/diamonds/" + val + ".png", alt=val)
+                            img(src=`assets/img/diamonds/${val}.png` srcset=`assets/img/diamonds/${val}.png 1x, assets/img/diamonds/${val}@2x.png 2x` alt=val)
                         .matrix_picker_item_label
                             =val
             .matrix_calc

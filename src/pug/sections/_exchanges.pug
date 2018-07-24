@@ -5,4 +5,4 @@ section.exchanges
             - const exchanges = ['bitfinex','poloniex','exmo','bittrex','okcoin']
             each val in exchanges
                 li
-                    img(src="./assets/img/exchanges/" + val +  ".png", alt=val)
+                    img(src=`assets/img/exchanges/${val}.png` srcset=`assets/img/exchanges/${val}.png 1x, assets/img/exchanges/${val}@2x.png 2x` alt=val)

@@ -1,5 +1,8 @@
 -
     const publs_usa = [
+        ['alphaweek', '11.06.2018', 'Asset-Backed Tokens: The Litmus Test', 'About the growing popularity of Asset-Backed Tokens and how D1 manages its development.', 'https://www.alpha-week.com/asset-backed-tokens-litmus-test'],
+        ['hedgeweek', '19.07.2018', 'D1 Mint brings investment grade diamond crypto token to market', 'Hogi Hyun is stepping into the crypto world to bring investors a blockchain and tokenised investment grade diamond investment opportunity.', 'https://www.hedgeweek.com/2018/07/19/266561/d1-mint-brings-investment-grade-diamond-crypto-token-market'],
+        ['wealthbriefing', '13.07.2018', 'Diamonds: A New Asset Class?', 'Explaining D1 as the new "token" technology that comes from the same sort of stable as Bitcoin and can change how investors treat diamonds.'],
         [['tass', [67, 15], '#fff'], '9.05.2018', 'Blockchain technologies will be applied at the Far East Financial Center', 'In 2017, the Cabinet of Ministers and the Central Bank supported the establishment of a financial center with a branch of foreign credit organizations', '#'],
         [['kommersant', [96, 14], '#fff', [150, 16]], '9.05.2018', 'Blockchain technologies will be applied at the Far East Financial Center', 'In 2017, the Cabinet of Ministers and the Central Bank supported the establishment of a financial center with a branch of foreign credit organizations', '#'],
         [['tass', [67, 15], '#fff'], '9.05.2018', 'Blockchain technologies will be applied at the Far East Financial Center', 'In 2017, the Cabinet of Ministers and the Central Bank supported the establishment of a financial center with a branch of foreign credit organizations', '#'],
@@ -26,6 +29,23 @@
         [['tass', [67, 15], '#fff'], '9.05.2018', 'Blockchain technologies will be applied at the Far East Financial Center', 'In 2017, the Cabinet of Ministers and the Central Bank supported the establishment of a financial center with a branch of foreign credit organizations', '#'],
         [['medium', [57, 47], '#fff', [22, 19]], '9.05.2018', 'Blockchain technologies will be applied at the Far East Financial Center', 'In 2017, the Cabinet of Ministers and the Central Bank supported the establishment of a financial center with a branch of foreign credit organizations', '#']
     ]
+
+mixin publ(content)
+    .column
+        .publications_item
+            .publications_item_icon
+                if typeof content[0] === 'object'
+                    +icon(...content[0])
+                else
+                    img(src=`assets/img/newspapers/${content[0]}.png` srcsset=`assets/img/newspapers/${content[0]}.png 1x, assets/newspapers/publ/${content[0]}@2x.png 2x` alt=content[2])
+            .publications_item_date
+                =content[1]
+            .publications_item_title
+                =content[2]
+            .publications_item_text
+                =content[3]
+            a.publications_item_more(href=content[4] target='_blank')
+                | more
 
 section#media.publications
     .row.column
@@ -61,31 +81,10 @@ section#media.publications
             .row.owl-carousel.publications_items
                 each publ, idx in publs
                     each item in eval('publs_' + publ)
-                        .column
-                            .publications_item
-                                .publications_item_icon
-                                    +icon(...item[0])
-                                .publications_item_date
-                                    =item[1]
-                                .publications_item_title
-                                    =item[2]
-                                .publications_item_text
-                                    =item[3]
-                                a.publications_item_more(href=item[4])
-                                    | more
+                        +publ(item)
+
         each publ, idx in publs
             .tabs-panel(id='publ_' + publ)
                 .row.owl-carousel.publications_items
                     each item in eval('publs_' + publ)
-                        .column
-                            .publications_item
-                                .publications_item_icon
-                                    +icon(...item[0])
-                                .publications_item_date
-                                    =item[1]
-                                .publications_item_title
-                                    =item[2]
-                                .publications_item_text
-                                    =item[3]
-                                a.publications_item_more(href=item[4])
-                                    | more
+                        +publ(item)

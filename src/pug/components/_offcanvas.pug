@@ -31,8 +31,5 @@
             each val in types
                 label.matrix_picker_mobile_item(for=val)
                     .matrix_picker_mobile_item_img
-                        img(src="assets/img/diamonds/" + val + ".png", alt=val)
+                        img(src=`assets/img/diamonds/${val}.png` srcset=`assets/img/diamonds/${val}.png 1x, assets/img/diamonds/${val}@2x.png 2x` alt=val)
                     =val
-            button.button(data-close)
-                | Choose
-    button.reveal_close.reveal_close--simple(aria-label='Close', type='button', data-close)

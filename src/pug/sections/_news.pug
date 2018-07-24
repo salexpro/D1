@@ -5,4 +5,4 @@ section.news
             - const news = ['financial_times', 'currency_buzzer', 'baidu', 'kommersant', 'tass', 'financial_times', 'currency_buzzer', 'baidu', 'kommersant', 'tass']
             each item in news
                 .news_item(class="news_item--" + item)
-                    img(src="assets/img/newspapers/" + item + ".png", alt=item)
+                    img(src=`assets/img/newspapers/${item}.png` srcset=`assets/img/newspapers/${item}.png 1x, assets/img/newspapers/${item}@2x.png 2x` alt=item)
