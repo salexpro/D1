@@ -15,15 +15,15 @@
     }
     &--choose{
         margin-top: -20px;
+        justify-content: space-between;
         .form{
             &_field{
-                margin-top: 20px;
-                width: calc(50% - 20px);
+                margin: 20px 0 0 !important;
                 @include breakpoint(small down) {
                     width: 100%;
                 }
-                &:nth-child(even) {
-                    margin-left: 0;
+                &.hidden{
+                    display: none;
                 }
                 [type="radio"]{
                     display: none;
@@ -35,11 +35,6 @@
                             background-repeat: no-repeat;
                         }
                     }
-                }
-                &--sizer{
-                    width: calc(50% - 20px);
-                    margin-left: 20px;
-                    position: absolute;
                 }
             }
             &_input{
@@ -135,6 +130,15 @@
                 background-position: center right 26px;
                 background-repeat: no-repeat;
             }
+            &::after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+            }
         }
         &--amount.form_input {
             input{
@@ -170,8 +174,10 @@
             input {
                 width: 100%;
                 padding-left: 140px;
+                line-height: normal;
+                height: auto;
                 @include breakpoint(medium down) {
-                    padding-left: 120px;
+                    // padding-left: 120px;
                 }
             }
             select {
@@ -206,6 +212,7 @@
             height: 22px;
             background-size: cover;
             border-radius: 3px;
+            z-index: 2;
             svg{
                 display: block;
             }
@@ -232,7 +239,7 @@
             color: $cyan;
             border-color: $cyan;
         }
-        &:invalid:not(:focus):not(:placeholder-shown):not(select) {
+        &:invalid:not(:focus):not(:placeholder-shown):not(select), &:focus:invalid {
             border-color: $alert-color;
             color: $alert-color;
         }

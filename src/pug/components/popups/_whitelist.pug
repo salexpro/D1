@@ -3,7 +3,7 @@
         | Whitelist application
     p.reveal_descr
         | We are assembling an D1 token sale whitelist for our valued community. Please fill your details here for an opportunity to be invited to the whitelist. Please note that complete requests will be processed faster and are more likely to be selected.
-    form.form.form--cols(action="whitelist")
+    form.form.form--cols(action="whitelist" autocomplete='off')
         .form_field
             label.form_label
                 | Full name
@@ -21,10 +21,10 @@
         .form_field
             label.form_label
                 | Country
-            .form_input.form_input--country
+            .form_input.form_input--country(data-open='country')
                 .form_input_icon
                     +icon('earth', [24, 24], '#93979f')
-                input(type="text" name="country" placeholder="Choose your country" required)
+                input(type="text" name="country" placeholder="Choose your country" autocomplete='off' required)
         .form_field
             label.form_label
                 | Phone
@@ -44,9 +44,11 @@
                     +icon('amount', [24, 20], '#93979f')
                 input(type="number" name="amount" placeholder="Enter amount to invest" required)
                 select(name="amount_currency")
-                    option(value="USD") US Dollars
-                    option(value="EUR") Euro
-                    option(value="GPB") GB Pound
+                    option(value="USD") USD
+                    option(value="EUR") EUR
+                    option(value="GBP") GBP
+                    option(value="BTC") BTC
+                    option(value="ETH") ETH
         //- .form_field
             label.form_label
                 | Social url
@@ -69,7 +71,7 @@
     button.reveal_close(aria-label='Close', type='button', data-close)
 
 
-#disclaimer.reveal.reveal--large.reveal--disclaimer(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+#disclaimer.reveal.reveal--large.reveal--disclaimer(data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-multiple-opened='true')
     h2.reveal_header
         | Disclamer
     .reveal_content
