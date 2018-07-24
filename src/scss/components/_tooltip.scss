@@ -12,4 +12,13 @@
         letter-spacing: 3px;
         line-height: 1.43;
     }
+    .reveal_table{
+        width: 100%;
+        th{
+            padding-right: 0;
+        }
+        td{
+            width: 1%;
+        }
+    }
 }

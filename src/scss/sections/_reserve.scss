@@ -123,7 +123,8 @@
             line-height: 1.19;
             margin-bottom: 20px;
             @include breakpoint(small down) {
-                font-size: 24px;
+                font-size: 5.7vw;
+                letter-spacing: 0;
                 margin-bottom: 10px;
             }
             small{

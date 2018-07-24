@@ -31,13 +31,16 @@ section.matrix
                 .matrix_calc_cost
                     h3
                         | Value in D1 Coins
-                        .matrix_tooltip(tabindex='1')
+                        .matrix_tooltip
                             +icon('info', [18, 18], 'rgba(255, 255, 255, 0.8)')
                     .matrix_calc_cost_curr
-                        | 1D 1 coin
+                        span
+                            span.matrix_calc_cost_d1 154.33
+                            | 
+                            | D1 coin
                         | 
-                        span (1 D1 coin = 12$)
-                        b 10999,1234
+                        | (1 D1 coin = 12$)
+                        b.matrix_calc_cost_usd $1852
             .matrix_content_footer
                 button.button.huge
                     | BUY D1 COIN

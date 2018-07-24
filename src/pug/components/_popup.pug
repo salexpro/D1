@@ -18,6 +18,46 @@ include popups/_reserve
             button.button.huge Send
     button.reveal_close(aria-label='Close', type='button', data-close)
 
+#prices_mobile.reveal.reveal--reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    .reveal_inner
+        h2.reveal_header
+            | Price estimation
+            br
+            | is based on the 
+            br
+            | following criteria:
+        table.reveal_table
+            tr
+                th Cut
+                td Ideal
+            tr
+                th color 
+                td F
+            tr
+                th clarity 
+                td VVS1
+            tr
+                th depth 
+                td 60
+            tr
+                th table 
+                td 60
+            tr
+                th Polish
+                td Excellent
+            tr
+                th summetry
+                td Excellent
+            tr
+                th culet
+                td None
+            tr
+                th fluorescence
+                td None
+
+        button.button.huge(data-close)
+            | Close
+
 #member.reveal.reveal--member(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
     .reveal_cols
         .reveal_member

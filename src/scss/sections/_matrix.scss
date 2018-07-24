@@ -199,18 +199,20 @@
             }
         }
         &_cost{
+            min-width: 290px;
+            text-align: left;
             &_curr{
-                font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: 3px;
                 color: rgba($white, 0.7);
+                font-size: 12px;
+                letter-spacing: 2.57px;
                 @include breakpoint(medium down) {
                     text-align: center;
                 }
                 span{
-                    font-size: 12px;
-                    font-weight: 400;
-                    letter-spacing: 2.57px;
+                    font-weight: 700;
+                    font-size: 14px;
                 }
                 b{
                     display: block;
