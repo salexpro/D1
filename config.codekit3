@@ -38,12 +38,6 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 1
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -308,16 +302,6 @@
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/shufflejs\/dist\/shuffle.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/build\/node_modules\/shufflejs\/dist\/shuffle.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
 	"\/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -351,6 +335,34 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/src\/assets\/docs\/presentation.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/docs\/presentation.pdf",
+		"oF": 0
+		},
+	"\/src\/assets\/docs\/terms_of_sale.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/docs\/terms_of_sale.pdf",
+		"oF": 0
+		},
+	"\/src\/assets\/docs\/terms_of_service.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/docs\/terms_of_service.pdf",
+		"oF": 0
+		},
+	"\/src\/assets\/docs\/whitepaper.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/docs\/whitepaper.pdf",
+		"oF": 0
 		},
 	"\/src\/assets\/fonts\/.gitkeep": {
 		"cB": 0,
@@ -575,41 +587,22 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/country\/belarus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/country\/belarus.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 1103269715935,
-		"prP": 0
-		},
-	"\/src\/assets\/img\/country\/england.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/country\/england.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 1103269715935,
-		"prP": 0
-		},
-	"\/src\/assets\/img\/country\/russia.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/country\/russia.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 1103269715935,
-		"prP": 0
-		},
 	"\/src\/assets\/img\/diamonds\/asscher.png": {
 		"ft": 32768,
 		"iS": 6701,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/diamonds\/asscher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/diamonds\/asscher@2x.png": {
+		"ft": 32768,
+		"iS": 26327,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/asscher@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -627,11 +620,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/diamonds\/cushion@2x.png": {
+		"ft": 32768,
+		"iS": 25920,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/cushion@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/diamonds\/diamond.png": {
 		"ft": 32768,
 		"iS": 14809,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/diamonds\/diamond.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/diamonds\/diamond@2x.png": {
+		"ft": 32768,
+		"iS": 57505,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/diamond@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -649,6 +664,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/diamonds\/emerald@2x.png": {
+		"ft": 32768,
+		"iS": 26074,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/emerald@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/diamonds\/marquise.png": {
 		"ft": 32768,
 		"iS": 4943,
@@ -660,11 +686,33 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/ovall.png": {
+	"\/src\/assets\/img\/diamonds\/marquise@2x.png": {
+		"ft": 32768,
+		"iS": 19515,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/marquise@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/diamonds\/oval.png": {
 		"ft": 32768,
 		"iS": 8322,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/ovall.png",
+		"oAP": "\/build\/assets\/img\/diamonds\/oval.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/diamonds\/oval@2x.png": {
+		"ft": 32768,
+		"iS": 32948,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/oval@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -682,11 +730,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/diamonds\/pear@2x.png": {
+		"ft": 32768,
+		"iS": 22306,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/pear@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/diamonds\/princess.png": {
 		"ft": 32768,
 		"iS": 7503,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/diamonds\/princess.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/diamonds\/princess@2x.png": {
+		"ft": 32768,
+		"iS": 29436,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/princess@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -704,11 +774,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/diamonds\/round@2x.png": {
+		"ft": 32768,
+		"iS": 33483,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/diamonds\/round@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/exchanges\/bitfinex.png": {
 		"ft": 32768,
 		"iS": 2400,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/exchanges\/bitfinex.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/exchanges\/bitfinex@2x.png": {
+		"ft": 32768,
+		"iS": 11200,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/exchanges\/bitfinex@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -726,11 +818,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/exchanges\/bittrex@2x.png": {
+		"ft": 32768,
+		"iS": 7802,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/exchanges\/bittrex@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/exchanges\/exmo.png": {
 		"ft": 32768,
 		"iS": 3153,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/exchanges\/exmo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/exchanges\/exmo@2x.png": {
+		"ft": 32768,
+		"iS": 9079,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/exchanges\/exmo@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -748,11 +862,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/exchanges\/okcoin@2x.png": {
+		"ft": 32768,
+		"iS": 11827,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/exchanges\/okcoin@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/exchanges\/poloniex.png": {
 		"ft": 32768,
 		"iS": 1945,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/exchanges\/poloniex.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/exchanges\/poloniex@2x.png": {
+		"ft": 32768,
+		"iS": 6736,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/exchanges\/poloniex@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3352,11 +3488,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/newspapers\/alphaweek.png": {
+		"ft": 32768,
+		"iS": 3440,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/alphaweek.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/alphaweek@2x.png": {
+		"ft": 32768,
+		"iS": 3802,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/alphaweek@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/newspapers\/baidu.png": {
 		"ft": 32768,
 		"iS": 2769,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/newspapers\/baidu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/baidu@2x.png": {
+		"ft": 32768,
+		"iS": 7364,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/baidu@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3374,11 +3543,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/newspapers\/currency_buzzer@2x.png": {
+		"ft": 32768,
+		"iS": 5673,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/currency_buzzer@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/newspapers\/financial_times.png": {
 		"ft": 32768,
 		"iS": 3460,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/newspapers\/financial_times.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/financial_times@2x.png": {
+		"ft": 32768,
+		"iS": 11623,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/financial_times@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/hedgeweek.png": {
+		"ft": 32768,
+		"iS": 1622,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/hedgeweek.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/hedgeweek@2x.png": {
+		"ft": 32768,
+		"iS": 3441,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/hedgeweek@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3396,6 +3609,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/newspapers\/kommersant@2x.png": {
+		"ft": 32768,
+		"iS": 5505,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/kommersant@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/newspapers\/tass.png": {
 		"ft": 32768,
 		"iS": 1338,
@@ -3407,11 +3631,55 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/newspapers\/tass@2x.png": {
+		"ft": 32768,
+		"iS": 2614,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/tass@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/wealthbriefing.png": {
+		"ft": 32768,
+		"iS": 2239,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/wealthbriefing.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/newspapers\/wealthbriefing@2x.png": {
+		"ft": 32768,
+		"iS": 4480,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/newspapers\/wealthbriefing@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/partners\/alrosa.png": {
 		"ft": 32768,
 		"iS": 3580,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/partners\/alrosa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/partners\/alrosa@2x.png": {
+		"ft": 32768,
+		"iS": 24087,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/partners\/alrosa@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3439,6 +3707,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/partners\/kristall@2x.png": {
+		"ft": 32768,
+		"iS": 23469,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/partners\/kristall@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/partners\/malca-amit.png": {
 		"ft": 32768,
 		"iS": 3064,
@@ -3450,11 +3729,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/partners\/malca-amit@2x.png": {
+		"ft": 32768,
+		"iS": 26194,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/partners\/malca-amit@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/people\/alexei.png": {
 		"ft": 32768,
 		"iS": 20130,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/people\/alexei.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/people\/alexei@2x.png": {
+		"ft": 32768,
+		"iS": 86712,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/alexei@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3571,11 +3872,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/people\/bill@2x.png": {
+		"ft": 32768,
+		"iS": 86434,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/bill@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/people\/hogi.png": {
 		"ft": 32768,
 		"iS": 18045,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/people\/hogi.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/people\/hogi@2x.png": {
+		"ft": 32768,
+		"iS": 77530,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/hogi@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3593,11 +3916,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/people\/jeff@2x.png": {
+		"ft": 32768,
+		"iS": 78174,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/jeff@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/people\/sandeep.png": {
 		"ft": 32768,
 		"iS": 13067,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/people\/sandeep.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/people\/sandeep@2x.png": {
+		"ft": 32768,
+		"iS": 97812,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/sandeep@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3615,6 +3960,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/people\/thomas@2x.png": {
+		"ft": 32768,
+		"iS": 90371,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/people\/thomas@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/people\/william.png": {
 		"ft": 32768,
 		"iS": 20648,
@@ -3626,11 +3982,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/yobie.png": {
+	"\/src\/assets\/img\/people\/william@2x.png": {
 		"ft": 32768,
-		"iS": 14232,
+		"iS": 81839,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/yobie.png",
+		"oAP": "\/build\/assets\/img\/people\/william@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -3703,6 +4059,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/ys\/convertibility.png": {
+		"ft": 32768,
+		"iS": 24741,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/ys\/convertibility.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/ys\/transparency.png": {
+		"ft": 32768,
+		"iS": 10041,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/ys\/transparency.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/ys\/verity.png": {
+		"ft": 32768,
+		"iS": 10288,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/ys\/verity.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/video\/bg_head.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -3734,12 +4123,72 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/src\/js\/components\/_calc.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_calc.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/components\/_carousel.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_carousel.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/src\/js\/components\/_countries.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/build\/js\/components\/_countries.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/components\/_modal.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_modal.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/components\/_subscribe.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_subscribe.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/components\/_util.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_util.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"\/src\/js\/components\/_whitelist.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_whitelist.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -4666,7 +5115,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 553713324
+	"lastBuiltDate": 554147029
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -6648,7 +7097,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, docs, node_modules, build.zip",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, \/docs, node_modules, build.zip",
 	"sourceFolderName": "src",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

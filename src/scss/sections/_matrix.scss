@@ -102,9 +102,11 @@
                 margin-bottom: 15px;
                 @include breakpoint(medium down) {
                     position: absolute;
+                    top: 50%;
                     left: 20px;
                     margin: 0;
                     height: 50px;
+                    transform: translateY(-50%);
                     img{
                         max-height: 100%;
                     }
@@ -154,10 +156,12 @@
                 }
                 &_img{
                     position: absolute;
+                    top: 50%;
                     left: 0;
                     height: 30px;
                     width: 23px;
                     text-align: center;
+                    transform: translateY(-50%);
                     img{
                         max-height: 100%;
                     }
