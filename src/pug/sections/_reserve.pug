@@ -12,7 +12,7 @@ section.reserve
         each item, idx in reserve
             .column.large-3.small-6(class='large-order-'+ Number(idx+1) + ' small-order-'+ Number(idx+2))
                 - let id = item[2].toLowerCase().replace(' ', '');
-                .reserve_item(class='reserve_item--' + id data-open='reserve_' + id)
+                .reserve_item(class='reserve_item--' + id data-open='reserve_' + id tabindex="0")
                     .reserve_item_num
                         =item[0]
                         //- small= item[1]
