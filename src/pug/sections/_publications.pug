@@ -37,7 +37,7 @@ mixin publ(content)
                 if typeof content[0] === 'object'
                     +icon(...content[0])
                 else
-                    img(src=`assets/img/newspapers/${content[0]}.png` srcsset=`assets/img/newspapers/${content[0]}.png 1x, assets/newspapers/publ/${content[0]}@2x.png 2x` alt=content[2])
+                    img(src=`assets/img/newspapers/${content[0]}.png` srcset=`assets/img/newspapers/${content[0]}.png 1x, assets/img/newspapers/${content[0]}@2x.png 2x` alt=content[2])
             .publications_item_date
                 =content[1]
             .publications_item_title

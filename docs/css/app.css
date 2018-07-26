@@ -8478,7 +8478,9 @@ select[data-target] {
     display: block;
     position: relative;
     overflow: hidden;
-    outline: none; }
+    outline: none;
+    height: 0;
+    padding-bottom: 56.1%; }
     .videos_item:hover .videos_item_button, .videos_item:focus .videos_item_button {
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
@@ -8520,6 +8522,12 @@ select[data-target] {
             border-left-width: 14px;
             border-top-width: 10px;
             border-bottom-width: 10px; } }
+    .videos_item img {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
 
 .contacts {
   padding: 80px 0 230px;

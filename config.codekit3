@@ -3477,16 +3477,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/logo.png": {
-		"ft": 32768,
-		"iS": 860,
+	"\/src\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/logo.png",
+		"oAP": "\/build\/assets\/img\/logo.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"plM": 1103269715935,
+		"prP": 0
 		},
 	"\/src\/assets\/img\/newspapers\/alphaweek.png": {
 		"ft": 32768,
@@ -4327,7 +4326,7 @@
 		"oA": 0,
 		"oAP": "\/build\/index.html",
 		"oF": 0,
-		"oS": 0
+		"oS": 1
 		},
 	"\/src\/pug\/sections\/_advisors.pug": {
 		"cB": 1,
@@ -5115,7 +5114,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 554164366
+	"lastBuiltDate": 554305773
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
