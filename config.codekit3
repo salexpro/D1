@@ -364,6 +364,103 @@
 		"oAP": "\/build\/assets\/docs\/whitepaper.pdf",
 		"oF": 0
 		},
+	"\/src\/assets\/favicon\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 13883,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/favicon\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 21876,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/favicon\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4921,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/src\/assets\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 654,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1200,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/favicon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/src\/assets\/favicon\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4827,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/favicon\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/favicon\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 1103269715935,
+		"prP": 0
+		},
+	"\/src\/assets\/favicon\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/favicon\/site.webmanifest",
+		"oF": 0
+		},
 	"\/src\/assets\/fonts\/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
@@ -5112,9 +5209,9 @@
 	"creationDate": 505831586,
 	"displayValue": "D1Coin",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-doge",
+	"iconImageName": "\/src\/assets\/favicon\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 554305773
+	"lastBuiltDate": 554414853
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
