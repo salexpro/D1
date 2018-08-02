@@ -7549,6 +7549,12 @@ select[data-target] {
       letter-spacing: 0.56px;
       line-height: 1.19;
       margin-bottom: 20px; }
+      @media screen and (max-width: 71.8125em) {
+        .reserve_item_num {
+          font-size: 3.6vw; } }
+      @media screen and (max-width: 63.9375em) {
+        .reserve_item_num {
+          font-size: 42px; } }
       @media screen and (max-width: 39.9375em) {
         .reserve_item_num {
           font-size: 5.7vw;
