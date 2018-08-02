@@ -1,13 +1,13 @@
 section.reserve
     .row.column
-        h2 Current Diamond Reserve
+        h2 Initial Diamond Reserve
     .row.align-justify.reserve_content
         -
             const reserve = [
-                ['1600',  'k', 'Diamonds'],
-                ['2 000 000',    'm', 'D1 coins'],
-                ['1800',  'k', 'Carats'],
-                ['20 000 000',   'm', 'USD']
+                ['1,600',  'k', 'Diamonds'],
+                ['2,000,000',    'm', 'D1 coins'],
+                ['1,800',  'k', 'Carats'],
+                ['20,000,000',   'm', 'USD']
             ]
         each item, idx in reserve
             .column.large-3.small-6(class='large-order-'+ Number(idx+1) + ' small-order-'+ Number(idx+2))

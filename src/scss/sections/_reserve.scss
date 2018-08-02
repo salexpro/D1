@@ -122,6 +122,12 @@
             letter-spacing: 0.56px;
             line-height: 1.19;
             margin-bottom: 20px;
+            @include breakpoint(large down) {
+                font-size: 3.6vw;
+            }
+            @include breakpoint(medium down) {
+                font-size: 42px;
+            }
             @include breakpoint(small down) {
                 font-size: 5.7vw;
                 letter-spacing: 0;
