@@ -4169,6 +4169,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/why\/bg_prb_diamonds.jpg": {
+		"ft": 16384,
+		"iS": 15527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/why\/bg_prb_diamonds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/why\/bg_prb_tokens.png": {
+		"ft": 32768,
+		"iS": 39421,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/why\/bg_prb_tokens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/why\/bg_sol_diamonds.png": {
+		"ft": 32768,
+		"iS": 37954,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/why\/bg_sol_diamonds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/why\/bg_sol_tokens.jpg": {
+		"ft": 16384,
+		"iS": 45387,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/why\/bg_sol_tokens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/ys\/convertibility.png": {
 		"ft": 32768,
 		"iS": 24741,
