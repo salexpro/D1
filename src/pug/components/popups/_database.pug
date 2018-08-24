@@ -1,0 +1,51 @@
+#database.reveal.reveal--database(data-reveal data-animation-in="fade-in" data-animation-out="fade-out")
+    h2.reveal_header
+        | DIAMOND DOSSIER
+    p.reveal_descr
+        | Generally, the range for the characteristics of the diamonds sourced are the following
+    .reveal_notify
+        .reveal_notify_img
+            img(src=`assets/img/gia.png` srcset=`assets/img/gia.png 1x, assets/img/gia@2x.png 2x` alt='GIA Diamond Report')
+        p.reveal_notify_info
+            | All diamonds sourced, regardless of characteristics or supplier, have an accompanying certification by Gemological Institute of America (GIA Diamond Report)
+    h3 Diamond Reserve (Indicative)
+    button.button.icon.reveal_filter_open(data-open="filters")
+        +icon('filter_open', [20, 21], '#fff')
+        | Open filters
+    include ../_filters
+    .reveal_results
+        h3 Search results:
+        table.table
+            tr
+                th Weight
+                th Shape
+                th Color
+                th Clarity
+                th Polish
+                th SYM
+                th GIA certificate
+                th Price in D1 coin 
+                th Reservation of diamonds
+            tr
+                td(colspan="9" data-title="Press search to get diamond list")
+                    span.table_cell Press search to get diamond list
+
+        nav(aria-label='Pagination')
+            ul.pagination.text-center
+
+    button.reveal_close(aria-label='Close', type='button', data-close)
+
+#filters.reveal.reveal--reserve.reveal--database_reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-multiple-opened='true')
+    p.h2.reveal_header
+        | Filters
+    include ../_filters
+    button.reveal_close.reveal_close--simple(aria-label='Close', type='button', data-close)
+
+#reservation.reveal.reveal--reserve.reveal--database_reserve(data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-multiple-opened='true')
+    .reveal_inner
+        p.h2.reveal_header
+            | Reservation of diamonds
+        p.reveal_content.reveal_content--centered
+            | Reservation will be available once the token sale is completed.
+        button.button.huge(data-close)
+            | Close

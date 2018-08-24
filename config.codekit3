@@ -577,6 +577,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/bg_database.jpg": {
+		"ft": 16384,
+		"iS": 50689,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/bg_database.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/bg_faq.jpg": {
 		"ft": 16384,
 		"iS": 80255,
@@ -3555,6 +3566,28 @@
 		"plM": 1103269715935,
 		"prP": 0
 		},
+	"\/src\/assets\/img\/gia.png": {
+		"ft": 32768,
+		"iS": 13048,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/gia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/gia@2x.png": {
+		"ft": 32768,
+		"iS": 45043,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/gia@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/infographics.png": {
 		"ft": 32768,
 		"iS": 184969,
@@ -4307,6 +4340,16 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"\/src\/js\/components\/_database.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/build\/js\/components\/_database.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"\/src\/js\/components\/_modal.js": {
 		"ft": 64,
 		"ma": 1,
@@ -4375,6 +4418,15 @@
 		"oF": 0,
 		"oS": 1
 		},
+	"\/src\/pug\/components\/_filters.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_filters.html",
+		"oF": 0,
+		"oS": 1
+		},
 	"\/src\/pug\/components\/_icons.pug": {
 		"cB": 1,
 		"cOD": 0,
@@ -4435,6 +4487,15 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_countries.html",
+		"oF": 0,
+		"oS": 1
+		},
+	"\/src\/pug\/components\/popups\/_database.pug": {
+		"cB": 1,
+		"cOD": 0,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_database.html",
 		"oF": 0,
 		"oS": 1
 		},
@@ -4933,6 +4994,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/src\/scss\/components\/_table.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_table.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/src\/scss\/components\/_tabs.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -5269,7 +5343,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/src\/assets\/favicon\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 554923167
+	"lastBuiltDate": 556639993
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

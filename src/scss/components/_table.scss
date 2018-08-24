@@ -1,0 +1,93 @@
+.table{
+    table-layout: fixed;
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    @include breakpoint(medium down){
+        table-layout: auto;
+    }
+    @include breakpoint(small down) {
+        text-align: center;
+        margin: 0 -15px;
+        width: calc(100% + 30px);
+        border-spacing: 0;
+    }
+    tr{
+        background-color: rgba(#d8d8d8, .05);
+        @include breakpoint(small down) {
+            background: none;
+        }
+        &:nth-child(odd){
+            background-color: rgba(#d8d8d8, .12);
+            @include breakpoint(small down) {
+                background: none;
+            }
+        }
+        &:first-child{
+            @include breakpoint(small down) {
+                display: none;
+            }
+        }
+    }
+    th{
+        background-color: rgba($primary-color, .2);
+        padding: 7px 5px;
+        &:last-child{
+            background-color: $primary-color;
+        }
+    }
+    td{
+        text-align: center;
+        min-height: 50px;
+        padding: 5px;
+        position: relative;
+        @include breakpoint(small down) {
+            display: flex;
+            text-align: center;
+            padding: 0;
+            border-top: 1px solid #172238;
+            background-color: rgba(#d8d8d8, .12);
+            &::before{
+                content: attr(data-title);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                width: 50%;
+                background-color: rgba($white, 0.1);
+                border-right: 1px solid #172238;
+            }
+            &:last-child{
+                margin-bottom: 16px;
+                &::before{
+                    background-color: rgba($primary-color, 0.7);
+                }
+            }
+        }
+        .button{
+            position: absolute;
+            top: 0;
+            right: 0;
+            min-width: 100%;
+            border-radius: 0;
+            height: 100%;
+            @include breakpoint(small down) {
+                min-width: 50%;
+            }
+        }
+        a{
+            color: #006dff;
+            text-decoration: underline;
+        }
+    }
+    &_cell{
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include breakpoint(small down) {
+            width: 50%;
+        }
+    }
+}

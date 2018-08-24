@@ -1,83 +1,104 @@
 const calc_data = {
     round: {
-        '0.5': 1852,
-        '1': 10154,
-        '1.5': 18386,
-        '2': 29192,
-        '2.5': 41980,
-        '3': 53394
+        '0.5': 185.20,
+        '1': 1015.40,
+        '1.5': 1838.60,
+        '2': 2919.20,
+        '2.5': 4198.00,
+        '3': 5339.40,
     },
     princess: {
-        '0.5': 1084,
-        '1': 5098,
-        '1.5': 13247,
-        '2': 28796,
-        '2.5': 39463,
-        '3': 58068
+        '0.5': 108.40,
+        '1': 509.80,
+        '1.5': 1324.70,
+        '2': 2879.60,
+        '2.5': 3946.30,
+        '3': 5806.80,
     },
     oval: {
-        '0.5': 1237,
-        '1': 5758,
-        '1.5': 12908,
-        '2': 26830,
-        '2.5': 36980,
-        '3': 46443
+        '0.5': 123.70,
+        '1': 575.80,
+        '1.5': 1290.80,
+        '2': 2683.00,
+        '2.5': 3698.00,
+        '3': 4644.30,
     },
     marquise: {
-        '0.5': 1026,
-        '1': 5746,
-        '1.5': 10920,
-        '2': 23572,
-        '2.5': 33233,
-        '3': 47091
+        '0.5': 102.60,
+        '1': 574.60,
+        '1.5': 1092.00,
+        '2': 2357.20,
+        '2.5': 3323.30,
+        '3': 4709.10,
     },
     pear: {
-        '0.5': 1405,
-        '1': 5619,
-        '1.5': 13902,
-        '2': 34664,
-        '2.5': 49483,
-        '3': 66891
+        '0.5': 140.50,
+        '1': 561.90,
+        '1.5': 11390.20,
+        '2': 33466.40,
+        '2.5': 44948.30,
+        '3': 66689.10,
     },
     emerald: {
-        '0.5': 1096,
-        '1': 4951,
-        '1.5': 10181,
-        '2': 21198,
-        '2.5': 40965,
-        '3': 56250
+        '0.5': 109.60,
+        '1': 495.10,
+        '1.5': 1018.10,
+        '2': 2119.80,
+        '2.5': 4096.50,
+        '3': 5625.00,
     },
     cushion: {
-        '0.5': 1957,
-        '1': 4412,
-        '1.5': 13071,
-        '2': 21128,
-        '2.5': 32653,
-        '3': 45453
+        '0.5': 195.70,
+        '1': 441.20,
+        '1.5': 1307.10,
+        '2': 2112.80,
+        '2.5': 3265.30,
+        '3': 4545.30,
     },
     asscher: {
-        '0.5': 2022,
-        '1': 4412,
-        '1.5': 13071,
-        '2': 19140,
-        '2.5': 28775,
-        '3': 43056
+        '0.5': 202.20,
+        '1': 441.20,
+        '1.5': 1307.10,
+        '2': 1914.00,
+        '2.5': 2877.50,
+        '3': 4305.60,
     }
 }
 
 const calc_form = $('form[action="pick"]');
 
-const get_cost = () => {
+const d1_rate = {
+    'USD': 10,
+    'EUR': 8.65,
+    'GBP': 7.76
+}
+$.get('https://api.coinmarketcap.com/v2/ticker/1/', data => {d1_rate['BTC'] = data.data.quotes.USD.price})
+$.get('https://api.coinmarketcap.com/v2/ticker/1027/', data => {d1_rate['ETH'] = data.data.quotes.USD.price})
+
+const get_cost = currency => {
     const shape = $('[name="diamonds"]:checked', calc_form).attr('id');
     const carat = $('[name="carats"]', calc_form).val() == 2.5 ? 3 : $('[name="carats"]', calc_form).val();
-    return calc_data[shape][carat];
+    let cost = 0;
+    switch (currency) {
+        case 'USD':
+        case 'EUR':
+        case 'GBP':
+            cost = (calc_data[shape][carat] * d1_rate[currency]).toFixed(0);
+            break;
+        case 'BTC':
+        case 'ETH':
+            cost = (calc_data[shape][carat] * d1_rate['USD'] / d1_rate[currency]).toFixed(2);
+            break;
+        default:
+            cost = calc_data[shape][carat];
+            break;
+    }
+    return cost;
 }
 
-const redraw = () => {
-    const cost_usd = get_cost();
-    const cost_d1 = (cost_usd / 12).toFixed(2);
-    $('.matrix_calc_cost_d1').text(cost_d1);
-    $('.matrix_calc_cost_usd').text('$' + cost_usd);
+const calc_redraw = () => {
+    $('.matrix_calc_cost_d1').text(get_cost());
+    $('.matrix_calc_cost_usd').text('$' + get_cost('USD'));
 }
 
 $('.matrix_picker_item').click(function () {
@@ -99,19 +120,20 @@ $('.matrix_picker_mobile_item').click(function () {
 });
 
 $('[name="diamonds"]', calc_form).change(() => {
-    redraw()
+    calc_redraw()
 });
 
 $('.matrix_slider').on('moved.zf.slider', function () {
     let val = $('[name="carats"]', this).val();
     $('.slider_step').removeClass('is_active');
     $('.slider_step[data-val="' + val + '"]').addClass('is_active');
-    redraw();
+    calc_redraw();
 });
 
 $('form[action="pick"]').submit(e => {
     e.preventDefault();
-    $('#whitelist [name="amount"]').val(get_cost());
+    $('#whitelist [name="amount"]').val(get_cost('USD'));
+    $('#whitelist [name="amount_currency"] [value="USD"]').prop('selected', true);
     $('#whitelist').foundation('open');
 })
 

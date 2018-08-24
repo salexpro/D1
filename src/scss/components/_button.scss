@@ -12,7 +12,7 @@
         display: inline-flex;
         svg{
             vertical-align: middle;
-            margin-right: 10px;
+            margin: 0 10px 0 0;
         }
         &.gray{
             min-width: auto;
@@ -30,7 +30,6 @@
         }
     }
     &.huge{
-        font-size: 12px;
         max-width: 270px;
         width: 100%;
         min-height: 80px;
@@ -42,5 +41,21 @@
     &.round{
         border-radius: 23px;
         min-width: 170px;
+    }
+    &.monster{
+        width: 100%;
+        max-width: 400px;
+        letter-spacing: 3px;
+        padding-top: 20px;
+        min-height: 100px;
+        svg{
+            margin: 0 0 0 18px;
+            @include breakpoint(small down) {
+                display: none;
+            }
+        }
+        @include breakpoint(small down) {
+            letter-spacing: 2px;
+        }
     }
 }

@@ -99,6 +99,75 @@
             min-height: 320px;
         }
     }
+    &--database{
+        background: #172238;
+        padding: 60px 15px 70px;
+        @include breakpoint(small down) {
+            padding: 34px 30px 20px;
+            text-align: center;
+        }
+        .reveal{
+            &_header {
+                margin-bottom: 40px;
+                @include breakpoint(small down) {
+                    text-align: left;
+                    font-size: 14px;
+                    margin-bottom: 25px;
+                }
+            }
+            &_filter{
+                @include breakpoint(small down) {
+                    display: none;
+                }
+            }
+            &_close {
+                @include breakpoint(small down) {
+                    right: 10px;
+                    background-color: transparent !important;
+                    background-size: 18px;
+                    top: 10px;
+                }
+            }
+        }
+        h3{
+            color: $white;
+            margin-bottom: 40px;
+            @include breakpoint(small down) {
+                letter-spacing: 2px;
+            }
+        }
+        &_reserve{
+            padding-bottom: 40px;
+            max-width: 820px;
+            @include breakpoint(small down) {
+                padding: 34px 30px;
+            }
+            .reveal{
+                &_header {
+                    @include breakpoint(small down) {
+                        text-align: left;
+                        font-size: 14px;
+                        width: 100%;
+                    }
+                }
+                &_inner {
+                    min-height: 360px;
+                }
+                &_content{
+                    max-width: 400px;
+                    text-align: center;
+                }
+                &_close {
+                    @include breakpoint(small down) {
+                        right: 10px;
+                        background-color: transparent !important;
+                        background-size: 18px;
+                        top: 10px;
+                    }
+                }
+            }
+        }
+    }
     &_inner {
         min-height: 520px;
         display: flex;
@@ -247,6 +316,113 @@
             color: $cyan;
             &:hover, &:focus{
                 color: darken($cyan, 15);
+            }
+        }
+    }
+    
+    &_notify{
+        max-width: 830px;
+        border-radius: $global-radius;
+        border: 1px solid $cyan;
+        background-color: rgba($white, 0.05);
+        display: flex;
+        align-items: center;
+        padding: 40px 80px;
+        font-weight: 300;
+        line-height: 1.71;
+        letter-spacing: 0.1px;
+        margin: 40px auto 60px;
+        @include breakpoint(medium down) {
+            margin: 40px auto;
+            padding: 20px;
+        }
+        @include breakpoint(small down) {
+            margin: 30px 0 40px;
+            flex-direction: column;
+            padding: 30px 30px 20px;
+            text-align: center;
+        }
+        &_img{
+            flex: 1 0 auto;
+            margin-right: 43px;
+            @include breakpoint(small down) {
+                margin: 0 0 20px;
+            }
+        }
+        &_info{
+            margin: 0;
+        }
+    }
+    &_filter{
+        border-top: 1px solid $black;
+        border-bottom: 1px solid $black;
+        background-color: rgba(216, 216, 216, 0.05);
+        padding: 40px 0;
+        margin: 0 -15px 40px;
+        @include breakpoint(small down) {
+            margin: 50px -15px 0;
+            border: 0;
+            background: none;
+            padding: 0;
+        }
+        &_open.button{
+            font-size: 12px;
+            width: 100%;
+            max-width: 315px;
+            margin: 0 auto 40px;
+            @include breakpoint(medium) {
+                display: none;
+            }
+        }
+        .row{
+            max-width: 1000px;
+            @include breakpoint(small down) {
+                flex-direction: column;
+            }
+            &:first-child{
+                @include breakpoint(medium down) {
+                    .column{
+                        flex: 1 1 25%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+        &_label{
+            margin-bottom: 4px;
+        }
+        &_buttons.row{
+            max-width: 610px;
+            justify-content: space-between;
+            margin-top: 36px;
+            @include breakpoint(medium down) {
+                margin-top: 10px;
+            }
+            @include breakpoint(small down) {
+                flex-direction: column-reverse;
+                margin: 0;
+            }
+            .button{
+                font-size: 12px;
+                width: 270px;
+                @include breakpoint(small down) {
+                    width: 100%;
+                    margin-top: 20px;
+                }
+            }
+        }
+        input.reveal_filter_field{
+            padding: 15px 30px;
+            height: auto;
+            margin: 0;
+        }
+    }
+    &_results{
+        max-width: 970px;
+        margin: auto;
+        .table{
+            @include breakpoint(medium){
+                margin-bottom: 20px
             }
         }
     }

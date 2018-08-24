@@ -1,3 +1,4 @@
+$contrast-warnings: false;
 //  Foundation for Sites Settings
 //  -----------------------------
 //
@@ -79,6 +80,7 @@ $foundation-palette: (
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
+  transparent: rgba(#fff, 0.1)
 );
 $cyan: #30c2ff;
 $tertiary-color: get-color(tertiary);
@@ -294,7 +296,7 @@ $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
-$button-color-alt: $black;
+$button-color-alt: $white;
 $button-radius: $global-radius;
 $button-hollow-border-width: 1px;
 $button-sizes: (
@@ -302,6 +304,8 @@ $button-sizes: (
   small: 0.75rem,
   default: 10px,
   large: 1rem,
+  huge: 12px,
+  monster: 1rem
 );
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
@@ -437,7 +441,7 @@ $select-background: rgba($white, 0.07);
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
 $input-color: $white;
-$input-placeholder-color: $white;
+$input-placeholder-color: #93979f;
 $input-font-family: inherit;
 $input-font-size: rem-calc(13);
 $input-font-weight: 700;
@@ -536,15 +540,15 @@ $orbit-control-zindex: 10;
 
 $pagination-font-size: rem-calc(14);
 $pagination-margin-bottom: $global-margin;
-$pagination-item-color: $black;
+$pagination-item-color: $white;
 $pagination-item-padding: rem-calc(3 10);
 $pagination-item-spacing: rem-calc(1);
 $pagination-radius: $global-radius;
-$pagination-item-background-hover: $light-gray;
-$pagination-item-background-current: $primary-color;
+$pagination-item-background-hover: $primary-color;
+$pagination-item-background-current: rgba($primary-color, 0.7);
 $pagination-item-color-current: $white;
 $pagination-item-color-disabled: $medium-gray;
-$pagination-ellipsis-color: $black;
+$pagination-ellipsis-color: $white;
 $pagination-mobile-items: false;
 $pagination-mobile-current-item: false;
 $pagination-arrows: true;

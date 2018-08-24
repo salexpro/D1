@@ -204,21 +204,19 @@
             &_curr{
                 text-transform: uppercase;
                 letter-spacing: 3px;
-                color: rgba($white, 0.7);
-                font-size: 12px;
+                color: $cyan;
                 letter-spacing: 2.57px;
                 @include breakpoint(medium down) {
                     text-align: center;
                 }
                 span{
                     font-weight: 700;
-                    font-size: 14px;
+                    font-size: 24px;
                 }
                 b{
                     display: block;
-                    font-size: 24px;
                     letter-spacing: 5.14px;
-                    color: $cyan;
+                    color: rgba($white, 0.7);
                     margin-top: 12px;
                 }
             }

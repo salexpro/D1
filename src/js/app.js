@@ -22,6 +22,7 @@
 @codekit-append quiet 'components/_util';
 @codekit-append quiet 'components/_carousel';
 @codekit-append quiet 'components/_whitelist';
+@codekit-append quiet 'components/_database';
 @codekit-append quiet 'components/_calc';
 @codekit-append quiet 'components/_subscribe';
 @codekit-append quiet 'components/_modal';

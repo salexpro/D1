@@ -1,0 +1,45 @@
+form.reveal_filter(action="filter" onsubmit="return form_search()" onreset="form_reset()")
+    .row
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | Min weight
+            input.reveal_filter_field(name="minweight" type="number" step="0.01" placeholder="0.3" min="0.3" max="6" required)
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | Max weight
+            input.reveal_filter_field(name="maxweight" type="number" step="0.01" placeholder="0.99" min="0.3" max="6" required) 
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | Clarity
+            select.reveal_filter_field(name="clarity" disabled)
+                option(value="") --
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | Polish
+            select.reveal_filter_field(name="polish" disabled)
+                option(value="") --
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | SYM
+            select.reveal_filter_field(name="sym" disabled)
+                option(value="") --
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | Shape
+            select.reveal_filter_field(name="shape" disabled)
+                option(value="") --
+        .column.reveal_filter_item
+            label.reveal_filter_label
+                | Color
+            select.reveal_filter_field(name="color" disabled)
+                option(value="") --
+
+    .row.reveal_filter_buttons
+        .column.shrink
+            button.button.icon.transparent(type="reset")
+                +icon('filter_clear', [24, 21], '#fff')
+                | Clear filters
+        .column.shrink
+            button.button.icon(type="submit")
+                +icon('magnifier', [20, 20], '#fff', [22, 22])
+                | Search

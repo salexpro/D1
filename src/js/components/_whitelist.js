@@ -75,4 +75,8 @@ $('form[action="country"] [name="country"]').click(function() {
     $('form[action="whitelist"] [name="country"]').val(country).data('code', country_code);
     $(`#whitelist [name="phone_code"] [data-code="${country_code.toUpperCase()}"]`).prop('selected', true);
     $('#country').foundation('close');
+});
+
+$('#whitelist [name="amount_currency"]').change(function() {
+    $('#whitelist [name="amount"]').val(get_cost($(this).val()));
 })
