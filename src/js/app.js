@@ -16,7 +16,6 @@
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min';
 @codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.offcanvas.min';
-@codekit-prepend quiet '../../node_modules/foundation-sites/dist/js/plugins/foundation.interchange.min';
 @codekit-prepend quiet '../../node_modules/owl.carousel/dist/owl.carousel.min';
 
 @codekit-append quiet 'components/_countries';

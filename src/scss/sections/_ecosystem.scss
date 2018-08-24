@@ -4,7 +4,7 @@
         padding: 40px 30px;
     }
     @include breakpoint(small down) {
-        padding: 40px 15px 0;
+        padding: 40px 15px;
     }
     &_descr{
         margin: 40px auto;
@@ -15,9 +15,27 @@
         }
     }
     &_infographics{
-        @include breakpoint(small down) {
-            max-width: 240px;
-            margin: auto;
+        max-width: 1070px;
+        &_image{
+            text-align: center;
+            display: block;
+            @include breakpoint(small down) {
+                max-width: 300px;
+                margin: auto;
+            }
+        }
+        &_icon{
+            height: 55px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        &_header{
+            text-align: left;
+            color: $white;
+            letter-spacing: normal;
+            text-transform: none;
+            font-size: 16px;
         }
     }
 }

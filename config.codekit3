@@ -38,6 +38,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 1
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -148,16 +154,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.dropdown.min.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.interchange.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.interchange.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -335,6 +331,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/src\/assets\/docs\/onepager.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/assets\/docs\/onepager.pdf",
+		"oF": 0
 		},
 	"\/src\/assets\/docs\/presentation.pdf": {
 		"cB": 0,
@@ -3554,7 +3557,7 @@
 		},
 	"\/src\/assets\/img\/infographics.png": {
 		"ft": 32768,
-		"iS": 257921,
+		"iS": 184969,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/infographics.png",
 		"oF": 0,
@@ -3563,11 +3566,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/assets\/img\/infographics@2x.png": {
+		"ft": 32768,
+		"iS": 533784,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/infographics@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/assets\/img\/infographics_mobile.png": {
 		"ft": 32768,
-		"iS": 222409,
+		"iS": 182188,
 		"oA": 0,
 		"oAP": "\/build\/assets\/img\/infographics_mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/assets\/img\/infographics_mobile@2x.png": {
+		"ft": 32768,
+		"iS": 549845,
+		"oA": 0,
+		"oAP": "\/build\/assets\/img\/infographics_mobile@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -4098,17 +4123,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/src\/assets\/img\/reserves\/bg_video.png": {
-		"ft": 32768,
-		"iS": 259812,
-		"oA": 0,
-		"oAP": "\/build\/assets\/img\/reserves\/bg_video.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"\/src\/assets\/img\/reserves\/carats.png": {

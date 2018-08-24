@@ -5,7 +5,7 @@ section.matrix
     .matrix_content
         form.row.column(action="pick")
             h3.matrix_content_header
-                | Pick the type of diamond
+                | Choose your diamond
             .matrix_picker
                 - const types = ['round', 'princess', 'oval', 'marquise', 'pear', 'emerald', 'cushion', 'asscher']
                 each val in types
@@ -31,6 +31,7 @@ section.matrix
                 .matrix_calc_cost
                     h3
                         | Value in D1 Coins
+                        | 
                         .matrix_tooltip
                             +icon('info', [18, 18], 'rgba(255, 255, 255, 0.8)')
                     .matrix_calc_cost_curr
@@ -38,8 +39,6 @@ section.matrix
                             span.matrix_calc_cost_d1 154.33
                             | 
                             | D1 coin
-                        | 
-                        | (1 D1 coin = 12$)
                         b.matrix_calc_cost_usd $1852
             .matrix_content_footer
                 button.button.huge

@@ -1,7 +1,8 @@
 mixin subscribe(mod)
     section.subscribe(class=mod ? "subscribe--" + mod : "")
         .row.align-center
-            h2.column.small-12 Subscribe to a newsletter
+            h2.column.small-12.subscribe_header
+                | Subscribe to newsletter
             .column.large-8
                 form.form.form--row(action="subscribe")
                     input(type="email" placeholder="Your E-mail" required)

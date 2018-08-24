@@ -3,5 +3,29 @@ section.ecosystem
         h2 D1 coin ecosystem
         p.ecosystem_descr
             | The ecosystem of D1 Coin has a few main parties, namely Coin Buyers, D1 Mint, D1 Reserve, and Diamond Suppliers. The D1 Mint and Diamond Suppliers are overseen and appointed by D1 Reserve, which also acts as a custodian by holding the diamond inventory. D1 Mint issues D1 Coins to Coin Buyers, who can purchase and redeem diamonds from D1 Mint. D1 Mint functions as the central party in the D1 ecosystem coordinating the flow of D1 Coins, diamonds, and fiat currency.
-        .ecosystem_infographics
-            img(data-interchange="[assets/img/infographics_mobile.png, small], [assets/img/infographics.png, medium]" alt="Infographics")
+        picture.ecosystem_infographics_image
+            source(srcset='assets/img/infographics_mobile.png 1x, assets/img/infographics_mobile@2x.png 2x', media='(max-width: 639px)')
+            source(srcset='assets/img/infographics.png 1x, assets/img/infographics@2x.png 2x')
+            img(srcset='assets/img/infographics.png', alt='Infographics')
+    .row.ecosystem_infographics
+        .column.medium-4.small-12.ecosystem_infographics_col
+            .ecosystem_infographics_icon
+                +icon('d1', [48.01, 47.14], '#1056c8')
+            h3.ecosystem_infographics_header
+                | D1 mint 
+            p.ecosystem_infographics_descr
+                | Issues new D1 Coins for each new diamond and control the overall D1 Coin Supply.
+        .column.medium-4.small-12.ecosystem_infographics_col
+            .ecosystem_infographics_icon
+                +icon('diamond', [44, 35.45], '#1056c8')
+            h3.ecosystem_infographics_header
+                | D1 Diamond Suppliers
+            p.ecosystem_infographics_descr
+                | Reputable diamonds dealers, initial suppliers include Alrosa, KGK Group and Kristall Smolensk
+        .column.medium-4.small-12.ecosystem_infographics_col
+            .ecosystem_infographics_icon
+                +icon('gears', [53.16, 49.02], '#1056c8')
+            h3.ecosystem_infographics_header
+                | D1 Reserve 
+            p.ecosystem_infographics_descr
+                | Custodian for diamonds stored in secured vaults in Singapore and Antwerp.

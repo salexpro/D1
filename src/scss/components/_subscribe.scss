@@ -11,8 +11,10 @@
     @include breakpoint(small down) {
         padding: 60px 15px;
     }
+    &_header{
+        margin-bottom: 60px;
+    }
     .form{
-        margin-top: 60px;
         @include breakpoint(medium down) {
             max-width: 330px;
             margin: 40px auto 0;
