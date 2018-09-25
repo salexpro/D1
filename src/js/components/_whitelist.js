@@ -19,12 +19,13 @@ $('form[action="whitelist"]').submit(function(e) {
         email: $('[name="email"]', this).val(),
         country_of_residence: $('[name="country"]', this).data('code'),
         amount_to_invest: $('[name="amount"]', this).val(),
+        currency_to_invest: $('[name="amount_currency"]', this).val(),
         phone: $('[name="phone_code"]', this).val() + $('[name="phone"]', this).val()
     };
 
     $.ajax({
         type: 'PUT',
-        url: 'http://master.whitelist-product.staging.c66.me/api/v1/forms/93924c22-2fb8-4c22-a3ac-b2229d0b3029/apply/',
+        url: 'https://whitelist.zerion.io/api/v1/forms/03d74205-12a6-43bc-8dce-7011fb2f1aeb/submissions/',
         contentType: 'application/json; charset=UTF-8',
         dataType: 'json',
         data: JSON.stringify(formdata),
@@ -71,9 +72,9 @@ $('#country [type="search"]').on('keyup', function () {
 
 $('form[action="country"] [name="country"]').click(function() {
     const country = $(this).val();
-    const country_code = $(this).data('code');
+    const country_code = $(this).data('code').toUpperCase();
     $('form[action="whitelist"] [name="country"]').val(country).data('code', country_code);
-    $(`#whitelist [name="phone_code"] [data-code="${country_code.toUpperCase()}"]`).prop('selected', true);
+    $(`#whitelist [name="phone_code"] [data-code="${country_code}"]`).prop('selected', true);
     $('#country').foundation('close');
 });
 
