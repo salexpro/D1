@@ -1,20 +1,20 @@
 -
     const social = [
-        ['telegram', '#', [17, 14]],
-        ['twitter',  '#', [16, 14]],
-        ['facebook', '#', [9, 15]],
-        ['linkedin', '#', [13, 13]],
-        ['reddit',   '#', [23, 18]],
-        ['youtube',  '#', [17, 21]],
-        ['medium',   '#', [22, 19]],
-        ['steemit',  '#', [40, 40]],
-        ['btctalk',  '#', [15, 21]]
+        ['telegram', 'https://t.me/joinchat/DJvKSFDdrxQsQba9v_RDTg', [17, 14]],
+        ['twitter',  'https://twitter.com/D1coin/', [16, 14]],
+        ['facebook', 'https://www.facebook.com/D1coin/', [9, 15]],
+        //- ['linkedin', '#', [13, 13]],
+        ['reddit',   'https://www.reddit.com/r/D1coin/', [23, 18]],
+        //- ['youtube',  '#', [17, 21]],
+        ['medium',   'https://medium.com/d1coin', [22, 19]],
+        //- ['steemit',  '#', [40, 40]],
+        //- ['btctalk',  '#', [15, 21]]
     ]
 
 mixin social(header, num, mod)
     - 
         let i = 0
-        num = num || social.length
+        num = social.length
     .social(class=mod ? "social--" + mod : "")
         if header
             h5.social_header
