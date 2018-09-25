@@ -72,8 +72,14 @@ const d1_rate = {
     'EUR': 8.65,
     'GBP': 7.76
 }
-$.get('https://api.coinmarketcap.com/v2/ticker/1/', data => {d1_rate['BTC'] = data.data.quotes.USD.price})
-$.get('https://api.coinmarketcap.com/v2/ticker/1027/', data => {d1_rate['ETH'] = data.data.quotes.USD.price})
+$.get('https://api.coinmarketcap.com/v2/ticker/1/', data => {
+    d1_rate['BTC'] = data.data.quotes.USD.price;
+    calc_redraw();
+})
+$.get('https://api.coinmarketcap.com/v2/ticker/1027/', data => {
+    d1_rate['ETH'] = data.data.quotes.USD.price;
+    calc_redraw();
+})
 
 const get_cost = currency => {
     const shape = $('[name="diamonds"]:checked', calc_form).attr('id');
@@ -98,7 +104,9 @@ const get_cost = currency => {
 
 const calc_redraw = () => {
     $('.matrix_calc_cost_d1').text(get_cost());
-    $('.matrix_calc_cost_usd').text('$' + get_cost('USD'));
+    $('.matrix_calc_cost_btc').text(get_cost('BTC') + ' BTC');
+    $('.matrix_calc_cost_eth').text(get_cost('ETH') + ' ETH');
+    $('.matrix_calc_cost_usd').text(get_cost('USD') + ' USD');
 }
 
 $('.matrix_picker_item').click(function () {
