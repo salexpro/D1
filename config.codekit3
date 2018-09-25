@@ -38,12 +38,6 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
-	"/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
-		},
 	"/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -5487,7 +5481,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "/src/assets/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 559511128
+	"lastBuiltDate": 559612687.85769606
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
