@@ -1,9 +1,16 @@
+-
+    const partners = [
+            ['malca-amit', 'https://www.malca-amit.com/'],
+            ['kristall', 'https://www.kristallsmolensk.com/about/history/'],
+            ['kgk', 'http://www.kgkgroup.com/'],
+            ['alrosa', 'http://eng.alrosa.ru/']
+        ]
 section.partners
     .row.align-center
         h2.column.small-12 Partners
         .column.small-12.xlarge-10
             .owl-carousel.partners_items
-                - const partners = ['malca-amit', 'kristall', 'kgk', 'alrosa',  'malca-amit', 'kristall', 'kgk', 'alrosa']
                 each item in partners
                     .partners_item
-                        img(src=`assets/img/partners/${item + (item==='kgk'?'.svg':'.png')}` srcset=item!=='kgk'?`assets/img/partners/${item}.png 1x, assets/img/partners/${item}@2x.png 2x`:false alt=item)
+                        a(href=item[1] target='_blank')
+                            img(src=`assets/img/partners/${item[0] + (item[0]==='kgk'?'.svg':'.png')}` srcset=item[0]!=='kgk'?`assets/img/partners/${item[0]}.png 1x, assets/img/partners/${item[0]}@2x.png 2x`:false alt=item[0])
