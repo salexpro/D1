@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -8,62 +8,62 @@
 		},
 	{
 		"name": "Demo mode with Github Pages",
-		"scriptSourceString": "rm -rf docs\/\ncp -rf build\/ docs\/\nrm -f build\/CNAME\nrm docs\/.gitignore\nrm -f build.zip\nzip -r build.zip build\/",
+		"scriptSourceString": "rm -rf docs/\ncp -rf build/ docs/\nrm -f build/CNAME\nrm docs/.gitignore\nrm -f build.zip\nzip -r build.zip build/",
 		"scriptType": 1,
 		"scriptUUIDString": "26AE3F7B-AC2D-4F34-BF67-57F311D0110B",
 		"stepType": 2,
 		"uuidString": "F1EFA6C6-105C-418D-BECE-C2E49FE54D13"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28815",
 "files": {
-	"\/.babelrc": {
+	"/.babelrc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.babelrc",
+		"oAP": "/build/.babelrc",
 		"oF": 1
 		},
-	"\/.eslintrc": {
+	"/.eslintrc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.eslintrc",
+		"oAP": "/build/.eslintrc",
 		"oF": 1
 		},
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.gitignore",
+		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
-	"\/build": {
+	"/build": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "/build/build",
 		"oF": 0
 		},
-	"\/build.zip": {
+	"/build.zip": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/build.zip",
+		"oAP": "/build/build.zip",
 		"oF": 1
 		},
-	"\/docs": {
+	"/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/docs",
+		"oAP": "/build/docs",
 		"oF": 0
 		},
-	"\/node_modules": {
+	"/node_modules": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/node_modules",
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"\/node_modules\/flag-icon-css\/sass\/_flag-icon-base.scss": {
+	"/node_modules/flag-icon-css/sass/_flag-icon-base.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -71,12 +71,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/flag-icon-css\/css\/_flag-icon-base.css",
+		"oAP": "/build/node_modules/flag-icon-css/css/_flag-icon-base.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/flag-icon-css\/sass\/_flag-icon-list.scss": {
+	"/node_modules/flag-icon-css/sass/_flag-icon-list.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -84,12 +84,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/flag-icon-css\/css\/_flag-icon-list.css",
+		"oAP": "/build/node_modules/flag-icon-css/css/_flag-icon-list.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/flag-icon-css\/sass\/_flag-icon-more.scss": {
+	"/node_modules/flag-icon-css/sass/_flag-icon-more.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -97,12 +97,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/flag-icon-css\/css\/_flag-icon-more.css",
+		"oAP": "/build/node_modules/flag-icon-css/css/_flag-icon-more.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/flag-icon-css\/sass\/_variables.scss": {
+	"/node_modules/flag-icon-css/sass/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -110,12 +110,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/flag-icon-css\/css\/_variables.css",
+		"oAP": "/build/node_modules/flag-icon-css/css/_variables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/flag-icon-css\/sass\/flag-icon.scss": {
+	"/node_modules/flag-icon-css/sass/flag-icon.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -123,198 +123,276 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/flag-icon-css\/css\/flag-icon.css",
+		"oAP": "/build/node_modules/flag-icon-css/css/flag-icon.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.accordion.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.accordion.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.core.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.core.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.core.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.core.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.dropdown.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.dropdown.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.offcanvas.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.offcanvas.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.offcanvas.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.reveal.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.reveal.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.slider.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.slider.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.slider.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.slider.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.smoothScroll.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.smoothScroll.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tabs.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.tabs.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tabs.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.tabs.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tooltip.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.tooltip.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.tooltip.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.tooltip.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.box.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.box.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.box.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.box.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.keyboard.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.keyboard.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.mediaQuery.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.mediaQuery.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.motion.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.motion.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.motion.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.motion.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.touch.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.touch.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.touch.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.touch.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.triggers.min.js": {
+	"/node_modules/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/foundation-sites\/dist\/js\/plugins\/foundation.util.triggers.min.min.js",
+		"oAP": "/build/node_modules/foundation-sites/dist/js/plugins/foundation.util.triggers.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/jquery\/dist\/jquery.min.js": {
+	"/node_modules/jquery/dist/jquery.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/jquery\/dist\/jquery.min.min.js",
+		"oAP": "/build/node_modules/jquery/dist/jquery.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/node_modules\/owl.carousel\/dist\/owl.carousel.min.js": {
+	"/node_modules/owl.carousel/dist/owl.carousel.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/node_modules\/owl.carousel\/dist\/owl.carousel.min.min.js",
+		"oAP": "/build/node_modules/owl.carousel/dist/owl.carousel.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/package-lock.json": {
+	"/node_modules/owl.carousel/src/scss/_animate.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/owl.carousel/src/css/_animate.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/owl.carousel/src/scss/_autoheight.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/owl.carousel/src/css/_autoheight.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/owl.carousel/src/scss/_core.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/owl.carousel/src/css/_core.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/owl.carousel/src/scss/_lazyload.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/owl.carousel/src/css/_lazyload.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/owl.carousel/src/scss/_video.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/owl.carousel/src/css/_video.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/node_modules/owl.carousel/src/scss/owl.carousel.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/build/node_modules/owl.carousel/src/css/owl.carousel.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/build\/package-lock.json",
+		"oAP": "/build/package-lock.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 0
 		},
-	"\/package.json": {
+	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/build\/package.json",
+		"oAP": "/build/package.json",
 		"oF": 1,
 		"oO": 0,
 		"oS": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -323,7 +401,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/build\/README.html",
+		"oAP": "/build/README.html",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -332,4435 +410,4501 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/src\/assets\/docs\/onepager.pdf": {
+	"/src/assets/docs/onepager.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/docs\/onepager.pdf",
+		"oAP": "/build/assets/docs/onepager.pdf",
 		"oF": 0
 		},
-	"\/src\/assets\/docs\/presentation.pdf": {
+	"/src/assets/docs/presentation.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/docs\/presentation.pdf",
+		"oAP": "/build/assets/docs/presentation.pdf",
 		"oF": 0
 		},
-	"\/src\/assets\/docs\/terms_of_sale.pdf": {
+	"/src/assets/docs/terms_of_sale.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/docs\/terms_of_sale.pdf",
+		"oAP": "/build/assets/docs/terms_of_sale.pdf",
 		"oF": 0
 		},
-	"\/src\/assets\/docs\/terms_of_service.pdf": {
+	"/src/assets/docs/terms_of_service.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/docs\/terms_of_service.pdf",
+		"oAP": "/build/assets/docs/terms_of_service.pdf",
 		"oF": 0
 		},
-	"\/src\/assets\/docs\/whitepaper.pdf": {
+	"/src/assets/docs/whitepaper.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/docs\/whitepaper.pdf",
+		"oAP": "/build/assets/docs/whitepaper.pdf",
 		"oF": 0
 		},
-	"\/src\/assets\/favicon\/android-chrome-192x192.png": {
+	"/src/assets/favicon/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 13883,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/android-chrome-192x192.png",
+		"oAP": "/build/assets/favicon/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/favicon\/android-chrome-256x256.png": {
+	"/src/assets/favicon/android-chrome-256x256.png": {
 		"ft": 32768,
 		"iS": 21876,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/android-chrome-256x256.png",
+		"oAP": "/build/assets/favicon/android-chrome-256x256.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/favicon\/apple-touch-icon.png": {
+	"/src/assets/favicon/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 4921,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/apple-touch-icon.png",
+		"oAP": "/build/assets/favicon/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/favicon\/browserconfig.xml": {
+	"/src/assets/favicon/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/favicon\/browserconfig.xml",
+		"oAP": "/build/assets/favicon/browserconfig.xml",
 		"oF": 0
 		},
-	"\/src\/assets\/favicon\/favicon-16x16.png": {
+	"/src/assets/favicon/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 654,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/favicon-16x16.png",
+		"oAP": "/build/assets/favicon/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/favicon\/favicon-32x32.png": {
+	"/src/assets/favicon/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1200,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/favicon-32x32.png",
+		"oAP": "/build/assets/favicon/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/favicon\/favicon.ico": {
+	"/src/assets/favicon/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/favicon\/favicon.ico",
+		"oAP": "/build/assets/favicon/favicon.ico",
 		"oF": 0
 		},
-	"\/src\/assets\/favicon\/mstile-150x150.png": {
+	"/src/assets/favicon/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 4827,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/mstile-150x150.png",
+		"oAP": "/build/assets/favicon/mstile-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/favicon\/safari-pinned-tab.svg": {
+	"/src/assets/favicon/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/favicon\/safari-pinned-tab.svg",
+		"oAP": "/build/assets/favicon/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/favicon\/site.webmanifest": {
+	"/src/assets/favicon/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/favicon\/site.webmanifest",
+		"oAP": "/build/assets/favicon/site.webmanifest",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/.gitkeep": {
+	"/src/assets/fonts/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/.gitkeep",
+		"oAP": "/build/assets/fonts/.gitkeep",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Black.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Black.woff",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff2": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Black.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Black.woff2",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Black.woff2",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Bold.woff",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff2": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Bold.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Bold.woff2",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Bold.woff2",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Extrabld.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Extrabld.woff",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff2": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Extrabld.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Extrabld.woff2",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Extrabld.woff2",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Light.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Light.woff",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff2": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Light.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Light.woff2",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Light.woff2",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Regular.woff",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff2": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Regular.woff2",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Regular.woff2",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Semibold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Semibold.woff",
 		"oF": 0
 		},
-	"\/src\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff2": {
+	"/src/assets/fonts/ProximaNova/ProximaNova-Semibold.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/ProximaNova\/ProximaNova-Semibold.woff2",
+		"oAP": "/build/assets/fonts/ProximaNova/ProximaNova-Semibold.woff2",
 		"oF": 0
 		},
-	"\/src\/assets\/img\/bg_advisors.jpg": {
+	"/src/assets/img/bg_advisors.jpg": {
 		"ft": 16384,
 		"iS": 119844,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_advisors.jpg",
+		"oAP": "/build/assets/img/bg_advisors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_contacts.jpg": {
+	"/src/assets/img/bg_contacts.jpg": {
 		"ft": 16384,
 		"iS": 22490,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_contacts.jpg",
+		"oAP": "/build/assets/img/bg_contacts.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_database.jpg": {
+	"/src/assets/img/bg_database.jpg": {
 		"ft": 16384,
 		"iS": 50689,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_database.jpg",
+		"oAP": "/build/assets/img/bg_database.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_faq.jpg": {
+	"/src/assets/img/bg_faq.jpg": {
 		"ft": 16384,
 		"iS": 80255,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_faq.jpg",
+		"oAP": "/build/assets/img/bg_faq.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_head.jpg": {
+	"/src/assets/img/bg_head.jpg": {
 		"ft": 16384,
 		"iS": 348729,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_head.jpg",
+		"oAP": "/build/assets/img/bg_head.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_matrix.jpg": {
+	"/src/assets/img/bg_matrix.jpg": {
 		"ft": 16384,
 		"iS": 80549,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_matrix.jpg",
+		"oAP": "/build/assets/img/bg_matrix.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_offcanvas.jpg": {
+	"/src/assets/img/bg_offcanvas.jpg": {
 		"ft": 16384,
 		"iS": 46982,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_offcanvas.jpg",
+		"oAP": "/build/assets/img/bg_offcanvas.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_roadmap.jpg": {
+	"/src/assets/img/bg_roadmap.jpg": {
 		"ft": 16384,
 		"iS": 51510,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_roadmap.jpg",
+		"oAP": "/build/assets/img/bg_roadmap.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_subs.jpg": {
+	"/src/assets/img/bg_subs.jpg": {
 		"ft": 16384,
 		"iS": 14951,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_subs.jpg",
+		"oAP": "/build/assets/img/bg_subs.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_team.jpg": {
+	"/src/assets/img/bg_team.jpg": {
 		"ft": 16384,
 		"iS": 58867,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_team.jpg",
+		"oAP": "/build/assets/img/bg_team.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_tooltip.jpg": {
+	"/src/assets/img/bg_tooltip.jpg": {
 		"ft": 16384,
 		"iS": 7553,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_tooltip.jpg",
+		"oAP": "/build/assets/img/bg_tooltip.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_video.jpg": {
+	"/src/assets/img/bg_video.jpg": {
 		"ft": 16384,
 		"iS": 183537,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_video.jpg",
+		"oAP": "/build/assets/img/bg_video.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/bg_whitelist.jpg": {
+	"/src/assets/img/bg_whitelist.jpg": {
 		"ft": 16384,
 		"iS": 36131,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/bg_whitelist.jpg",
+		"oAP": "/build/assets/img/bg_whitelist.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/asscher.png": {
+	"/src/assets/img/diamonds/asscher.png": {
 		"ft": 32768,
 		"iS": 6701,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/asscher.png",
+		"oAP": "/build/assets/img/diamonds/asscher.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/asscher@2x.png": {
+	"/src/assets/img/diamonds/asscher@2x.png": {
 		"ft": 32768,
 		"iS": 26327,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/asscher@2x.png",
+		"oAP": "/build/assets/img/diamonds/asscher@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/cushion.png": {
+	"/src/assets/img/diamonds/cushion.png": {
 		"ft": 32768,
 		"iS": 6495,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/cushion.png",
+		"oAP": "/build/assets/img/diamonds/cushion.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/cushion@2x.png": {
+	"/src/assets/img/diamonds/cushion@2x.png": {
 		"ft": 32768,
 		"iS": 25920,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/cushion@2x.png",
+		"oAP": "/build/assets/img/diamonds/cushion@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/diamond.png": {
+	"/src/assets/img/diamonds/diamond.png": {
 		"ft": 32768,
 		"iS": 14809,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/diamond.png",
+		"oAP": "/build/assets/img/diamonds/diamond.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/diamond@2x.png": {
+	"/src/assets/img/diamonds/diamond@2x.png": {
 		"ft": 32768,
 		"iS": 57505,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/diamond@2x.png",
+		"oAP": "/build/assets/img/diamonds/diamond@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/emerald.png": {
+	"/src/assets/img/diamonds/emerald.png": {
 		"ft": 32768,
 		"iS": 6292,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/emerald.png",
+		"oAP": "/build/assets/img/diamonds/emerald.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/emerald@2x.png": {
+	"/src/assets/img/diamonds/emerald@2x.png": {
 		"ft": 32768,
 		"iS": 26074,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/emerald@2x.png",
+		"oAP": "/build/assets/img/diamonds/emerald@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/marquise.png": {
+	"/src/assets/img/diamonds/marquise.png": {
 		"ft": 32768,
 		"iS": 4943,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/marquise.png",
+		"oAP": "/build/assets/img/diamonds/marquise.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/marquise@2x.png": {
+	"/src/assets/img/diamonds/marquise@2x.png": {
 		"ft": 32768,
 		"iS": 19515,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/marquise@2x.png",
+		"oAP": "/build/assets/img/diamonds/marquise@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/oval.png": {
+	"/src/assets/img/diamonds/oval.png": {
 		"ft": 32768,
 		"iS": 8322,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/oval.png",
+		"oAP": "/build/assets/img/diamonds/oval.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/oval@2x.png": {
+	"/src/assets/img/diamonds/oval@2x.png": {
 		"ft": 32768,
 		"iS": 32948,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/oval@2x.png",
+		"oAP": "/build/assets/img/diamonds/oval@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/pear.png": {
+	"/src/assets/img/diamonds/pear.png": {
 		"ft": 32768,
 		"iS": 5573,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/pear.png",
+		"oAP": "/build/assets/img/diamonds/pear.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/pear@2x.png": {
+	"/src/assets/img/diamonds/pear@2x.png": {
 		"ft": 32768,
 		"iS": 22306,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/pear@2x.png",
+		"oAP": "/build/assets/img/diamonds/pear@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/princess.png": {
+	"/src/assets/img/diamonds/princess.png": {
 		"ft": 32768,
 		"iS": 7503,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/princess.png",
+		"oAP": "/build/assets/img/diamonds/princess.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/princess@2x.png": {
+	"/src/assets/img/diamonds/princess@2x.png": {
 		"ft": 32768,
 		"iS": 29436,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/princess@2x.png",
+		"oAP": "/build/assets/img/diamonds/princess@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/round.png": {
+	"/src/assets/img/diamonds/round.png": {
 		"ft": 32768,
 		"iS": 8808,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/round.png",
+		"oAP": "/build/assets/img/diamonds/round.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/diamonds\/round@2x.png": {
+	"/src/assets/img/diamonds/round@2x.png": {
 		"ft": 32768,
 		"iS": 33483,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/diamonds\/round@2x.png",
+		"oAP": "/build/assets/img/diamonds/round@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/bitfinex.png": {
+	"/src/assets/img/exchanges/bitfinex.png": {
 		"ft": 32768,
 		"iS": 2400,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/bitfinex.png",
+		"oAP": "/build/assets/img/exchanges/bitfinex.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/bitfinex@2x.png": {
+	"/src/assets/img/exchanges/bitfinex@2x.png": {
 		"ft": 32768,
 		"iS": 11200,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/bitfinex@2x.png",
+		"oAP": "/build/assets/img/exchanges/bitfinex@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/bittrex.png": {
+	"/src/assets/img/exchanges/bittrex.png": {
 		"ft": 32768,
 		"iS": 2455,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/bittrex.png",
+		"oAP": "/build/assets/img/exchanges/bittrex.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/bittrex@2x.png": {
+	"/src/assets/img/exchanges/bittrex@2x.png": {
 		"ft": 32768,
 		"iS": 7802,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/bittrex@2x.png",
+		"oAP": "/build/assets/img/exchanges/bittrex@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/exmo.png": {
+	"/src/assets/img/exchanges/exmo.png": {
 		"ft": 32768,
 		"iS": 3153,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/exmo.png",
+		"oAP": "/build/assets/img/exchanges/exmo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/exmo@2x.png": {
+	"/src/assets/img/exchanges/exmo@2x.png": {
 		"ft": 32768,
 		"iS": 9079,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/exmo@2x.png",
+		"oAP": "/build/assets/img/exchanges/exmo@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/okcoin.png": {
+	"/src/assets/img/exchanges/okcoin.png": {
 		"ft": 32768,
 		"iS": 4010,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/okcoin.png",
+		"oAP": "/build/assets/img/exchanges/okcoin.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/okcoin@2x.png": {
+	"/src/assets/img/exchanges/okcoin@2x.png": {
 		"ft": 32768,
 		"iS": 11827,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/okcoin@2x.png",
+		"oAP": "/build/assets/img/exchanges/okcoin@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/poloniex.png": {
+	"/src/assets/img/exchanges/poloniex.png": {
 		"ft": 32768,
 		"iS": 1945,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/poloniex.png",
+		"oAP": "/build/assets/img/exchanges/poloniex.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/exchanges\/poloniex@2x.png": {
+	"/src/assets/img/exchanges/poloniex@2x.png": {
 		"ft": 32768,
 		"iS": 6736,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/exchanges\/poloniex@2x.png",
+		"oAP": "/build/assets/img/exchanges/poloniex@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ad.svg": {
+	"/src/assets/img/flags/4x3/ad.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ad.svg",
+		"oAP": "/build/assets/img/flags/4x3/ad.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ae.svg": {
+	"/src/assets/img/flags/4x3/ae.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ae.svg",
+		"oAP": "/build/assets/img/flags/4x3/ae.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/af.svg": {
+	"/src/assets/img/flags/4x3/af.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/af.svg",
+		"oAP": "/build/assets/img/flags/4x3/af.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ag.svg": {
+	"/src/assets/img/flags/4x3/ag.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ag.svg",
+		"oAP": "/build/assets/img/flags/4x3/ag.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ai.svg": {
+	"/src/assets/img/flags/4x3/ai.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ai.svg",
+		"oAP": "/build/assets/img/flags/4x3/ai.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/al.svg": {
+	"/src/assets/img/flags/4x3/al.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/al.svg",
+		"oAP": "/build/assets/img/flags/4x3/al.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/am.svg": {
+	"/src/assets/img/flags/4x3/am.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/am.svg",
+		"oAP": "/build/assets/img/flags/4x3/am.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ao.svg": {
+	"/src/assets/img/flags/4x3/ao.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ao.svg",
+		"oAP": "/build/assets/img/flags/4x3/ao.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/aq.svg": {
+	"/src/assets/img/flags/4x3/aq.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/aq.svg",
+		"oAP": "/build/assets/img/flags/4x3/aq.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ar.svg": {
+	"/src/assets/img/flags/4x3/ar.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ar.svg",
+		"oAP": "/build/assets/img/flags/4x3/ar.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/as.svg": {
+	"/src/assets/img/flags/4x3/as.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/as.svg",
+		"oAP": "/build/assets/img/flags/4x3/as.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/at.svg": {
+	"/src/assets/img/flags/4x3/at.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/at.svg",
+		"oAP": "/build/assets/img/flags/4x3/at.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/au.svg": {
+	"/src/assets/img/flags/4x3/au.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/au.svg",
+		"oAP": "/build/assets/img/flags/4x3/au.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/aw.svg": {
+	"/src/assets/img/flags/4x3/aw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/aw.svg",
+		"oAP": "/build/assets/img/flags/4x3/aw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ax.svg": {
+	"/src/assets/img/flags/4x3/ax.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ax.svg",
+		"oAP": "/build/assets/img/flags/4x3/ax.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/az.svg": {
+	"/src/assets/img/flags/4x3/az.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/az.svg",
+		"oAP": "/build/assets/img/flags/4x3/az.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ba.svg": {
+	"/src/assets/img/flags/4x3/ba.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ba.svg",
+		"oAP": "/build/assets/img/flags/4x3/ba.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bb.svg": {
+	"/src/assets/img/flags/4x3/bb.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bb.svg",
+		"oAP": "/build/assets/img/flags/4x3/bb.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bd.svg": {
+	"/src/assets/img/flags/4x3/bd.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bd.svg",
+		"oAP": "/build/assets/img/flags/4x3/bd.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/be.svg": {
+	"/src/assets/img/flags/4x3/be.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/be.svg",
+		"oAP": "/build/assets/img/flags/4x3/be.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bf.svg": {
+	"/src/assets/img/flags/4x3/bf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bf.svg",
+		"oAP": "/build/assets/img/flags/4x3/bf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bg.svg": {
+	"/src/assets/img/flags/4x3/bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bg.svg",
+		"oAP": "/build/assets/img/flags/4x3/bg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bh.svg": {
+	"/src/assets/img/flags/4x3/bh.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bh.svg",
+		"oAP": "/build/assets/img/flags/4x3/bh.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bi.svg": {
+	"/src/assets/img/flags/4x3/bi.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bi.svg",
+		"oAP": "/build/assets/img/flags/4x3/bi.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bj.svg": {
+	"/src/assets/img/flags/4x3/bj.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bj.svg",
+		"oAP": "/build/assets/img/flags/4x3/bj.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bl.svg": {
+	"/src/assets/img/flags/4x3/bl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bl.svg",
+		"oAP": "/build/assets/img/flags/4x3/bl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bm.svg": {
+	"/src/assets/img/flags/4x3/bm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bm.svg",
+		"oAP": "/build/assets/img/flags/4x3/bm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bn.svg": {
+	"/src/assets/img/flags/4x3/bn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bn.svg",
+		"oAP": "/build/assets/img/flags/4x3/bn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bo.svg": {
+	"/src/assets/img/flags/4x3/bo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bo.svg",
+		"oAP": "/build/assets/img/flags/4x3/bo.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bq.svg": {
+	"/src/assets/img/flags/4x3/bq.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bq.svg",
+		"oAP": "/build/assets/img/flags/4x3/bq.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/br.svg": {
+	"/src/assets/img/flags/4x3/br.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/br.svg",
+		"oAP": "/build/assets/img/flags/4x3/br.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bs.svg": {
+	"/src/assets/img/flags/4x3/bs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bs.svg",
+		"oAP": "/build/assets/img/flags/4x3/bs.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bt.svg": {
+	"/src/assets/img/flags/4x3/bt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bt.svg",
+		"oAP": "/build/assets/img/flags/4x3/bt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bv.svg": {
+	"/src/assets/img/flags/4x3/bv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bv.svg",
+		"oAP": "/build/assets/img/flags/4x3/bv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bw.svg": {
+	"/src/assets/img/flags/4x3/bw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bw.svg",
+		"oAP": "/build/assets/img/flags/4x3/bw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/by.svg": {
+	"/src/assets/img/flags/4x3/by.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/by.svg",
+		"oAP": "/build/assets/img/flags/4x3/by.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/bz.svg": {
+	"/src/assets/img/flags/4x3/bz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/bz.svg",
+		"oAP": "/build/assets/img/flags/4x3/bz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ca.svg": {
+	"/src/assets/img/flags/4x3/ca.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ca.svg",
+		"oAP": "/build/assets/img/flags/4x3/ca.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cc.svg": {
+	"/src/assets/img/flags/4x3/cc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cc.svg",
+		"oAP": "/build/assets/img/flags/4x3/cc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cd.svg": {
+	"/src/assets/img/flags/4x3/cd.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cd.svg",
+		"oAP": "/build/assets/img/flags/4x3/cd.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cf.svg": {
+	"/src/assets/img/flags/4x3/cf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cf.svg",
+		"oAP": "/build/assets/img/flags/4x3/cf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cg.svg": {
+	"/src/assets/img/flags/4x3/cg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cg.svg",
+		"oAP": "/build/assets/img/flags/4x3/cg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ch.svg": {
+	"/src/assets/img/flags/4x3/ch.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ch.svg",
+		"oAP": "/build/assets/img/flags/4x3/ch.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ci.svg": {
+	"/src/assets/img/flags/4x3/ci.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ci.svg",
+		"oAP": "/build/assets/img/flags/4x3/ci.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ck.svg": {
+	"/src/assets/img/flags/4x3/ck.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ck.svg",
+		"oAP": "/build/assets/img/flags/4x3/ck.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cl.svg": {
+	"/src/assets/img/flags/4x3/cl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cl.svg",
+		"oAP": "/build/assets/img/flags/4x3/cl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cm.svg": {
+	"/src/assets/img/flags/4x3/cm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cm.svg",
+		"oAP": "/build/assets/img/flags/4x3/cm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cn.svg": {
+	"/src/assets/img/flags/4x3/cn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cn.svg",
+		"oAP": "/build/assets/img/flags/4x3/cn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/co.svg": {
+	"/src/assets/img/flags/4x3/co.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/co.svg",
+		"oAP": "/build/assets/img/flags/4x3/co.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cr.svg": {
+	"/src/assets/img/flags/4x3/cr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cr.svg",
+		"oAP": "/build/assets/img/flags/4x3/cr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cu.svg": {
+	"/src/assets/img/flags/4x3/cu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cu.svg",
+		"oAP": "/build/assets/img/flags/4x3/cu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cv.svg": {
+	"/src/assets/img/flags/4x3/cv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cv.svg",
+		"oAP": "/build/assets/img/flags/4x3/cv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cw.svg": {
+	"/src/assets/img/flags/4x3/cw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cw.svg",
+		"oAP": "/build/assets/img/flags/4x3/cw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cx.svg": {
+	"/src/assets/img/flags/4x3/cx.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cx.svg",
+		"oAP": "/build/assets/img/flags/4x3/cx.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cy.svg": {
+	"/src/assets/img/flags/4x3/cy.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cy.svg",
+		"oAP": "/build/assets/img/flags/4x3/cy.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/cz.svg": {
+	"/src/assets/img/flags/4x3/cz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/cz.svg",
+		"oAP": "/build/assets/img/flags/4x3/cz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/de.svg": {
+	"/src/assets/img/flags/4x3/de.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/de.svg",
+		"oAP": "/build/assets/img/flags/4x3/de.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/dj.svg": {
+	"/src/assets/img/flags/4x3/dj.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/dj.svg",
+		"oAP": "/build/assets/img/flags/4x3/dj.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/dk.svg": {
+	"/src/assets/img/flags/4x3/dk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/dk.svg",
+		"oAP": "/build/assets/img/flags/4x3/dk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/dm.svg": {
+	"/src/assets/img/flags/4x3/dm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/dm.svg",
+		"oAP": "/build/assets/img/flags/4x3/dm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/do.svg": {
+	"/src/assets/img/flags/4x3/do.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/do.svg",
+		"oAP": "/build/assets/img/flags/4x3/do.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/dz.svg": {
+	"/src/assets/img/flags/4x3/dz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/dz.svg",
+		"oAP": "/build/assets/img/flags/4x3/dz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ec.svg": {
+	"/src/assets/img/flags/4x3/ec.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ec.svg",
+		"oAP": "/build/assets/img/flags/4x3/ec.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ee.svg": {
+	"/src/assets/img/flags/4x3/ee.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ee.svg",
+		"oAP": "/build/assets/img/flags/4x3/ee.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/eg.svg": {
+	"/src/assets/img/flags/4x3/eg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/eg.svg",
+		"oAP": "/build/assets/img/flags/4x3/eg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/eh.svg": {
+	"/src/assets/img/flags/4x3/eh.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/eh.svg",
+		"oAP": "/build/assets/img/flags/4x3/eh.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/er.svg": {
+	"/src/assets/img/flags/4x3/er.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/er.svg",
+		"oAP": "/build/assets/img/flags/4x3/er.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/es-ct.svg": {
+	"/src/assets/img/flags/4x3/es-ct.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/es-ct.svg",
+		"oAP": "/build/assets/img/flags/4x3/es-ct.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/es.svg": {
+	"/src/assets/img/flags/4x3/es.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/es.svg",
+		"oAP": "/build/assets/img/flags/4x3/es.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/et.svg": {
+	"/src/assets/img/flags/4x3/et.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/et.svg",
+		"oAP": "/build/assets/img/flags/4x3/et.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/eu.svg": {
+	"/src/assets/img/flags/4x3/eu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/eu.svg",
+		"oAP": "/build/assets/img/flags/4x3/eu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/fi.svg": {
+	"/src/assets/img/flags/4x3/fi.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/fi.svg",
+		"oAP": "/build/assets/img/flags/4x3/fi.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/fj.svg": {
+	"/src/assets/img/flags/4x3/fj.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/fj.svg",
+		"oAP": "/build/assets/img/flags/4x3/fj.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/fk.svg": {
+	"/src/assets/img/flags/4x3/fk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/fk.svg",
+		"oAP": "/build/assets/img/flags/4x3/fk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/fm.svg": {
+	"/src/assets/img/flags/4x3/fm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/fm.svg",
+		"oAP": "/build/assets/img/flags/4x3/fm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/fo.svg": {
+	"/src/assets/img/flags/4x3/fo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/fo.svg",
+		"oAP": "/build/assets/img/flags/4x3/fo.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/fr.svg": {
+	"/src/assets/img/flags/4x3/fr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/fr.svg",
+		"oAP": "/build/assets/img/flags/4x3/fr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ga.svg": {
+	"/src/assets/img/flags/4x3/ga.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ga.svg",
+		"oAP": "/build/assets/img/flags/4x3/ga.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gb-eng.svg": {
+	"/src/assets/img/flags/4x3/gb-eng.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gb-eng.svg",
+		"oAP": "/build/assets/img/flags/4x3/gb-eng.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gb-nir.svg": {
+	"/src/assets/img/flags/4x3/gb-nir.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gb-nir.svg",
+		"oAP": "/build/assets/img/flags/4x3/gb-nir.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gb-sct.svg": {
+	"/src/assets/img/flags/4x3/gb-sct.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gb-sct.svg",
+		"oAP": "/build/assets/img/flags/4x3/gb-sct.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gb-wls.svg": {
+	"/src/assets/img/flags/4x3/gb-wls.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gb-wls.svg",
+		"oAP": "/build/assets/img/flags/4x3/gb-wls.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gb.svg": {
+	"/src/assets/img/flags/4x3/gb.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gb.svg",
+		"oAP": "/build/assets/img/flags/4x3/gb.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gd.svg": {
+	"/src/assets/img/flags/4x3/gd.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gd.svg",
+		"oAP": "/build/assets/img/flags/4x3/gd.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ge.svg": {
+	"/src/assets/img/flags/4x3/ge.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ge.svg",
+		"oAP": "/build/assets/img/flags/4x3/ge.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gf.svg": {
+	"/src/assets/img/flags/4x3/gf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gf.svg",
+		"oAP": "/build/assets/img/flags/4x3/gf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gg.svg": {
+	"/src/assets/img/flags/4x3/gg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gg.svg",
+		"oAP": "/build/assets/img/flags/4x3/gg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gh.svg": {
+	"/src/assets/img/flags/4x3/gh.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gh.svg",
+		"oAP": "/build/assets/img/flags/4x3/gh.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gi.svg": {
+	"/src/assets/img/flags/4x3/gi.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gi.svg",
+		"oAP": "/build/assets/img/flags/4x3/gi.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gl.svg": {
+	"/src/assets/img/flags/4x3/gl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gl.svg",
+		"oAP": "/build/assets/img/flags/4x3/gl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gm.svg": {
+	"/src/assets/img/flags/4x3/gm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gm.svg",
+		"oAP": "/build/assets/img/flags/4x3/gm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gn.svg": {
+	"/src/assets/img/flags/4x3/gn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gn.svg",
+		"oAP": "/build/assets/img/flags/4x3/gn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gp.svg": {
+	"/src/assets/img/flags/4x3/gp.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gp.svg",
+		"oAP": "/build/assets/img/flags/4x3/gp.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gq.svg": {
+	"/src/assets/img/flags/4x3/gq.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gq.svg",
+		"oAP": "/build/assets/img/flags/4x3/gq.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gr.svg": {
+	"/src/assets/img/flags/4x3/gr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gr.svg",
+		"oAP": "/build/assets/img/flags/4x3/gr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gs.svg": {
+	"/src/assets/img/flags/4x3/gs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gs.svg",
+		"oAP": "/build/assets/img/flags/4x3/gs.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gt.svg": {
+	"/src/assets/img/flags/4x3/gt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gt.svg",
+		"oAP": "/build/assets/img/flags/4x3/gt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gu.svg": {
+	"/src/assets/img/flags/4x3/gu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gu.svg",
+		"oAP": "/build/assets/img/flags/4x3/gu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gw.svg": {
+	"/src/assets/img/flags/4x3/gw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gw.svg",
+		"oAP": "/build/assets/img/flags/4x3/gw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/gy.svg": {
+	"/src/assets/img/flags/4x3/gy.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/gy.svg",
+		"oAP": "/build/assets/img/flags/4x3/gy.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/hk.svg": {
+	"/src/assets/img/flags/4x3/hk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/hk.svg",
+		"oAP": "/build/assets/img/flags/4x3/hk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/hm.svg": {
+	"/src/assets/img/flags/4x3/hm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/hm.svg",
+		"oAP": "/build/assets/img/flags/4x3/hm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/hn.svg": {
+	"/src/assets/img/flags/4x3/hn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/hn.svg",
+		"oAP": "/build/assets/img/flags/4x3/hn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/hr.svg": {
+	"/src/assets/img/flags/4x3/hr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/hr.svg",
+		"oAP": "/build/assets/img/flags/4x3/hr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ht.svg": {
+	"/src/assets/img/flags/4x3/ht.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ht.svg",
+		"oAP": "/build/assets/img/flags/4x3/ht.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/hu.svg": {
+	"/src/assets/img/flags/4x3/hu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/hu.svg",
+		"oAP": "/build/assets/img/flags/4x3/hu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/id.svg": {
+	"/src/assets/img/flags/4x3/id.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/id.svg",
+		"oAP": "/build/assets/img/flags/4x3/id.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ie.svg": {
+	"/src/assets/img/flags/4x3/ie.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ie.svg",
+		"oAP": "/build/assets/img/flags/4x3/ie.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/il.svg": {
+	"/src/assets/img/flags/4x3/il.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/il.svg",
+		"oAP": "/build/assets/img/flags/4x3/il.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/im.svg": {
+	"/src/assets/img/flags/4x3/im.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/im.svg",
+		"oAP": "/build/assets/img/flags/4x3/im.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/in.svg": {
+	"/src/assets/img/flags/4x3/in.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/in.svg",
+		"oAP": "/build/assets/img/flags/4x3/in.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/io.svg": {
+	"/src/assets/img/flags/4x3/io.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/io.svg",
+		"oAP": "/build/assets/img/flags/4x3/io.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/iq.svg": {
+	"/src/assets/img/flags/4x3/iq.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/iq.svg",
+		"oAP": "/build/assets/img/flags/4x3/iq.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ir.svg": {
+	"/src/assets/img/flags/4x3/ir.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ir.svg",
+		"oAP": "/build/assets/img/flags/4x3/ir.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/is.svg": {
+	"/src/assets/img/flags/4x3/is.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/is.svg",
+		"oAP": "/build/assets/img/flags/4x3/is.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/it.svg": {
+	"/src/assets/img/flags/4x3/it.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/it.svg",
+		"oAP": "/build/assets/img/flags/4x3/it.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/je.svg": {
+	"/src/assets/img/flags/4x3/je.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/je.svg",
+		"oAP": "/build/assets/img/flags/4x3/je.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/jm.svg": {
+	"/src/assets/img/flags/4x3/jm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/jm.svg",
+		"oAP": "/build/assets/img/flags/4x3/jm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/jo.svg": {
+	"/src/assets/img/flags/4x3/jo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/jo.svg",
+		"oAP": "/build/assets/img/flags/4x3/jo.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/jp.svg": {
+	"/src/assets/img/flags/4x3/jp.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/jp.svg",
+		"oAP": "/build/assets/img/flags/4x3/jp.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ke.svg": {
+	"/src/assets/img/flags/4x3/ke.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ke.svg",
+		"oAP": "/build/assets/img/flags/4x3/ke.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kg.svg": {
+	"/src/assets/img/flags/4x3/kg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kg.svg",
+		"oAP": "/build/assets/img/flags/4x3/kg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kh.svg": {
+	"/src/assets/img/flags/4x3/kh.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kh.svg",
+		"oAP": "/build/assets/img/flags/4x3/kh.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ki.svg": {
+	"/src/assets/img/flags/4x3/ki.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ki.svg",
+		"oAP": "/build/assets/img/flags/4x3/ki.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/km.svg": {
+	"/src/assets/img/flags/4x3/km.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/km.svg",
+		"oAP": "/build/assets/img/flags/4x3/km.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kn.svg": {
+	"/src/assets/img/flags/4x3/kn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kn.svg",
+		"oAP": "/build/assets/img/flags/4x3/kn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kp.svg": {
+	"/src/assets/img/flags/4x3/kp.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kp.svg",
+		"oAP": "/build/assets/img/flags/4x3/kp.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kr.svg": {
+	"/src/assets/img/flags/4x3/kr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kr.svg",
+		"oAP": "/build/assets/img/flags/4x3/kr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kw.svg": {
+	"/src/assets/img/flags/4x3/kw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kw.svg",
+		"oAP": "/build/assets/img/flags/4x3/kw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ky.svg": {
+	"/src/assets/img/flags/4x3/ky.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ky.svg",
+		"oAP": "/build/assets/img/flags/4x3/ky.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/kz.svg": {
+	"/src/assets/img/flags/4x3/kz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/kz.svg",
+		"oAP": "/build/assets/img/flags/4x3/kz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/la.svg": {
+	"/src/assets/img/flags/4x3/la.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/la.svg",
+		"oAP": "/build/assets/img/flags/4x3/la.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lb.svg": {
+	"/src/assets/img/flags/4x3/lb.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lb.svg",
+		"oAP": "/build/assets/img/flags/4x3/lb.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lc.svg": {
+	"/src/assets/img/flags/4x3/lc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lc.svg",
+		"oAP": "/build/assets/img/flags/4x3/lc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/li.svg": {
+	"/src/assets/img/flags/4x3/li.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/li.svg",
+		"oAP": "/build/assets/img/flags/4x3/li.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lk.svg": {
+	"/src/assets/img/flags/4x3/lk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lk.svg",
+		"oAP": "/build/assets/img/flags/4x3/lk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lr.svg": {
+	"/src/assets/img/flags/4x3/lr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lr.svg",
+		"oAP": "/build/assets/img/flags/4x3/lr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ls.svg": {
+	"/src/assets/img/flags/4x3/ls.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ls.svg",
+		"oAP": "/build/assets/img/flags/4x3/ls.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lt.svg": {
+	"/src/assets/img/flags/4x3/lt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lt.svg",
+		"oAP": "/build/assets/img/flags/4x3/lt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lu.svg": {
+	"/src/assets/img/flags/4x3/lu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lu.svg",
+		"oAP": "/build/assets/img/flags/4x3/lu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/lv.svg": {
+	"/src/assets/img/flags/4x3/lv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/lv.svg",
+		"oAP": "/build/assets/img/flags/4x3/lv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ly.svg": {
+	"/src/assets/img/flags/4x3/ly.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ly.svg",
+		"oAP": "/build/assets/img/flags/4x3/ly.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ma.svg": {
+	"/src/assets/img/flags/4x3/ma.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ma.svg",
+		"oAP": "/build/assets/img/flags/4x3/ma.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mc.svg": {
+	"/src/assets/img/flags/4x3/mc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mc.svg",
+		"oAP": "/build/assets/img/flags/4x3/mc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/md.svg": {
+	"/src/assets/img/flags/4x3/md.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/md.svg",
+		"oAP": "/build/assets/img/flags/4x3/md.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/me.svg": {
+	"/src/assets/img/flags/4x3/me.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/me.svg",
+		"oAP": "/build/assets/img/flags/4x3/me.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mf.svg": {
+	"/src/assets/img/flags/4x3/mf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mf.svg",
+		"oAP": "/build/assets/img/flags/4x3/mf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mg.svg": {
+	"/src/assets/img/flags/4x3/mg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mg.svg",
+		"oAP": "/build/assets/img/flags/4x3/mg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mh.svg": {
+	"/src/assets/img/flags/4x3/mh.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mh.svg",
+		"oAP": "/build/assets/img/flags/4x3/mh.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mk.svg": {
+	"/src/assets/img/flags/4x3/mk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mk.svg",
+		"oAP": "/build/assets/img/flags/4x3/mk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ml.svg": {
+	"/src/assets/img/flags/4x3/ml.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ml.svg",
+		"oAP": "/build/assets/img/flags/4x3/ml.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mm.svg": {
+	"/src/assets/img/flags/4x3/mm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mm.svg",
+		"oAP": "/build/assets/img/flags/4x3/mm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mn.svg": {
+	"/src/assets/img/flags/4x3/mn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mn.svg",
+		"oAP": "/build/assets/img/flags/4x3/mn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mo.svg": {
+	"/src/assets/img/flags/4x3/mo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mo.svg",
+		"oAP": "/build/assets/img/flags/4x3/mo.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mp.svg": {
+	"/src/assets/img/flags/4x3/mp.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mp.svg",
+		"oAP": "/build/assets/img/flags/4x3/mp.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mq.svg": {
+	"/src/assets/img/flags/4x3/mq.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mq.svg",
+		"oAP": "/build/assets/img/flags/4x3/mq.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mr.svg": {
+	"/src/assets/img/flags/4x3/mr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mr.svg",
+		"oAP": "/build/assets/img/flags/4x3/mr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ms.svg": {
+	"/src/assets/img/flags/4x3/ms.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ms.svg",
+		"oAP": "/build/assets/img/flags/4x3/ms.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mt.svg": {
+	"/src/assets/img/flags/4x3/mt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mt.svg",
+		"oAP": "/build/assets/img/flags/4x3/mt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mu.svg": {
+	"/src/assets/img/flags/4x3/mu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mu.svg",
+		"oAP": "/build/assets/img/flags/4x3/mu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mv.svg": {
+	"/src/assets/img/flags/4x3/mv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mv.svg",
+		"oAP": "/build/assets/img/flags/4x3/mv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mw.svg": {
+	"/src/assets/img/flags/4x3/mw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mw.svg",
+		"oAP": "/build/assets/img/flags/4x3/mw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mx.svg": {
+	"/src/assets/img/flags/4x3/mx.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mx.svg",
+		"oAP": "/build/assets/img/flags/4x3/mx.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/my.svg": {
+	"/src/assets/img/flags/4x3/my.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/my.svg",
+		"oAP": "/build/assets/img/flags/4x3/my.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/mz.svg": {
+	"/src/assets/img/flags/4x3/mz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/mz.svg",
+		"oAP": "/build/assets/img/flags/4x3/mz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/na.svg": {
+	"/src/assets/img/flags/4x3/na.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/na.svg",
+		"oAP": "/build/assets/img/flags/4x3/na.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/nc.svg": {
+	"/src/assets/img/flags/4x3/nc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/nc.svg",
+		"oAP": "/build/assets/img/flags/4x3/nc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ne.svg": {
+	"/src/assets/img/flags/4x3/ne.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ne.svg",
+		"oAP": "/build/assets/img/flags/4x3/ne.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/nf.svg": {
+	"/src/assets/img/flags/4x3/nf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/nf.svg",
+		"oAP": "/build/assets/img/flags/4x3/nf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ng.svg": {
+	"/src/assets/img/flags/4x3/ng.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ng.svg",
+		"oAP": "/build/assets/img/flags/4x3/ng.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ni.svg": {
+	"/src/assets/img/flags/4x3/ni.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ni.svg",
+		"oAP": "/build/assets/img/flags/4x3/ni.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/nl.svg": {
+	"/src/assets/img/flags/4x3/nl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/nl.svg",
+		"oAP": "/build/assets/img/flags/4x3/nl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/no.svg": {
+	"/src/assets/img/flags/4x3/no.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/no.svg",
+		"oAP": "/build/assets/img/flags/4x3/no.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/np.svg": {
+	"/src/assets/img/flags/4x3/np.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/np.svg",
+		"oAP": "/build/assets/img/flags/4x3/np.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/nr.svg": {
+	"/src/assets/img/flags/4x3/nr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/nr.svg",
+		"oAP": "/build/assets/img/flags/4x3/nr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/nu.svg": {
+	"/src/assets/img/flags/4x3/nu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/nu.svg",
+		"oAP": "/build/assets/img/flags/4x3/nu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/nz.svg": {
+	"/src/assets/img/flags/4x3/nz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/nz.svg",
+		"oAP": "/build/assets/img/flags/4x3/nz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/om.svg": {
+	"/src/assets/img/flags/4x3/om.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/om.svg",
+		"oAP": "/build/assets/img/flags/4x3/om.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pa.svg": {
+	"/src/assets/img/flags/4x3/pa.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pa.svg",
+		"oAP": "/build/assets/img/flags/4x3/pa.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pe.svg": {
+	"/src/assets/img/flags/4x3/pe.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pe.svg",
+		"oAP": "/build/assets/img/flags/4x3/pe.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pf.svg": {
+	"/src/assets/img/flags/4x3/pf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pf.svg",
+		"oAP": "/build/assets/img/flags/4x3/pf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pg.svg": {
+	"/src/assets/img/flags/4x3/pg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pg.svg",
+		"oAP": "/build/assets/img/flags/4x3/pg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ph.svg": {
+	"/src/assets/img/flags/4x3/ph.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ph.svg",
+		"oAP": "/build/assets/img/flags/4x3/ph.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pk.svg": {
+	"/src/assets/img/flags/4x3/pk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pk.svg",
+		"oAP": "/build/assets/img/flags/4x3/pk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pl.svg": {
+	"/src/assets/img/flags/4x3/pl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pl.svg",
+		"oAP": "/build/assets/img/flags/4x3/pl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pm.svg": {
+	"/src/assets/img/flags/4x3/pm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pm.svg",
+		"oAP": "/build/assets/img/flags/4x3/pm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pn.svg": {
+	"/src/assets/img/flags/4x3/pn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pn.svg",
+		"oAP": "/build/assets/img/flags/4x3/pn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pr.svg": {
+	"/src/assets/img/flags/4x3/pr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pr.svg",
+		"oAP": "/build/assets/img/flags/4x3/pr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ps.svg": {
+	"/src/assets/img/flags/4x3/ps.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ps.svg",
+		"oAP": "/build/assets/img/flags/4x3/ps.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pt.svg": {
+	"/src/assets/img/flags/4x3/pt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pt.svg",
+		"oAP": "/build/assets/img/flags/4x3/pt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/pw.svg": {
+	"/src/assets/img/flags/4x3/pw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/pw.svg",
+		"oAP": "/build/assets/img/flags/4x3/pw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/py.svg": {
+	"/src/assets/img/flags/4x3/py.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/py.svg",
+		"oAP": "/build/assets/img/flags/4x3/py.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/qa.svg": {
+	"/src/assets/img/flags/4x3/qa.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/qa.svg",
+		"oAP": "/build/assets/img/flags/4x3/qa.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/re.svg": {
+	"/src/assets/img/flags/4x3/re.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/re.svg",
+		"oAP": "/build/assets/img/flags/4x3/re.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ro.svg": {
+	"/src/assets/img/flags/4x3/ro.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ro.svg",
+		"oAP": "/build/assets/img/flags/4x3/ro.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/rs.svg": {
+	"/src/assets/img/flags/4x3/rs.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/rs.svg",
+		"oAP": "/build/assets/img/flags/4x3/rs.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ru.svg": {
+	"/src/assets/img/flags/4x3/ru.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ru.svg",
+		"oAP": "/build/assets/img/flags/4x3/ru.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/rw.svg": {
+	"/src/assets/img/flags/4x3/rw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/rw.svg",
+		"oAP": "/build/assets/img/flags/4x3/rw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sa.svg": {
+	"/src/assets/img/flags/4x3/sa.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sa.svg",
+		"oAP": "/build/assets/img/flags/4x3/sa.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sb.svg": {
+	"/src/assets/img/flags/4x3/sb.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sb.svg",
+		"oAP": "/build/assets/img/flags/4x3/sb.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sc.svg": {
+	"/src/assets/img/flags/4x3/sc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sc.svg",
+		"oAP": "/build/assets/img/flags/4x3/sc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sd.svg": {
+	"/src/assets/img/flags/4x3/sd.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sd.svg",
+		"oAP": "/build/assets/img/flags/4x3/sd.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/se.svg": {
+	"/src/assets/img/flags/4x3/se.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/se.svg",
+		"oAP": "/build/assets/img/flags/4x3/se.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sg.svg": {
+	"/src/assets/img/flags/4x3/sg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sg.svg",
+		"oAP": "/build/assets/img/flags/4x3/sg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sh.svg": {
+	"/src/assets/img/flags/4x3/sh.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sh.svg",
+		"oAP": "/build/assets/img/flags/4x3/sh.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/si.svg": {
+	"/src/assets/img/flags/4x3/si.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/si.svg",
+		"oAP": "/build/assets/img/flags/4x3/si.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sj.svg": {
+	"/src/assets/img/flags/4x3/sj.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sj.svg",
+		"oAP": "/build/assets/img/flags/4x3/sj.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sk.svg": {
+	"/src/assets/img/flags/4x3/sk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sk.svg",
+		"oAP": "/build/assets/img/flags/4x3/sk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sl.svg": {
+	"/src/assets/img/flags/4x3/sl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sl.svg",
+		"oAP": "/build/assets/img/flags/4x3/sl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sm.svg": {
+	"/src/assets/img/flags/4x3/sm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sm.svg",
+		"oAP": "/build/assets/img/flags/4x3/sm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sn.svg": {
+	"/src/assets/img/flags/4x3/sn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sn.svg",
+		"oAP": "/build/assets/img/flags/4x3/sn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/so.svg": {
+	"/src/assets/img/flags/4x3/so.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/so.svg",
+		"oAP": "/build/assets/img/flags/4x3/so.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sr.svg": {
+	"/src/assets/img/flags/4x3/sr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sr.svg",
+		"oAP": "/build/assets/img/flags/4x3/sr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ss.svg": {
+	"/src/assets/img/flags/4x3/ss.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ss.svg",
+		"oAP": "/build/assets/img/flags/4x3/ss.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/st.svg": {
+	"/src/assets/img/flags/4x3/st.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/st.svg",
+		"oAP": "/build/assets/img/flags/4x3/st.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sv.svg": {
+	"/src/assets/img/flags/4x3/sv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sv.svg",
+		"oAP": "/build/assets/img/flags/4x3/sv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sx.svg": {
+	"/src/assets/img/flags/4x3/sx.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sx.svg",
+		"oAP": "/build/assets/img/flags/4x3/sx.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sy.svg": {
+	"/src/assets/img/flags/4x3/sy.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sy.svg",
+		"oAP": "/build/assets/img/flags/4x3/sy.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/sz.svg": {
+	"/src/assets/img/flags/4x3/sz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/sz.svg",
+		"oAP": "/build/assets/img/flags/4x3/sz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tc.svg": {
+	"/src/assets/img/flags/4x3/tc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tc.svg",
+		"oAP": "/build/assets/img/flags/4x3/tc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/td.svg": {
+	"/src/assets/img/flags/4x3/td.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/td.svg",
+		"oAP": "/build/assets/img/flags/4x3/td.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tf.svg": {
+	"/src/assets/img/flags/4x3/tf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tf.svg",
+		"oAP": "/build/assets/img/flags/4x3/tf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tg.svg": {
+	"/src/assets/img/flags/4x3/tg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tg.svg",
+		"oAP": "/build/assets/img/flags/4x3/tg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/th.svg": {
+	"/src/assets/img/flags/4x3/th.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/th.svg",
+		"oAP": "/build/assets/img/flags/4x3/th.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tj.svg": {
+	"/src/assets/img/flags/4x3/tj.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tj.svg",
+		"oAP": "/build/assets/img/flags/4x3/tj.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tk.svg": {
+	"/src/assets/img/flags/4x3/tk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tk.svg",
+		"oAP": "/build/assets/img/flags/4x3/tk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tl.svg": {
+	"/src/assets/img/flags/4x3/tl.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tl.svg",
+		"oAP": "/build/assets/img/flags/4x3/tl.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tm.svg": {
+	"/src/assets/img/flags/4x3/tm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tm.svg",
+		"oAP": "/build/assets/img/flags/4x3/tm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tn.svg": {
+	"/src/assets/img/flags/4x3/tn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tn.svg",
+		"oAP": "/build/assets/img/flags/4x3/tn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/to.svg": {
+	"/src/assets/img/flags/4x3/to.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/to.svg",
+		"oAP": "/build/assets/img/flags/4x3/to.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tr.svg": {
+	"/src/assets/img/flags/4x3/tr.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tr.svg",
+		"oAP": "/build/assets/img/flags/4x3/tr.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tt.svg": {
+	"/src/assets/img/flags/4x3/tt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tt.svg",
+		"oAP": "/build/assets/img/flags/4x3/tt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tv.svg": {
+	"/src/assets/img/flags/4x3/tv.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tv.svg",
+		"oAP": "/build/assets/img/flags/4x3/tv.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tw.svg": {
+	"/src/assets/img/flags/4x3/tw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tw.svg",
+		"oAP": "/build/assets/img/flags/4x3/tw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/tz.svg": {
+	"/src/assets/img/flags/4x3/tz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/tz.svg",
+		"oAP": "/build/assets/img/flags/4x3/tz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ua.svg": {
+	"/src/assets/img/flags/4x3/ua.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ua.svg",
+		"oAP": "/build/assets/img/flags/4x3/ua.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ug.svg": {
+	"/src/assets/img/flags/4x3/ug.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ug.svg",
+		"oAP": "/build/assets/img/flags/4x3/ug.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/um.svg": {
+	"/src/assets/img/flags/4x3/um.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/um.svg",
+		"oAP": "/build/assets/img/flags/4x3/um.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/un.svg": {
+	"/src/assets/img/flags/4x3/un.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/un.svg",
+		"oAP": "/build/assets/img/flags/4x3/un.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/us.svg": {
+	"/src/assets/img/flags/4x3/us.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/us.svg",
+		"oAP": "/build/assets/img/flags/4x3/us.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/uy.svg": {
+	"/src/assets/img/flags/4x3/uy.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/uy.svg",
+		"oAP": "/build/assets/img/flags/4x3/uy.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/uz.svg": {
+	"/src/assets/img/flags/4x3/uz.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/uz.svg",
+		"oAP": "/build/assets/img/flags/4x3/uz.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/va.svg": {
+	"/src/assets/img/flags/4x3/va.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/va.svg",
+		"oAP": "/build/assets/img/flags/4x3/va.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/vc.svg": {
+	"/src/assets/img/flags/4x3/vc.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/vc.svg",
+		"oAP": "/build/assets/img/flags/4x3/vc.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ve.svg": {
+	"/src/assets/img/flags/4x3/ve.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ve.svg",
+		"oAP": "/build/assets/img/flags/4x3/ve.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/vg.svg": {
+	"/src/assets/img/flags/4x3/vg.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/vg.svg",
+		"oAP": "/build/assets/img/flags/4x3/vg.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/vi.svg": {
+	"/src/assets/img/flags/4x3/vi.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/vi.svg",
+		"oAP": "/build/assets/img/flags/4x3/vi.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/vn.svg": {
+	"/src/assets/img/flags/4x3/vn.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/vn.svg",
+		"oAP": "/build/assets/img/flags/4x3/vn.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/vu.svg": {
+	"/src/assets/img/flags/4x3/vu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/vu.svg",
+		"oAP": "/build/assets/img/flags/4x3/vu.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/wf.svg": {
+	"/src/assets/img/flags/4x3/wf.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/wf.svg",
+		"oAP": "/build/assets/img/flags/4x3/wf.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ws.svg": {
+	"/src/assets/img/flags/4x3/ws.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ws.svg",
+		"oAP": "/build/assets/img/flags/4x3/ws.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/ye.svg": {
+	"/src/assets/img/flags/4x3/ye.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/ye.svg",
+		"oAP": "/build/assets/img/flags/4x3/ye.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/yt.svg": {
+	"/src/assets/img/flags/4x3/yt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/yt.svg",
+		"oAP": "/build/assets/img/flags/4x3/yt.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/za.svg": {
+	"/src/assets/img/flags/4x3/za.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/za.svg",
+		"oAP": "/build/assets/img/flags/4x3/za.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/zm.svg": {
+	"/src/assets/img/flags/4x3/zm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/zm.svg",
+		"oAP": "/build/assets/img/flags/4x3/zm.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/flags\/4x3\/zw.svg": {
+	"/src/assets/img/flags/4x3/zw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/flags\/4x3\/zw.svg",
+		"oAP": "/build/assets/img/flags/4x3/zw.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/gia.png": {
+	"/src/assets/img/gia.png": {
 		"ft": 32768,
 		"iS": 13048,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/gia.png",
+		"oAP": "/build/assets/img/gia.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/gia@2x.png": {
+	"/src/assets/img/gia@2x.png": {
 		"ft": 32768,
 		"iS": 45043,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/gia@2x.png",
+		"oAP": "/build/assets/img/gia@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/infographics.png": {
+	"/src/assets/img/infographics.png": {
 		"ft": 32768,
-		"iS": 184969,
+		"iS": 184695,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/infographics.png",
+		"oAP": "/build/assets/img/infographics.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/infographics@2x.png": {
+	"/src/assets/img/infographics@2x.png": {
 		"ft": 32768,
-		"iS": 533784,
+		"iS": 533582,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/infographics@2x.png",
+		"oAP": "/build/assets/img/infographics@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/infographics_mobile.png": {
+	"/src/assets/img/infographics_mobile.png": {
 		"ft": 32768,
-		"iS": 182188,
+		"iS": 181922,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/infographics_mobile.png",
+		"oAP": "/build/assets/img/infographics_mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/infographics_mobile@2x.png": {
+	"/src/assets/img/infographics_mobile@2x.png": {
 		"ft": 32768,
-		"iS": 549845,
+		"iS": 549428,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/infographics_mobile@2x.png",
+		"oAP": "/build/assets/img/infographics_mobile@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/logo.svg": {
+	"/src/assets/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/logo.svg",
+		"oAP": "/build/assets/img/logo.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/newspapers\/alphaweek.png": {
+	"/src/assets/img/newspapers/alphaweek.png": {
 		"ft": 32768,
 		"iS": 3440,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/alphaweek.png",
+		"oAP": "/build/assets/img/newspapers/alphaweek.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/alphaweek@2x.png": {
+	"/src/assets/img/newspapers/alphaweek@2x.png": {
 		"ft": 32768,
 		"iS": 3802,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/alphaweek@2x.png",
+		"oAP": "/build/assets/img/newspapers/alphaweek@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/baidu.png": {
+	"/src/assets/img/newspapers/asian_banker.png": {
+		"ft": 32768,
+		"iS": 2418,
+		"oA": 0,
+		"oAP": "/build/assets/img/newspapers/asian_banker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/newspapers/asian_banker@2x.png": {
+		"ft": 32768,
+		"iS": 5886,
+		"oA": 0,
+		"oAP": "/build/assets/img/newspapers/asian_banker@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/newspapers/baidu.png": {
 		"ft": 32768,
 		"iS": 2769,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/baidu.png",
+		"oAP": "/build/assets/img/newspapers/baidu.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/baidu@2x.png": {
+	"/src/assets/img/newspapers/baidu@2x.png": {
 		"ft": 32768,
 		"iS": 7364,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/baidu@2x.png",
+		"oAP": "/build/assets/img/newspapers/baidu@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/currency_buzzer.png": {
+	"/src/assets/img/newspapers/bitcoinnews.png": {
+		"ft": 32768,
+		"iS": 2418,
+		"oA": 0,
+		"oAP": "/build/assets/img/newspapers/bitcoinnews.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/newspapers/bitcoinnews@2x.png": {
+		"ft": 32768,
+		"iS": 6179,
+		"oA": 0,
+		"oAP": "/build/assets/img/newspapers/bitcoinnews@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/newspapers/currency_buzzer.png": {
 		"ft": 32768,
 		"iS": 1780,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/currency_buzzer.png",
+		"oAP": "/build/assets/img/newspapers/currency_buzzer.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/currency_buzzer@2x.png": {
+	"/src/assets/img/newspapers/currency_buzzer@2x.png": {
 		"ft": 32768,
 		"iS": 5673,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/currency_buzzer@2x.png",
+		"oAP": "/build/assets/img/newspapers/currency_buzzer@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/financial_times.png": {
+	"/src/assets/img/newspapers/diamonds.png": {
+		"ft": 32768,
+		"iS": 2396,
+		"oA": 0,
+		"oAP": "/build/assets/img/newspapers/diamonds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/newspapers/diamonds@2x.png": {
+		"ft": 32768,
+		"iS": 4459,
+		"oA": 0,
+		"oAP": "/build/assets/img/newspapers/diamonds@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/newspapers/financial_times.png": {
 		"ft": 32768,
 		"iS": 3460,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/financial_times.png",
+		"oAP": "/build/assets/img/newspapers/financial_times.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/financial_times@2x.png": {
+	"/src/assets/img/newspapers/financial_times@2x.png": {
 		"ft": 32768,
 		"iS": 11623,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/financial_times@2x.png",
+		"oAP": "/build/assets/img/newspapers/financial_times@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/hedgeweek.png": {
+	"/src/assets/img/newspapers/hedgeweek.png": {
 		"ft": 32768,
 		"iS": 1622,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/hedgeweek.png",
+		"oAP": "/build/assets/img/newspapers/hedgeweek.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/hedgeweek@2x.png": {
+	"/src/assets/img/newspapers/hedgeweek@2x.png": {
 		"ft": 32768,
 		"iS": 3441,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/hedgeweek@2x.png",
+		"oAP": "/build/assets/img/newspapers/hedgeweek@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/kommersant.png": {
+	"/src/assets/img/newspapers/kommersant.png": {
 		"ft": 32768,
 		"iS": 2185,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/kommersant.png",
+		"oAP": "/build/assets/img/newspapers/kommersant.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/kommersant@2x.png": {
+	"/src/assets/img/newspapers/kommersant@2x.png": {
 		"ft": 32768,
 		"iS": 5505,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/kommersant@2x.png",
+		"oAP": "/build/assets/img/newspapers/kommersant@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/tass.png": {
+	"/src/assets/img/newspapers/tass.png": {
 		"ft": 32768,
 		"iS": 1338,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/tass.png",
+		"oAP": "/build/assets/img/newspapers/tass.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/tass@2x.png": {
+	"/src/assets/img/newspapers/tass@2x.png": {
 		"ft": 32768,
 		"iS": 2614,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/tass@2x.png",
+		"oAP": "/build/assets/img/newspapers/tass@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/wealthbriefing.png": {
+	"/src/assets/img/newspapers/wealthbriefing.png": {
 		"ft": 32768,
 		"iS": 2239,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/wealthbriefing.png",
+		"oAP": "/build/assets/img/newspapers/wealthbriefing.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/newspapers\/wealthbriefing@2x.png": {
+	"/src/assets/img/newspapers/wealthbriefing@2x.png": {
 		"ft": 32768,
 		"iS": 4480,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/newspapers\/wealthbriefing@2x.png",
+		"oAP": "/build/assets/img/newspapers/wealthbriefing@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/partners\/alrosa.png": {
+	"/src/assets/img/partners/alrosa.png": {
 		"ft": 32768,
 		"iS": 3580,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/alrosa.png",
+		"oAP": "/build/assets/img/partners/alrosa.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/partners\/alrosa@2x.png": {
+	"/src/assets/img/partners/alrosa@2x.png": {
 		"ft": 32768,
 		"iS": 24087,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/alrosa@2x.png",
+		"oAP": "/build/assets/img/partners/alrosa@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/partners\/kgk.svg": {
+	"/src/assets/img/partners/kgk.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/kgk.svg",
+		"oAP": "/build/assets/img/partners/kgk.svg",
 		"oF": 0,
 		"opt": 1,
 		"plM": 1103269715935,
 		"prP": 0
 		},
-	"\/src\/assets\/img\/partners\/kristall.png": {
+	"/src/assets/img/partners/kristall.png": {
 		"ft": 32768,
 		"iS": 3675,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/kristall.png",
+		"oAP": "/build/assets/img/partners/kristall.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/partners\/kristall@2x.png": {
+	"/src/assets/img/partners/kristall@2x.png": {
 		"ft": 32768,
 		"iS": 23469,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/kristall@2x.png",
+		"oAP": "/build/assets/img/partners/kristall@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/partners\/malca-amit.png": {
+	"/src/assets/img/partners/malca-amit.png": {
 		"ft": 32768,
 		"iS": 3064,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/malca-amit.png",
+		"oAP": "/build/assets/img/partners/malca-amit.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/partners\/malca-amit@2x.png": {
+	"/src/assets/img/partners/malca-amit@2x.png": {
 		"ft": 32768,
 		"iS": 26194,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/partners\/malca-amit@2x.png",
+		"oAP": "/build/assets/img/partners/malca-amit@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/alexei.png": {
+	"/src/assets/img/people/alexei.png": {
 		"ft": 32768,
 		"iS": 20130,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/alexei.png",
+		"oAP": "/build/assets/img/people/alexei.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/alexei@2x.png": {
+	"/src/assets/img/people/alexei@2x.png": {
 		"ft": 32768,
 		"iS": 86712,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/alexei@2x.png",
+		"oAP": "/build/assets/img/people/alexei@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bernard.png": {
+	"/src/assets/img/people/bernard.png": {
 		"ft": 32768,
 		"iS": 6677,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bernard.png",
+		"oAP": "/build/assets/img/people/bernard.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_alexei.jpg": {
+	"/src/assets/img/people/bg_alexei.jpg": {
 		"ft": 16384,
 		"iS": 42504,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_alexei.jpg",
+		"oAP": "/build/assets/img/people/bg_alexei.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_bill.jpg": {
+	"/src/assets/img/people/bg_bill.jpg": {
 		"ft": 16384,
 		"iS": 16307,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_bill.jpg",
+		"oAP": "/build/assets/img/people/bg_bill.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_hogi.jpg": {
+	"/src/assets/img/people/bg_hogi.jpg": {
 		"ft": 16384,
 		"iS": 16277,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_hogi.jpg",
+		"oAP": "/build/assets/img/people/bg_hogi.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_jeff.jpg": {
+	"/src/assets/img/people/bg_jeff.jpg": {
 		"ft": 16384,
 		"iS": 30353,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_jeff.jpg",
+		"oAP": "/build/assets/img/people/bg_jeff.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_mobile.jpg": {
+	"/src/assets/img/people/bg_mobile.jpg": {
 		"ft": 16384,
 		"iS": 16062,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_mobile.jpg",
+		"oAP": "/build/assets/img/people/bg_mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_sandeep.jpg": {
+	"/src/assets/img/people/bg_sandeep.jpg": {
 		"ft": 16384,
 		"iS": 27720,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_sandeep.jpg",
+		"oAP": "/build/assets/img/people/bg_sandeep.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_thomas.jpg": {
+	"/src/assets/img/people/bg_thomas.jpg": {
 		"ft": 16384,
 		"iS": 14978,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_thomas.jpg",
+		"oAP": "/build/assets/img/people/bg_thomas.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bg_william.jpg": {
+	"/src/assets/img/people/bg_william.jpg": {
 		"ft": 16384,
 		"iS": 19260,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bg_william.jpg",
+		"oAP": "/build/assets/img/people/bg_william.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bill.png": {
+	"/src/assets/img/people/bill.png": {
 		"ft": 32768,
 		"iS": 21525,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bill.png",
+		"oAP": "/build/assets/img/people/bill.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/bill@2x.png": {
+	"/src/assets/img/people/bill@2x.png": {
 		"ft": 32768,
 		"iS": 86434,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/bill@2x.png",
+		"oAP": "/build/assets/img/people/bill@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/hogi.png": {
+	"/src/assets/img/people/hogi.png": {
 		"ft": 32768,
 		"iS": 18045,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/hogi.png",
+		"oAP": "/build/assets/img/people/hogi.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/hogi@2x.png": {
+	"/src/assets/img/people/hogi@2x.png": {
 		"ft": 32768,
 		"iS": 77530,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/hogi@2x.png",
+		"oAP": "/build/assets/img/people/hogi@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/jeff.png": {
+	"/src/assets/img/people/jeff.png": {
 		"ft": 32768,
 		"iS": 19327,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/jeff.png",
+		"oAP": "/build/assets/img/people/jeff.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/jeff@2x.png": {
+	"/src/assets/img/people/jeff@2x.png": {
 		"ft": 32768,
 		"iS": 78174,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/jeff@2x.png",
+		"oAP": "/build/assets/img/people/jeff@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/sandeep.png": {
+	"/src/assets/img/people/sandeep.png": {
 		"ft": 32768,
 		"iS": 13067,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/sandeep.png",
+		"oAP": "/build/assets/img/people/sandeep.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/sandeep@2x.png": {
+	"/src/assets/img/people/sandeep@2x.png": {
 		"ft": 32768,
 		"iS": 97812,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/sandeep@2x.png",
+		"oAP": "/build/assets/img/people/sandeep@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/thomas.png": {
+	"/src/assets/img/people/thomas.png": {
 		"ft": 32768,
 		"iS": 24714,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/thomas.png",
+		"oAP": "/build/assets/img/people/thomas.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/thomas@2x.png": {
+	"/src/assets/img/people/thomas@2x.png": {
 		"ft": 32768,
 		"iS": 90371,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/thomas@2x.png",
+		"oAP": "/build/assets/img/people/thomas@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/william.png": {
+	"/src/assets/img/people/william.png": {
 		"ft": 32768,
 		"iS": 20648,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/william.png",
+		"oAP": "/build/assets/img/people/william.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/people\/william@2x.png": {
+	"/src/assets/img/people/william@2x.png": {
 		"ft": 32768,
 		"iS": 81839,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/people\/william@2x.png",
+		"oAP": "/build/assets/img/people/william@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/reserves\/bg_video.jpg": {
+	"/src/assets/img/reserves/bg_video.jpg": {
 		"ft": 16384,
 		"iS": 40866,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/reserves\/bg_video.jpg",
+		"oAP": "/build/assets/img/reserves/bg_video.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/reserves\/carats.png": {
+	"/src/assets/img/reserves/carats.png": {
 		"ft": 32768,
 		"iS": 47368,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/reserves\/carats.png",
+		"oAP": "/build/assets/img/reserves/carats.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/reserves\/d1coins.png": {
+	"/src/assets/img/reserves/d1coins.png": {
 		"ft": 32768,
 		"iS": 36803,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/reserves\/d1coins.png",
+		"oAP": "/build/assets/img/reserves/d1coins.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/reserves\/diamonds.png": {
+	"/src/assets/img/reserves/diamonds.png": {
 		"ft": 32768,
 		"iS": 38950,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/reserves\/diamonds.png",
+		"oAP": "/build/assets/img/reserves/diamonds.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/reserves\/usd.png": {
+	"/src/assets/img/reserves/usd.png": {
 		"ft": 32768,
 		"iS": 30035,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/reserves\/usd.png",
+		"oAP": "/build/assets/img/reserves/usd.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/why\/bg_prb_diamonds.jpg": {
+	"/src/assets/img/why/bg_prb_diamonds.jpg": {
 		"ft": 16384,
 		"iS": 15527,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/why\/bg_prb_diamonds.jpg",
+		"oAP": "/build/assets/img/why/bg_prb_diamonds.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/why\/bg_prb_tokens.png": {
+	"/src/assets/img/why/bg_prb_tokens.png": {
 		"ft": 32768,
 		"iS": 39421,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/why\/bg_prb_tokens.png",
+		"oAP": "/build/assets/img/why/bg_prb_tokens.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/why\/bg_sol_diamonds.png": {
+	"/src/assets/img/why/bg_sol_diamonds.png": {
 		"ft": 32768,
 		"iS": 37954,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/why\/bg_sol_diamonds.png",
+		"oAP": "/build/assets/img/why/bg_sol_diamonds.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/why\/bg_sol_tokens.jpg": {
+	"/src/assets/img/why/bg_sol_tokens.jpg": {
 		"ft": 16384,
 		"iS": 45387,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/why\/bg_sol_tokens.jpg",
+		"oAP": "/build/assets/img/why/bg_sol_tokens.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/ys\/convertibility.png": {
+	"/src/assets/img/ys/convertibility.png": {
 		"ft": 32768,
 		"iS": 24741,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ys\/convertibility.png",
+		"oAP": "/build/assets/img/ys/convertibility.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/ys\/transparency.png": {
+	"/src/assets/img/ys/transparency.png": {
 		"ft": 32768,
 		"iS": 10041,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ys\/transparency.png",
+		"oAP": "/build/assets/img/ys/transparency.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/img\/ys\/verity.png": {
+	"/src/assets/img/ys/verity.png": {
 		"ft": 32768,
 		"iS": 10288,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/ys\/verity.png",
+		"oAP": "/build/assets/img/ys/verity.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/assets\/video\/bg_head.mp4": {
+	"/src/assets/video/bg_head.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/video\/bg_head.mp4",
+		"oAP": "/build/assets/video/bg_head.mp4",
 		"oF": 0
 		},
-	"\/src\/assets\/video\/bg_head.webm": {
+	"/src/assets/video/bg_head.webm": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/assets\/video\/bg_head.webm",
+		"oAP": "/build/assets/video/bg_head.webm",
 		"oF": 0
 		},
-	"\/src\/CNAME": {
+	"/src/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/CNAME",
+		"oAP": "/build/CNAME",
 		"oF": 0
 		},
-	"\/src\/js\/app.js": {
+	"/src/js/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/app.min.js",
-		"oF": 0,
+		"oAP": "/build/js/app.min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_calc.js": {
+	"/src/js/components/_calc.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_calc.min.js",
+		"oAP": "/build/js/components/_calc.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_carousel.js": {
+	"/src/js/components/_carousel.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_carousel.min.js",
+		"oAP": "/build/js/components/_carousel.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_countries.js": {
+	"/src/js/components/_countries.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_countries.min.js",
+		"oAP": "/build/js/components/_countries.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_database.js": {
+	"/src/js/components/_database.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_database.min.js",
+		"oAP": "/build/js/components/_database.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_modal.js": {
+	"/src/js/components/_modal.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_modal.min.js",
+		"oAP": "/build/js/components/_modal.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_subscribe.js": {
+	"/src/js/components/_subscribe.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_subscribe.min.js",
+		"oAP": "/build/js/components/_subscribe.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_util.js": {
+	"/src/js/components/_util.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_util.min.js",
+		"oAP": "/build/js/components/_util.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/_whitelist.js": {
+	"/src/js/components/_whitelist.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/js\/components\/_whitelist.min.js",
+		"oAP": "/build/js/components/_whitelist.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/js\/components\/fastnav.js": {
+	"/src/js/components/fastnav.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/components\/fastnav.min.js",
+		"oAP": "/build/js/components/fastnav.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/src\/pug\/components\/_countdown.pug": {
+	"/src/pug/components/_countdown.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_countdown.html",
+		"oAP": "/build/_countdown.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_dropdown.pug": {
+	"/src/pug/components/_dropdown.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_dropdown.html",
+		"oAP": "/build/_dropdown.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_filters.pug": {
+	"/src/pug/components/_filters.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_filters.html",
+		"oAP": "/build/_filters.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_icons.pug": {
+	"/src/pug/components/_icons.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_icons.html",
+		"oAP": "/build/_icons.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_menu.pug": {
+	"/src/pug/components/_menu.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_menu.html",
+		"oAP": "/build/_menu.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_offcanvas.pug": {
+	"/src/pug/components/_offcanvas.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_offcanvas.html",
+		"oAP": "/build/_offcanvas.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_popup.pug": {
+	"/src/pug/components/_popup.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_popup.html",
+		"oAP": "/build/_popup.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_social.pug": {
+	"/src/pug/components/_social.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_social.html",
+		"oAP": "/build/_social.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/_subscribe.pug": {
+	"/src/pug/components/_subscribe.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_subscribe.html",
+		"oAP": "/build/_subscribe.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/popups\/_countries.pug": {
+	"/src/pug/components/popups/_countries.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_countries.html",
+		"oAP": "/build/_countries.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/popups\/_database.pug": {
+	"/src/pug/components/popups/_database.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_database.html",
+		"oAP": "/build/_database.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/popups\/_reserve.pug": {
+	"/src/pug/components/popups/_reserve.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_reserve.html",
+		"oAP": "/build/_reserve.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/popups\/_status.pug": {
+	"/src/pug/components/popups/_status.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_status.html",
+		"oAP": "/build/_status.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/components\/popups\/_whitelist.pug": {
+	"/src/pug/components/popups/_whitelist.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_whitelist.html",
+		"oAP": "/build/_whitelist.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/layout.pug": {
+	"/src/pug/layout.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/layout.html",
+		"oAP": "/build/layout.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/pages\/index.pug": {
+	"/src/pug/pages/index.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/index.html",
+		"oAP": "/build/index.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_advisors.pug": {
+	"/src/pug/sections/_advisors.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_advisors.html",
+		"oAP": "/build/_advisors.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_cases.pug": {
+	"/src/pug/sections/_cases.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_cases.html",
+		"oAP": "/build/_cases.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_combo.pug": {
+	"/src/pug/sections/_combo.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_combo.html",
+		"oAP": "/build/_combo.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_contacts.pug": {
+	"/src/pug/sections/_contacts.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_contacts.html",
+		"oAP": "/build/_contacts.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_documents.pug": {
+	"/src/pug/sections/_documents.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_documents.html",
+		"oAP": "/build/_documents.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_ecosystem.pug": {
+	"/src/pug/sections/_ecosystem.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_ecosystem.html",
+		"oAP": "/build/_ecosystem.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_exchanges.pug": {
+	"/src/pug/sections/_exchanges.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_exchanges.html",
+		"oAP": "/build/_exchanges.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_faq.pug": {
+	"/src/pug/sections/_faq.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_faq.html",
+		"oAP": "/build/_faq.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_footer.pug": {
+	"/src/pug/sections/_footer.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_footer.html",
+		"oAP": "/build/_footer.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_head.pug": {
+	"/src/pug/sections/_head.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_head.html",
+		"oAP": "/build/_head.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_header.pug": {
+	"/src/pug/sections/_header.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_header.html",
+		"oAP": "/build/_header.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_matrix.pug": {
+	"/src/pug/sections/_matrix.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_matrix.html",
+		"oAP": "/build/_matrix.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_news.pug": {
+	"/src/pug/sections/_news.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_news.html",
+		"oAP": "/build/_news.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_partners.pug": {
+	"/src/pug/sections/_partners.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_partners.html",
+		"oAP": "/build/_partners.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_people_advisors.pug": {
+	"/src/pug/sections/_people_advisors.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_people_advisors.html",
+		"oAP": "/build/_people_advisors.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_people_team.pug": {
+	"/src/pug/sections/_people_team.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_people_team.html",
+		"oAP": "/build/_people_team.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_publications.pug": {
+	"/src/pug/sections/_publications.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_publications.html",
+		"oAP": "/build/_publications.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_ratings.pug": {
+	"/src/pug/sections/_ratings.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_ratings.html",
+		"oAP": "/build/_ratings.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_reserve.pug": {
+	"/src/pug/sections/_reserve.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_reserve.html",
+		"oAP": "/build/_reserve.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_roadmap.pug": {
+	"/src/pug/sections/_roadmap.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_roadmap.html",
+		"oAP": "/build/_roadmap.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_top.pug": {
+	"/src/pug/sections/_top.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_top.html",
+		"oAP": "/build/_top.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_video.pug": {
+	"/src/pug/sections/_video.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_video.html",
+		"oAP": "/build/_video.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_videos.pug": {
+	"/src/pug/sections/_videos.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_videos.html",
+		"oAP": "/build/_videos.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/pug\/sections\/_why.pug": {
+	"/src/pug/sections/_why.pug": {
 		"cB": 1,
 		"cOD": 0,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/_why.html",
+		"oAP": "/build/_why.html",
 		"oF": 0,
 		"oS": 1
 		},
-	"\/src\/scss\/_settings.scss": {
+	"/src/scss/_settings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4768,12 +4912,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/css\/_settings.css",
+		"oAP": "/build/css/_settings.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/app.scss": {
+	"/src/scss/app.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4781,12 +4925,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/css\/app.css",
+		"oAP": "/build/css/app.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_accordion.scss": {
+	"/src/scss/components/_accordion.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4794,12 +4938,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_accordion.css",
+		"oAP": "/build/scss/css/_accordion.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_base.scss": {
+	"/src/scss/components/_base.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4807,12 +4951,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_base.css",
+		"oAP": "/build/scss/css/_base.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_button.scss": {
+	"/src/scss/components/_button.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4820,12 +4964,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_button.css",
+		"oAP": "/build/scss/css/_button.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_countdown.scss": {
+	"/src/scss/components/_countdown.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4833,12 +4977,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_countdown.css",
+		"oAP": "/build/scss/css/_countdown.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_curr.scss": {
+	"/src/scss/components/_curr.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4846,12 +4990,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_curr.css",
+		"oAP": "/build/scss/css/_curr.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_dropdown.scss": {
+	"/src/scss/components/_dropdown.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4859,12 +5003,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_dropdown.css",
+		"oAP": "/build/scss/css/_dropdown.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_fonts.scss": {
+	"/src/scss/components/_fonts.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4872,12 +5016,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_fonts.css",
+		"oAP": "/build/scss/css/_fonts.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_form.scss": {
+	"/src/scss/components/_form.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4885,12 +5029,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_form.css",
+		"oAP": "/build/scss/css/_form.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_menu.scss": {
+	"/src/scss/components/_menu.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4898,12 +5042,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_menu.css",
+		"oAP": "/build/scss/css/_menu.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_offcanvas.scss": {
+	"/src/scss/components/_offcanvas.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4911,12 +5055,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_offcanvas.css",
+		"oAP": "/build/scss/css/_offcanvas.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_owl.scss": {
+	"/src/scss/components/_owl.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4924,12 +5068,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_owl.css",
+		"oAP": "/build/scss/css/_owl.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_popup.scss": {
+	"/src/scss/components/_popup.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4937,12 +5081,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_popup.css",
+		"oAP": "/build/scss/css/_popup.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_select.scss": {
+	"/src/scss/components/_select.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4950,12 +5094,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_select.css",
+		"oAP": "/build/scss/css/_select.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_slider.scss": {
+	"/src/scss/components/_slider.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4963,12 +5107,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_slider.css",
+		"oAP": "/build/scss/css/_slider.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_social.scss": {
+	"/src/scss/components/_social.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4976,12 +5120,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_social.css",
+		"oAP": "/build/scss/css/_social.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_subscribe.scss": {
+	"/src/scss/components/_subscribe.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -4989,12 +5133,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_subscribe.css",
+		"oAP": "/build/scss/css/_subscribe.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_table.scss": {
+	"/src/scss/components/_table.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5002,12 +5146,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_table.css",
+		"oAP": "/build/scss/css/_table.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_tabs.scss": {
+	"/src/scss/components/_tabs.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5015,12 +5159,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_tabs.css",
+		"oAP": "/build/scss/css/_tabs.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_tooltip.scss": {
+	"/src/scss/components/_tooltip.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5028,12 +5172,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_tooltip.css",
+		"oAP": "/build/scss/css/_tooltip.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/components\/_typographic.scss": {
+	"/src/scss/components/_typographic.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5041,12 +5185,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_typographic.css",
+		"oAP": "/build/scss/css/_typographic.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_advisors.scss": {
+	"/src/scss/sections/_advisors.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5054,12 +5198,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_advisors.css",
+		"oAP": "/build/scss/css/_advisors.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_cases.scss": {
+	"/src/scss/sections/_cases.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5067,12 +5211,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_cases.css",
+		"oAP": "/build/scss/css/_cases.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_combo.scss": {
+	"/src/scss/sections/_combo.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5080,12 +5224,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_combo.css",
+		"oAP": "/build/scss/css/_combo.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_contacts.scss": {
+	"/src/scss/sections/_contacts.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5093,12 +5237,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_contacts.css",
+		"oAP": "/build/scss/css/_contacts.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_documents.scss": {
+	"/src/scss/sections/_documents.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5106,12 +5250,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_documents.css",
+		"oAP": "/build/scss/css/_documents.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_ecosystem.scss": {
+	"/src/scss/sections/_ecosystem.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5119,12 +5263,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_ecosystem.css",
+		"oAP": "/build/scss/css/_ecosystem.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_exchanges.scss": {
+	"/src/scss/sections/_exchanges.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5132,12 +5276,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_exchanges.css",
+		"oAP": "/build/scss/css/_exchanges.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_faq.scss": {
+	"/src/scss/sections/_faq.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5145,12 +5289,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_faq.css",
+		"oAP": "/build/scss/css/_faq.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_footer.scss": {
+	"/src/scss/sections/_footer.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5158,12 +5302,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_footer.css",
+		"oAP": "/build/scss/css/_footer.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_header.scss": {
+	"/src/scss/sections/_header.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5171,12 +5315,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_header.css",
+		"oAP": "/build/scss/css/_header.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_matrix.scss": {
+	"/src/scss/sections/_matrix.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5184,12 +5328,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_matrix.css",
+		"oAP": "/build/scss/css/_matrix.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_news.scss": {
+	"/src/scss/sections/_news.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5197,12 +5341,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_news.css",
+		"oAP": "/build/scss/css/_news.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_partners.scss": {
+	"/src/scss/sections/_partners.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5210,12 +5354,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_partners.css",
+		"oAP": "/build/scss/css/_partners.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_people.scss": {
+	"/src/scss/sections/_people.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5223,12 +5367,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_people.css",
+		"oAP": "/build/scss/css/_people.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_publications.scss": {
+	"/src/scss/sections/_publications.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5236,12 +5380,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_publications.css",
+		"oAP": "/build/scss/css/_publications.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_ratings.scss": {
+	"/src/scss/sections/_ratings.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5249,12 +5393,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_ratings.css",
+		"oAP": "/build/scss/css/_ratings.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_reserve.scss": {
+	"/src/scss/sections/_reserve.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5262,12 +5406,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_reserve.css",
+		"oAP": "/build/scss/css/_reserve.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_roadmap.scss": {
+	"/src/scss/sections/_roadmap.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5275,12 +5419,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_roadmap.css",
+		"oAP": "/build/scss/css/_roadmap.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_top.scss": {
+	"/src/scss/sections/_top.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5288,12 +5432,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_top.css",
+		"oAP": "/build/scss/css/_top.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_video.scss": {
+	"/src/scss/sections/_video.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5301,12 +5445,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_video.css",
+		"oAP": "/build/scss/css/_video.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_videos.scss": {
+	"/src/scss/sections/_videos.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5314,12 +5458,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_videos.css",
+		"oAP": "/build/scss/css/_videos.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/src\/scss\/sections\/_why.scss": {
+	"/src/scss/sections/_why.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -5327,7 +5471,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_why.css",
+		"oAP": "/build/scss/css/_why.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -5341,150 +5485,103 @@
 	"creationDate": 505831586,
 	"displayValue": "D1Coin",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/src\/assets\/favicon\/apple-touch-icon.png",
+	"iconImageName": "/src/assets/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 556800138
+	"lastBuiltDate": 559511128
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 1,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 2,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -5496,7 +5593,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -5508,7 +5626,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -5544,53 +5680,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -5599,6 +5728,7 @@
 	"bowerSaveDevDependencies": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -5956,6 +6086,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -5967,6 +6101,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -6012,6 +6150,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -6030,10 +6172,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -6232,9 +6370,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -6588,6 +6730,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -6616,6 +6762,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -6623,6 +6773,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 0,
@@ -6678,7 +6832,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -6737,8 +6891,8 @@
 			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
 			}
 		},
-	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"esLintSourceType": 1,
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -7133,7 +7287,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -7152,7 +7305,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -7184,19 +7337,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -7241,7 +7394,7 @@
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "\/",
+		"autoOutputPathRelativePath": "/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -7252,7 +7405,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -7281,7 +7434,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -7305,36 +7458,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, \/docs, node_modules, build.zip",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, /docs, node_modules, build.zip",
 	"sourceFolderName": "src",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7342,11 +7529,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -7370,6 +7557,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -7386,7 +7577,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -7394,20 +7593,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -7422,6 +7633,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -7430,12 +7649,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -7446,12 +7673,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -7462,23 +7697,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -7490,13 +7753,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }
