@@ -15,7 +15,7 @@ const table_data = {
     'Polish': 'Polish',
     'SYM': 'SYM',
     'Certificate_No': 'GIA certificate',
-    'D1_Price': 'Price in D1 coin',
+    'D1_Price': 'D1 Price',
     'Reservation of diamonds': 'Reservation of diamonds'
 }
 const table_header = `<tr>${Object.values(table_data).reduce((tr, th) => `${tr}<th>${th}</th>`, '')}</tr>`;
