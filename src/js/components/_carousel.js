@@ -42,7 +42,7 @@ $('.roadmap_items').owlCarousel({
     },
     onInitialized: (e) => {
         setTimeout(() => {
-            $(e.target).trigger('to.owl.carousel', [6, 1]);
+            $(e.target).trigger('to.owl.carousel', [3, 1]);
         }, 0);
     }
 });
@@ -66,6 +66,7 @@ $('.publications_items').owlCarousel({
 $('.partners_items').owlCarousel({
     nav: true,
     navText: ['', ''],
+    loop: true,
     responsive: {
         0: {
             items: 2
