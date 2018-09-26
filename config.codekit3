@@ -38,6 +38,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/build.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -4440,7 +4446,7 @@
 		},
 	"/src/js/app.js": {
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/build/js/app.min.js",
@@ -5489,7 +5495,7 @@
 	"animateCSSInjections": 0,
 	"autoBuildNewItems": 1,
 	"autoprefixerEnableIEGrid": 1,
-	"babel7PresetType": 1,
+	"babel7PresetType": 0,
 	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
@@ -5498,7 +5504,7 @@
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
-	"babelNoComments": 0,
+	"babelNoComments": 1,
 	"babelPlugins": {
 		"arrow-functions": {
 			"active": 0
